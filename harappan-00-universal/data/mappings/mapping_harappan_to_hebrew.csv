@@ -1,0 +1,125 @@
+harappan_sign,mahadevan_num,hebrew_word,hebrew_transliteration,hebrew_meaning,phonetic_similarity,semantic_match,notes
+M-001,1,אָדָם,adam,human/man,0.55,0.95,Human figure correlation
+M-002,2,אִישׁ,ish,man/person,0.50,0.90,Human variant
+M-003,3,נֹשֵׂא,nose,carrier/bearer,0.45,0.85,Person carrying
+M-004,4,אֵל,el,divine being,0.60,0.85,Sacred figure
+M-005,5,יֹשֵׁב,yoshev,sitting,0.40,0.90,Seated position
+M-006,6,אִשָּׁה,isha,woman,0.50,0.85,Female figure
+M-007,7,אֱלֹהִים,elohim,god/deity,0.45,0.90,Divine representation
+M-008,8,דָּג,dag,fish,0.65,0.98,Strong semantic match
+M-009,9,דָּג בַּבַּיִת,dag babayit,sheltered fish,0.40,0.80,Fish with protection
+M-010,10,שְׁנַיִם דָּגִים,shnayim dagim,two fish,0.35,0.85,Dual fish
+M-011,11,שְׁלֹשָׁה דָּגִים,shlosha dagim,three fish,0.30,0.80,Triple fish
+M-012,12,דָּג,dag,fish variant,0.65,0.90,Directional fish
+M-013,13,שׁוֹר,shor,bull/ox,0.70,0.98,Strong bovine match
+M-014,14,שׁוֹר אֹכֵל,shor okhel,eating bull,0.50,0.85,Bull feeding
+M-015,15,פִּיל,pil,elephant,0.55,0.95,Large mammal
+M-016,16,רְאֵם,re'em,rhinoceros,0.45,0.85,Horned animal
+M-017,17,אֲרִי,ari,lion/tiger,0.55,0.90,Large feline
+M-018,18,תַּנִּין,tannin,crocodile/serpent,0.50,0.90,River creature
+M-019,19,טַוָּס,tavvas,peacock,0.55,0.85,Decorative bird
+M-020,20,נֶשֶׁר,nesher,eagle,0.60,0.95,Bird of prey
+M-021,21,נָחָשׁ,nachash,snake/serpent,0.65,0.98,Strong snake match
+M-022,22,עַקְרָב,akrav,scorpion,0.60,0.90,Arachnid
+M-023,23,סַרְטָן,sartan,crab,0.50,0.85,Crustacean
+M-024,24,כַּד,kad,jar/pitcher,0.70,0.98,Vessel match
+M-025,25,כַּד עִם יָדוֹת,kad im yadot,handled jar,0.50,0.90,Size variant
+M-026,26,בַּקְבּוּק,bakbuk,bottle,0.55,0.85,Narrow vessel
+M-027,27,סִיר,sir,pot,0.60,0.90,Wide vessel
+M-028,28,כַּד מְכֻסֶּה,kad mekhuse,covered jar,0.45,0.85,Lidded vessel
+M-029,29,כַּד מַיִם,kad mayim,water jar,0.65,0.95,Water vessel
+M-030,30,אָסָם,asam,storage,0.50,0.85,Large container
+M-031,31,גַּלְגַּל,galgal,wheel,0.70,0.95,Circular object
+M-032,32,עֲגָלָה,agala,cart,0.55,0.90,Vehicle
+M-033,33,מַחֲרֵשָׁה,macharesa,plow,0.50,0.85,Agriculture tool
+M-034,34,גַּרְזֶן,garzen,ax,0.60,0.90,Cutting tool
+M-035,35,חֵץ,chetz,arrow,0.75,0.98,Projectile
+M-036,36,קֶשֶׁת,keshet,bow,0.65,0.95,Weapon
+M-037,37,רֹמַח,romach,spear,0.55,0.90,Pole weapon
+M-038,38,חֶרֶב,cherev,dagger/sword,0.55,0.90,Blade
+M-039,39,מַסְרֵק,masrek,comb,0.50,0.80,Grooming tool
+M-040,40,מַרְאָה,mar'a,mirror,0.55,0.85,Reflective
+M-041,41,אֶחָד,echad,one,0.70,0.98,Number match
+M-042,42,שְׁנַיִם,shnayim,two,0.65,0.98,Number match
+M-043,43,שְׁלֹשָׁה,shlosha,three,0.60,0.98,Number match
+M-044,44,אַרְבָּעָה,arba'a,four,0.55,0.95,Number match
+M-045,45,חָמֵשׁ,chamesh,five,0.70,0.98,Number match
+M-046,46,שֵׁשׁ,shesh,six,0.75,0.98,Number match
+M-047,47,שֶׁבַע,sheva,seven,0.70,0.98,Number match
+M-048,48,שְׁמוֹנֶה,shmone,eight,0.60,0.95,Number match
+M-049,49,עֶשֶׂר,eser,ten,0.65,0.95,Base number
+M-050,50,עֶשְׂרִים,esrim,twenty,0.55,0.90,Two tens
+M-051,51,קֵרֶן,keren,bracket/horn,0.50,0.75,Container shape
+M-052,52,קֶשֶׁת,keshet,arch,0.55,0.80,Curved shape
+M-053,53,שָׂדֶה,sade,field,0.65,0.90,Enclosed space
+M-054,54,מַלְבֵּן,malben,rectangle,0.50,0.85,Shape variant
+M-055,55,יַהֲלֹם,yahalom,diamond,0.45,0.75,Gem shape
+M-058,58,שֶׁמֶשׁ,shemesh,sun,0.80,0.98,Solar match
+M-059,59,חֲצִי יָרֵחַ,chatzi yareach,half moon,0.45,0.90,Lunar phase
+M-060,60,לְבָנָה,levana,moon/crescent,0.55,0.95,Moon symbol
+M-061,61,צְלָב,tslav,cross,0.55,0.85,Intersection
+M-063,63,כּוֹכָב,kokhav,star,0.65,0.95,Night star
+M-065,65,מַיִם,mayim,water,0.80,0.98,Water waves
+M-071,71,עֵץ,etz,tree,0.75,0.98,Plant match
+M-072,72,תָּמָר,tamar,palm tree,0.70,0.95,Specific tree
+M-073,73,עֵץ קֹדֶשׁ,etz kodesh,sacred tree,0.55,0.90,Religious plant
+M-074,74,פֶּרַח,perach,flower,0.60,0.95,Blossom
+M-075,75,שׁוֹשַׁן,shoshan,lotus/lily,0.55,0.90,Water flower
+M-076,76,דָּגָן,dagan,grain,0.70,0.95,Food plant
+M-077,77,אֹרֶז,orez,rice,0.55,0.85,Specific grain
+M-078,78,צֶמֶר,tzemer,cotton/wool,0.50,0.80,Fiber
+M-081,81,בַּיִת,bayit,house,0.80,0.98,Dwelling match
+M-082,82,מִקְדָּשׁ,mikdash,temple,0.70,0.98,Sacred building
+M-083,83,שַׁעַר,sha'ar,gate,0.75,0.98,Entrance match
+M-084,84,חוֹמָה,choma,wall,0.65,0.95,Fortification
+M-085,85,מִגְדָּל,migdal,tower,0.70,0.95,Elevated structure
+M-086,86,בְּאֵר,be'er,well,0.75,0.98,Water source
+M-090,90,אֳנִיָּה,oniya,ship/boat,0.65,0.95,Watercraft
+M-091,91,רַפְסֹדָה,rafsoda,raft,0.50,0.85,Simple boat
+M-092,92,מִפְרָשׂ,mifras,sail,0.55,0.90,Sailing element
+M-095,95,רֶשֶׁת,reshet,net,0.70,0.98,Fishing net
+M-096,96,וָו,vav,hook,0.75,0.95,Catching tool
+M-097,97,חֶבֶל,chevel,rope,0.70,0.95,Cordage
+M-098,98,קֶשֶׁר,kesher,knot,0.65,0.90,Tied rope
+M-099,99,סַל,sal,basket,0.70,0.95,Container
+M-100,100,מֹאזְנַיִם,moznayim,scales,0.60,0.90,Weighing
+M-101,101,יָד,yad,hand,0.85,0.98,Body part match
+M-102,102,יָד יָמִין,yad yamin,right hand,0.70,0.95,Body part
+M-103,103,רֶגֶל,regel,foot,0.80,0.98,Body part match
+M-104,104,עַיִן,ayin,eye,0.85,0.98,Seeing organ
+M-105,105,אֹזֶן,ozen,ear,0.75,0.95,Hearing organ
+M-106,106,פֶּה,pe,mouth,0.80,0.98,Speaking organ
+M-107,107,רֹאשׁ,rosh,head,0.80,0.98,Body part
+M-108,108,לֵב,lev,heart,0.80,0.98,Center/emotion
+M-109,109,שֶׁמֶשׁ,shemesh,sun,0.85,0.98,Solar disc
+M-110,110,יָרֵחַ,yareach,moon,0.80,0.98,Lunar body
+M-111,111,כּוֹכָב,kokhav,star,0.75,0.95,Night star
+M-113,113,גֶּשֶׁם,geshem,rain,0.70,0.95,Precipitation
+M-114,114,עָנָן,anan,cloud,0.65,0.90,Sky cover
+M-115,115,בָּרָק,barak,lightning,0.70,0.95,Storm flash
+M-116,116,רוּחַ,ruach,wind/spirit,0.75,0.95,Air movement
+M-117,117,הַר,har,mountain,0.85,0.98,Elevated land
+M-118,118,נָהָר,nahar,river,0.80,0.98,Water course
+M-119,119,יָם,yam,sea,0.85,0.98,Large water
+M-120,120,אִי,i,island,0.70,0.90,Land in water
+M-121,121,מִדְבָּר,midbar,desert,0.65,0.90,Arid land
+M-122,122,יַעַר,ya'ar,forest,0.70,0.95,Wooded area
+M-123,123,שָׂדֶה,sade,field,0.75,0.95,Cultivated land
+M-124,124,דֶּרֶךְ,derekh,road/way,0.80,0.98,Path match
+M-125,125,גְּבוּל,gevul,border,0.70,0.90,Boundary
+M-126,126,עִיר,ir,city,0.75,0.95,Urban center
+M-127,127,כְּפָר,kfar,village,0.70,0.90,Small settlement
+M-128,128,נָמֵל,namel,port,0.65,0.90,Harbor
+M-129,129,מֶלֶךְ,melekh,king,0.80,0.98,Royal title
+M-130,130,מַלְכָּה,malka,queen,0.75,0.95,Female ruler
+M-131,131,כֹּהֵן,kohen,priest,0.80,0.98,Religious figure
+M-132,132,סוֹחֵר,socher,merchant,0.70,0.95,Trader
+M-133,133,אָמָן,aman,craftsman,0.65,0.90,Artisan
+M-134,134,אִכָּר,ikar,farmer,0.70,0.95,Agricultural worker
+M-135,135,לֹחֵם,lochem,warrior,0.65,0.90,Fighter
+M-136,136,סוֹפֵר,sofer,scribe,0.75,0.95,Writer
+M-137,137,יוֹצֵר,yotzer,potter,0.65,0.90,Ceramic maker
+M-138,138,אֹרֵג,oreg,weaver,0.65,0.90,Textile worker
+M-139,139,נַפָּח,napach,smith,0.70,0.90,Metal worker
+M-140,140,בַּנַּאי,banai,mason,0.65,0.90,Stone worker
+M-417,417,סוֹף,sof,end/finish,0.80,0.95,Terminal marker

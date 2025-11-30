@@ -1,0 +1,418 @@
+sign_id,mahadevan_number,description,category,frequency,variants,unicode_placeholder,notes
+M-001,1,Man sign with raised arms,Anthropomorphic,342,3,U+1200A,Common sign representing human figure
+M-002,2,Man sign with lowered arms,Anthropomorphic,256,2,U+1200B,Variant of human figure
+M-003,3,Man holding jar,Anthropomorphic,128,2,U+1200C,Figure holding vessel
+M-004,4,Man with flowing hair,Anthropomorphic,89,1,U+1200D,Possibly divine figure
+M-005,5,Man seated,Anthropomorphic,156,2,U+1200E,Seated human figure
+M-006,6,Woman sign,Anthropomorphic,98,2,U+1200F,Female figure
+M-007,7,Deity figure,Anthropomorphic,67,1,U+12010,Proto-Shiva figure
+M-008,8,Fish sign,Zoomorphic,892,5,U+12011,Most common fish symbol
+M-009,9,Fish with roof,Zoomorphic,234,3,U+12012,Fish with shelter symbol
+M-010,10,Two fish,Zoomorphic,145,2,U+12013,Pair of fish
+M-011,11,Three fish,Zoomorphic,78,1,U+12014,Three fish in sequence
+M-012,12,Fish facing left,Zoomorphic,312,4,U+12015,Fish orientation variant
+M-013,13,Bull sign,Zoomorphic,567,6,U+12016,Zebu bull common
+M-014,14,Bull with feeding trough,Zoomorphic,189,3,U+12017,Bull at manger
+M-015,15,Elephant sign,Zoomorphic,234,2,U+12018,Elephant representation
+M-016,16,Rhinoceros,Zoomorphic,89,1,U+12019,Single horn rhino
+M-017,17,Tiger sign,Zoomorphic,134,2,U+1201A,Striped feline
+M-018,18,Crocodile/Gharial,Zoomorphic,56,1,U+1201B,River creature
+M-019,19,Peacock,Zoomorphic,45,1,U+1201C,Bird with display
+M-020,20,Eagle/Raptor,Zoomorphic,78,2,U+1201D,Bird of prey
+M-021,21,Snake sign,Zoomorphic,167,3,U+1201E,Serpent symbol
+M-022,22,Scorpion,Zoomorphic,34,1,U+1201F,Arachnid figure
+M-023,23,Crab sign,Zoomorphic,23,1,U+12020,Crustacean
+M-024,24,Jar sign,Objects,1245,8,U+12021,Most common vessel
+M-025,25,Jar with handles,Objects,456,4,U+12022,Two-handled jar
+M-026,26,Narrow jar,Objects,234,3,U+12023,Elongated vessel
+M-027,27,Wide jar,Objects,312,3,U+12024,Broad vessel
+M-028,28,Jar with lid,Objects,189,2,U+12025,Covered container
+M-029,29,Water pot,Objects,567,5,U+12026,Water vessel
+M-030,30,Storage pot,Objects,345,4,U+12027,Large container
+M-031,31,Wheel sign,Objects,234,3,U+12028,Cart wheel
+M-032,32,Cart sign,Objects,156,2,U+12029,Vehicle representation
+M-033,33,Plow sign,Objects,89,1,U+1202A,Agricultural tool
+M-034,34,Ax/Adze,Objects,123,2,U+1202B,Cutting tool
+M-035,35,Arrow sign,Objects,267,4,U+1202C,Projectile weapon
+M-036,36,Bow sign,Objects,145,2,U+1202D,Ranged weapon
+M-037,37,Spear/Lance,Objects,89,1,U+1202E,Pole weapon
+M-038,38,Dagger sign,Objects,156,2,U+1202F,Short blade
+M-039,39,Comb sign,Objects,234,3,U+12030,Grooming tool
+M-040,40,Mirror sign,Objects,78,1,U+12031,Reflective object
+M-041,41,Single stroke,Numerals,2456,1,U+12032,Numeral one
+M-042,42,Double stroke,Numerals,1567,1,U+12033,Numeral two
+M-043,43,Triple stroke,Numerals,1234,1,U+12034,Numeral three
+M-044,44,Four strokes,Numerals,987,1,U+12035,Numeral four
+M-045,45,Five strokes,Numerals,756,1,U+12036,Numeral five
+M-046,46,Six strokes,Numerals,567,1,U+12037,Numeral six
+M-047,47,Seven strokes,Numerals,456,1,U+12038,Numeral seven
+M-048,48,Eight strokes,Numerals,234,1,U+12039,Numeral eight
+M-049,49,Circle numeral,Numerals,345,2,U+1203A,Ten or base unit
+M-050,50,Double circle,Numerals,234,2,U+1203B,Twenty
+M-051,51,U-shape sign,Geometric,456,4,U+1203C,Common bracket
+M-052,52,Inverted U,Geometric,345,3,U+1203D,Arch shape
+M-053,53,Square sign,Geometric,567,5,U+1203E,Box or field
+M-054,54,Rectangle,Geometric,234,3,U+1203F,Elongated square
+M-055,55,Diamond sign,Geometric,189,2,U+12040,Rotated square
+M-056,56,Triangle up,Geometric,456,4,U+12041,Mountain or peak
+M-057,57,Triangle down,Geometric,234,3,U+12042,Inverted triangle
+M-058,58,Circle sign,Geometric,789,6,U+12043,Sun or completeness
+M-059,59,Semi-circle,Geometric,345,3,U+12044,Half moon
+M-060,60,Crescent,Geometric,234,2,U+12045,Moon phase
+M-061,61,Cross sign,Geometric,456,4,U+12046,Intersection
+M-062,62,X-mark,Geometric,345,3,U+12047,Crossing lines
+M-063,63,Star sign,Geometric,267,3,U+12048,Celestial body
+M-064,64,Six-pointed star,Geometric,145,2,U+12049,Complex star
+M-065,65,Zigzag line,Geometric,567,5,U+1204A,Water or waves
+M-066,66,Wavy line,Geometric,456,4,U+1204B,Flowing water
+M-067,67,Double wave,Geometric,234,3,U+1204C,Two water lines
+M-068,68,Ladder sign,Geometric,345,3,U+1204D,Vertical rungs
+M-069,69,Grid pattern,Geometric,234,2,U+1204E,Mesh or weave
+M-070,70,Fence sign,Geometric,189,2,U+1204F,Enclosure
+M-071,71,Tree sign,Botanical,567,5,U+12050,Generic tree
+M-072,72,Palm tree,Botanical,345,3,U+12051,Date palm
+M-073,73,Pipal leaf,Botanical,456,4,U+12052,Sacred tree
+M-074,74,Flower sign,Botanical,234,3,U+12053,Blossom
+M-075,75,Lotus,Botanical,189,2,U+12054,Water flower
+M-076,76,Grain sign,Botanical,567,5,U+12055,Wheat or barley
+M-077,77,Rice sign,Botanical,345,3,U+12056,Paddy grain
+M-078,78,Cotton plant,Botanical,234,2,U+12057,Fiber plant
+M-079,79,Sprout sign,Botanical,189,2,U+12058,Germination
+M-080,80,Root sign,Botanical,156,2,U+12059,Underground plant
+M-081,81,House sign,Architecture,456,4,U+1205A,Dwelling
+M-082,82,Temple sign,Architecture,345,3,U+1205B,Sacred building
+M-083,83,Gate/Door,Architecture,567,5,U+1205C,Entrance
+M-084,84,Wall sign,Architecture,234,3,U+1205D,Fortification
+M-085,85,Tower sign,Architecture,189,2,U+1205E,Elevated structure
+M-086,86,Well sign,Architecture,345,3,U+1205F,Water source
+M-087,87,Platform,Architecture,234,2,U+12060,Raised surface
+M-088,88,Steps sign,Architecture,189,2,U+12061,Stairway
+M-089,89,Bridge sign,Architecture,145,2,U+12062,Crossing structure
+M-090,90,Boat sign,Transport,456,4,U+12063,Watercraft
+M-091,91,Raft sign,Transport,234,3,U+12064,Simple boat
+M-092,92,Sail sign,Transport,345,3,U+12065,Sailing vessel
+M-093,93,Oar sign,Transport,189,2,U+12066,Rowing implement
+M-094,94,Anchor sign,Transport,145,2,U+12067,Mooring device
+M-095,95,Net sign,Tools,567,5,U+12068,Fishing net
+M-096,96,Hook sign,Tools,345,3,U+12069,Fishing hook
+M-097,97,Rope sign,Tools,456,4,U+1206A,Cordage
+M-098,98,Knot sign,Tools,234,3,U+1206B,Tied rope
+M-099,99,Basket sign,Tools,567,5,U+1206C,Container
+M-100,100,Scale sign,Tools,345,3,U+1206D,Weighing device
+M-101,101,Hand sign left,Body Parts,678,5,U+1206E,Left hand
+M-102,102,Hand sign right,Body Parts,567,4,U+1206F,Right hand
+M-103,103,Foot sign,Body Parts,456,4,U+12070,Human foot
+M-104,104,Eye sign,Body Parts,567,5,U+12071,Seeing organ
+M-105,105,Ear sign,Body Parts,234,3,U+12072,Hearing organ
+M-106,106,Mouth sign,Body Parts,345,3,U+12073,Speaking organ
+M-107,107,Head sign,Body Parts,456,4,U+12074,Human head
+M-108,108,Heart sign,Body Parts,234,3,U+12075,Center/core
+M-109,109,Sun symbol,Celestial,789,6,U+12076,Solar disc
+M-110,110,Moon symbol,Celestial,567,5,U+12077,Lunar body
+M-111,111,Star symbol,Celestial,456,4,U+12078,Night star
+M-112,112,Planet sign,Celestial,234,3,U+12079,Wandering star
+M-113,113,Rain sign,Weather,345,3,U+1207A,Precipitation
+M-114,114,Cloud sign,Weather,234,2,U+1207B,Sky cover
+M-115,115,Lightning,Weather,189,2,U+1207C,Storm flash
+M-116,116,Wind sign,Weather,156,2,U+1207D,Air movement
+M-117,117,Mountain sign,Geography,456,4,U+1207E,Elevated land
+M-118,118,River sign,Geography,567,5,U+1207F,Water course
+M-119,119,Sea sign,Geography,345,3,U+12080,Ocean/large water
+M-120,120,Island sign,Geography,234,2,U+12081,Land in water
+M-121,121,Desert sign,Geography,189,2,U+12082,Arid land
+M-122,122,Forest sign,Geography,234,3,U+12083,Wooded area
+M-123,123,Field sign,Geography,567,5,U+12084,Cultivated land
+M-124,124,Road sign,Geography,345,3,U+12085,Path/way
+M-125,125,Border sign,Geography,234,2,U+12086,Boundary
+M-126,126,City sign,Geography,189,2,U+12087,Urban center
+M-127,127,Village sign,Geography,156,2,U+12088,Small settlement
+M-128,128,Port sign,Geography,234,3,U+12089,Harbor
+M-129,129,King sign,Titles,345,3,U+1208A,Ruler
+M-130,130,Queen sign,Titles,234,2,U+1208B,Female ruler
+M-131,131,Priest sign,Titles,456,4,U+1208C,Religious figure
+M-132,132,Merchant sign,Titles,567,5,U+1208D,Trader
+M-133,133,Craftsman sign,Titles,345,3,U+1208E,Artisan
+M-134,134,Farmer sign,Titles,456,4,U+1208F,Agricultural worker
+M-135,135,Warrior sign,Titles,234,3,U+12090,Fighter
+M-136,136,Scribe sign,Titles,189,2,U+12091,Writer
+M-137,137,Potter sign,Titles,156,2,U+12092,Ceramic maker
+M-138,138,Weaver sign,Titles,234,3,U+12093,Textile worker
+M-139,139,Smith sign,Titles,345,3,U+12094,Metal worker
+M-140,140,Mason sign,Titles,234,2,U+12095,Stone worker
+M-141,141,Bow symbol,Compound,189,2,U+12096,Archer sign
+M-142,142,Fish+jar,Compound,567,5,U+12097,Fish offering
+M-143,143,Man+fish,Compound,345,3,U+12098,Fisherman
+M-144,144,Bull+jar,Compound,234,2,U+12099,Bull offering
+M-145,145,Tree+man,Compound,189,2,U+1209A,Tree tender
+M-146,146,Fish+star,Compound,456,4,U+1209B,Celestial fish
+M-147,147,Sun+man,Compound,234,3,U+1209C,Sun worshipper
+M-148,148,Moon+jar,Compound,189,2,U+1209D,Moon offering
+M-149,149,Two men,Compound,345,3,U+1209E,Pair/dual
+M-150,150,Three jars,Compound,456,4,U+1209F,Triple vessel
+M-151,151,Tall man,Anthropomorphic,234,2,U+120A0,Standing figure
+M-152,152,Short man,Anthropomorphic,189,2,U+120A1,Squat figure
+M-153,153,Running man,Anthropomorphic,156,2,U+120A2,Motion figure
+M-154,154,Dancing man,Anthropomorphic,234,3,U+120A3,Celebrant
+M-155,155,Kneeling man,Anthropomorphic,189,2,U+120A4,Supplicant
+M-156,156,Carrying man,Anthropomorphic,345,3,U+120A5,Bearer figure
+M-157,157,Offering man,Anthropomorphic,234,2,U+120A6,Devotee
+M-158,158,Armed man,Anthropomorphic,189,2,U+120A7,Warrior figure
+M-159,159,Horned deity,Anthropomorphic,456,4,U+120A8,Divine figure
+M-160,160,Multi-arm deity,Anthropomorphic,234,2,U+120A9,Complex deity
+M-161,161,Large fish,Zoomorphic,345,3,U+120AA,Major fish
+M-162,162,Small fish,Zoomorphic,456,4,U+120AB,Minor fish
+M-163,163,Leaping fish,Zoomorphic,234,2,U+120AC,Active fish
+M-164,164,Dead fish,Zoomorphic,189,2,U+120AD,Inactive fish
+M-165,165,Fish pair,Zoomorphic,345,3,U+120AE,Dual fish
+M-166,166,Roofed fish,Zoomorphic,456,4,U+120AF,Sheltered fish
+M-167,167,Dotted fish,Zoomorphic,234,2,U+120B0,Marked fish
+M-168,168,Lined fish,Zoomorphic,189,2,U+120B1,Striped fish
+M-169,169,Standing bull,Zoomorphic,567,5,U+120B2,Upright bull
+M-170,170,Lying bull,Zoomorphic,345,3,U+120B3,Resting bull
+M-171,171,Walking bull,Zoomorphic,456,4,U+120B4,Moving bull
+M-172,172,Bull head,Zoomorphic,234,2,U+120B5,Bucranium
+M-173,173,Bull horns,Zoomorphic,189,2,U+120B6,Horn symbol
+M-174,174,Hump sign,Zoomorphic,345,3,U+120B7,Zebu marker
+M-175,175,Small elephant,Zoomorphic,234,2,U+120B8,Minor elephant
+M-176,176,Elephant head,Zoomorphic,189,2,U+120B9,Elephant symbol
+M-177,177,Trunk sign,Zoomorphic,156,2,U+120BA,Proboscis
+M-178,178,Tusk sign,Zoomorphic,234,3,U+120BB,Ivory marker
+M-179,179,Cat sign,Zoomorphic,345,3,U+120BC,Feline
+M-180,180,Dog sign,Zoomorphic,456,4,U+120BD,Canine
+M-181,181,Hare sign,Zoomorphic,234,2,U+120BE,Rabbit
+M-182,182,Deer sign,Zoomorphic,345,3,U+120BF,Cervid
+M-183,183,Antelope sign,Zoomorphic,234,2,U+120C0,Gazelle type
+M-184,184,Buffalo sign,Zoomorphic,456,4,U+120C1,Water buffalo
+M-185,185,Goat sign,Zoomorphic,345,3,U+120C2,Caprid
+M-186,186,Sheep sign,Zoomorphic,234,2,U+120C3,Ovine
+M-187,187,Pig sign,Zoomorphic,189,2,U+120C4,Swine
+M-188,188,Monkey sign,Zoomorphic,345,3,U+120C5,Primate
+M-189,189,Bear sign,Zoomorphic,234,2,U+120C6,Ursid
+M-190,190,Parrot sign,Zoomorphic,189,2,U+120C7,Talking bird
+M-191,191,Crane sign,Zoomorphic,345,3,U+120C8,Wading bird
+M-192,192,Duck sign,Zoomorphic,234,2,U+120C9,Water fowl
+M-193,193,Hen sign,Zoomorphic,189,2,U+120CA,Domestic bird
+M-194,194,Owl sign,Zoomorphic,345,3,U+120CB,Night bird
+M-195,195,Turtle sign,Zoomorphic,234,2,U+120CC,Chelonian
+M-196,196,Frog sign,Zoomorphic,189,2,U+120CD,Amphibian
+M-197,197,Lizard sign,Zoomorphic,156,2,U+120CE,Reptile
+M-198,198,Insect sign,Zoomorphic,234,3,U+120CF,Bug
+M-199,199,Bee sign,Zoomorphic,345,3,U+120D0,Honey maker
+M-200,200,Spider sign,Zoomorphic,234,2,U+120D1,Web maker
+M-201,201,Small jar,Objects,567,5,U+120D2,Minor vessel
+M-202,202,Tall jar,Objects,456,4,U+120D3,High vessel
+M-203,203,Fat jar,Objects,345,3,U+120D4,Wide vessel
+M-204,204,Narrow neck jar,Objects,234,2,U+120D5,Bottle type
+M-205,205,Double jar,Objects,456,4,U+120D6,Twin vessel
+M-206,206,Jar cluster,Objects,345,3,U+120D7,Multiple vessels
+M-207,207,Pouring jar,Objects,234,2,U+120D8,Tilted vessel
+M-208,208,Cracked jar,Objects,189,2,U+120D9,Broken vessel
+M-209,209,Jar with marks,Objects,456,4,U+120DA,Decorated vessel
+M-210,210,Spotted jar,Objects,345,3,U+120DB,Dotted vessel
+M-211,211,Small wheel,Objects,234,2,U+120DC,Minor wheel
+M-212,212,Large wheel,Objects,189,2,U+120DD,Major wheel
+M-213,213,Spoked wheel,Objects,456,4,U+120DE,Detailed wheel
+M-214,214,Double wheel,Objects,345,3,U+120DF,Two wheels
+M-215,215,Cart frame,Objects,234,2,U+120E0,Vehicle body
+M-216,216,Yoke sign,Objects,189,2,U+120E1,Draft harness
+M-217,217,Harness sign,Objects,345,3,U+120E2,Animal harness
+M-218,218,Plow blade,Objects,234,2,U+120E3,Cutting edge
+M-219,219,Plow handle,Objects,189,2,U+120E4,Tool grip
+M-220,220,Sickle sign,Objects,456,4,U+120E5,Harvesting tool
+M-221,221,Hoe sign,Objects,345,3,U+120E6,Digging tool
+M-222,222,Rake sign,Objects,234,2,U+120E7,Gathering tool
+M-223,223,Hammer sign,Objects,189,2,U+120E8,Striking tool
+M-224,224,Chisel sign,Objects,456,4,U+120E9,Carving tool
+M-225,225,Drill sign,Objects,345,3,U+120EA,Boring tool
+M-226,226,Saw sign,Objects,234,2,U+120EB,Cutting tool
+M-227,227,Needle sign,Objects,189,2,U+120EC,Sewing tool
+M-228,228,Spindle sign,Objects,456,4,U+120ED,Spinning tool
+M-229,229,Loom sign,Objects,345,3,U+120EE,Weaving tool
+M-230,230,Shuttle sign,Objects,234,2,U+120EF,Weaving part
+M-231,231,Short arrow,Objects,189,2,U+120F0,Small projectile
+M-232,232,Long arrow,Objects,456,4,U+120F1,Large projectile
+M-233,233,Barbed arrow,Objects,345,3,U+120F2,Hooked arrow
+M-234,234,Arrow cluster,Objects,234,2,U+120F3,Multiple arrows
+M-235,235,Quiver sign,Objects,189,2,U+120F4,Arrow holder
+M-236,236,Simple bow,Objects,456,4,U+120F5,Basic bow
+M-237,237,Compound bow,Objects,345,3,U+120F6,Complex bow
+M-238,238,Bowstring,Objects,234,2,U+120F7,String part
+M-239,239,Short spear,Objects,189,2,U+120F8,Minor spear
+M-240,240,Long spear,Objects,456,4,U+120F9,Major spear
+M-241,241,Eleven strokes,Numerals,123,1,U+120FA,Numeral eleven
+M-242,242,Twelve strokes,Numerals,145,1,U+120FB,Numeral twelve
+M-243,243,Long U-shape,Geometric,234,3,U+120FC,Extended bracket
+M-244,244,Wide U-shape,Geometric,189,2,U+120FD,Broad bracket
+M-245,245,Small square,Geometric,456,4,U+120FE,Minor square
+M-246,246,Large square,Geometric,345,3,U+120FF,Major square
+M-247,247,Filled square,Geometric,234,2,U+12100,Solid square
+M-248,248,Empty square,Geometric,189,2,U+12101,Hollow square
+M-249,249,Crossed square,Geometric,456,4,U+12102,X in square
+M-250,250,Dotted square,Geometric,345,3,U+12103,Points in square
+M-251,251,Small triangle,Geometric,234,2,U+12104,Minor triangle
+M-252,252,Large triangle,Geometric,189,2,U+12105,Major triangle
+M-253,253,Filled triangle,Geometric,456,4,U+12106,Solid triangle
+M-254,254,Empty triangle,Geometric,345,3,U+12107,Hollow triangle
+M-255,255,Double triangle,Geometric,234,2,U+12108,Two triangles
+M-256,256,Triple triangle,Geometric,189,2,U+12109,Three triangles
+M-257,257,Small circle,Geometric,456,4,U+1210A,Minor circle
+M-258,258,Large circle,Geometric,345,3,U+1210B,Major circle
+M-259,259,Filled circle,Geometric,234,2,U+1210C,Solid circle
+M-260,260,Ringed circle,Geometric,189,2,U+1210D,Double circle
+M-261,261,Dotted circle,Geometric,456,4,U+1210E,Points in circle
+M-262,262,Rayed circle,Geometric,345,3,U+1210F,Sun-like circle
+M-263,263,Simple cross,Geometric,234,2,U+12110,Basic cross
+M-264,264,Long cross,Geometric,189,2,U+12111,Extended cross
+M-265,265,Fat cross,Geometric,456,4,U+12112,Wide cross
+M-266,266,Dotted cross,Geometric,345,3,U+12113,Points on cross
+M-267,267,Circled cross,Geometric,234,2,U+12114,Cross in circle
+M-268,268,Simple X,Geometric,189,2,U+12115,Basic X
+M-269,269,Fat X,Geometric,456,4,U+12116,Wide X
+M-270,270,Circled X,Geometric,345,3,U+12117,X in circle
+M-271,271,Five-point star,Geometric,234,2,U+12118,Pentagon star
+M-272,272,Eight-point star,Geometric,189,2,U+12119,Octagon star
+M-273,273,Rayed star,Geometric,456,4,U+1211A,Sun star
+M-274,274,Simple zigzag,Geometric,345,3,U+1211B,Basic wave
+M-275,275,Complex zigzag,Geometric,234,2,U+1211C,Multiple wave
+M-276,276,Vertical zigzag,Geometric,189,2,U+1211D,Up-down wave
+M-277,277,Triple wave,Geometric,456,4,U+1211E,Three waves
+M-278,278,Crossed waves,Geometric,345,3,U+1211F,Wave pattern
+M-279,279,Simple ladder,Geometric,234,2,U+12120,Basic rungs
+M-280,280,Long ladder,Geometric,189,2,U+12121,Extended rungs
+M-281,281,Broad tree,Botanical,456,4,U+12122,Wide tree
+M-282,282,Tall tree,Botanical,345,3,U+12123,High tree
+M-283,283,Fruit tree,Botanical,234,2,U+12124,Bearing tree
+M-284,284,Dead tree,Botanical,189,2,U+12125,Leafless tree
+M-285,285,Multi-palm,Botanical,456,4,U+12126,Palm grove
+M-286,286,Single palm,Botanical,345,3,U+12127,One palm
+M-287,287,Palm fruit,Botanical,234,2,U+12128,Date cluster
+M-288,288,Large pipal,Botanical,189,2,U+12129,Major pipal
+M-289,289,Small pipal,Botanical,456,4,U+1212A,Minor pipal
+M-290,290,Pipal cluster,Botanical,345,3,U+1212B,Multiple pipal
+M-291,291,Simple flower,Botanical,234,2,U+1212C,Basic blossom
+M-292,292,Complex flower,Botanical,189,2,U+1212D,Detailed blossom
+M-293,293,Flower bunch,Botanical,456,4,U+1212E,Multiple flowers
+M-294,294,Water lotus,Botanical,345,3,U+1212F,Aquatic flower
+M-295,295,Lotus leaf,Botanical,234,2,U+12130,Lotus foliage
+M-296,296,Lotus bud,Botanical,189,2,U+12131,Unopened lotus
+M-297,297,Wheat head,Botanical,456,4,U+12132,Grain ear
+M-298,298,Wheat stalk,Botanical,345,3,U+12133,Grain stem
+M-299,299,Wheat bundle,Botanical,234,2,U+12134,Grain sheaf
+M-300,300,Rice head,Botanical,189,2,U+12135,Paddy ear
+M-301,301,Large house,Architecture,456,4,U+12136,Major dwelling
+M-302,302,Small house,Architecture,345,3,U+12137,Minor dwelling
+M-303,303,Multi-story house,Architecture,234,2,U+12138,Tall dwelling
+M-304,304,Hut sign,Architecture,189,2,U+12139,Simple shelter
+M-305,305,Large temple,Architecture,456,4,U+1213A,Major temple
+M-306,306,Small temple,Architecture,345,3,U+1213B,Minor temple
+M-307,307,Temple platform,Architecture,234,2,U+1213C,Raised temple
+M-308,308,Temple tower,Architecture,189,2,U+1213D,Temple spire
+M-309,309,Large gate,Architecture,456,4,U+1213E,Major entrance
+M-310,310,Small gate,Architecture,345,3,U+1213F,Minor entrance
+M-311,311,Arched gate,Architecture,234,2,U+12140,Curved entrance
+M-312,312,Double gate,Architecture,189,2,U+12141,Twin entrance
+M-313,313,High wall,Architecture,456,4,U+12142,Tall wall
+M-314,314,Low wall,Architecture,345,3,U+12143,Short wall
+M-315,315,Crenelated wall,Architecture,234,2,U+12144,Battlement
+M-316,316,Corner wall,Architecture,189,2,U+12145,Wall angle
+M-317,317,High tower,Architecture,456,4,U+12146,Tall tower
+M-318,318,Watch tower,Architecture,345,3,U+12147,Guard tower
+M-319,319,Beacon tower,Architecture,234,2,U+12148,Signal tower
+M-320,320,Deep well,Architecture,189,2,U+12149,Deep source
+M-321,321,Large boat,Transport,456,4,U+1214A,Major vessel
+M-322,322,Small boat,Transport,345,3,U+1214B,Minor vessel
+M-323,323,Cargo boat,Transport,234,2,U+1214C,Trading vessel
+M-324,324,Fishing boat,Transport,189,2,U+1214D,Fishing vessel
+M-325,325,River boat,Transport,456,4,U+1214E,Flat vessel
+M-326,326,Sea boat,Transport,345,3,U+1214F,Ocean vessel
+M-327,327,Large sail,Transport,234,2,U+12150,Major sail
+M-328,328,Small sail,Transport,189,2,U+12151,Minor sail
+M-329,329,Sail+wind,Transport,456,4,U+12152,Propelled sail
+M-330,330,Large net,Tools,345,3,U+12153,Major net
+M-331,331,Small net,Tools,234,2,U+12154,Minor net
+M-332,332,Casting net,Tools,189,2,U+12155,Throwing net
+M-333,333,Trap net,Tools,456,4,U+12156,Capture net
+M-334,334,Large hook,Tools,345,3,U+12157,Major hook
+M-335,335,Small hook,Tools,234,2,U+12158,Minor hook
+M-336,336,Double hook,Tools,189,2,U+12159,Twin hook
+M-337,337,Long rope,Tools,456,4,U+1215A,Extended cord
+M-338,338,Short rope,Tools,345,3,U+1215B,Brief cord
+M-339,339,Coiled rope,Tools,234,2,U+1215C,Wound cord
+M-340,340,Simple knot,Tools,189,2,U+1215D,Basic tie
+M-341,341,Palm up left,Body Parts,456,4,U+1215E,Open left hand
+M-342,342,Palm up right,Body Parts,345,3,U+1215F,Open right hand
+M-343,343,Fist left,Body Parts,234,2,U+12160,Closed left hand
+M-344,344,Fist right,Body Parts,189,2,U+12161,Closed right hand
+M-345,345,Pointing left,Body Parts,456,4,U+12162,Directing left
+M-346,346,Pointing right,Body Parts,345,3,U+12163,Directing right
+M-347,347,Gripping hand,Body Parts,234,2,U+12164,Holding hand
+M-348,348,Giving hand,Body Parts,189,2,U+12165,Offering hand
+M-349,349,Walking feet,Body Parts,456,4,U+12166,Motion feet
+M-350,350,Standing feet,Body Parts,345,3,U+12167,Static feet
+M-351,351,Open eye,Body Parts,234,2,U+12168,Seeing eye
+M-352,352,Closed eye,Body Parts,189,2,U+12169,Shut eye
+M-353,353,Weeping eye,Body Parts,456,4,U+1216A,Crying eye
+M-354,354,Alert ear,Body Parts,345,3,U+1216B,Listening ear
+M-355,355,Deaf ear,Body Parts,234,2,U+1216C,Blocked ear
+M-356,356,Open mouth,Body Parts,189,2,U+1216D,Speaking mouth
+M-357,357,Closed mouth,Body Parts,456,4,U+1216E,Silent mouth
+M-358,358,Smiling mouth,Body Parts,345,3,U+1216F,Happy mouth
+M-359,359,Frowning mouth,Body Parts,234,2,U+12170,Sad mouth
+M-360,360,Male head,Body Parts,189,2,U+12171,Man head
+M-361,361,Rising sun,Celestial,456,4,U+12172,Dawn sun
+M-362,362,Setting sun,Celestial,345,3,U+12173,Dusk sun
+M-363,363,Full sun,Celestial,234,2,U+12174,Midday sun
+M-364,364,Eclipsed sun,Celestial,189,2,U+12175,Dark sun
+M-365,365,Full moon,Celestial,456,4,U+12176,Complete moon
+M-366,366,Half moon,Celestial,345,3,U+12177,Partial moon
+M-367,367,New moon,Celestial,234,2,U+12178,Dark moon
+M-368,368,Crescent moon,Celestial,189,2,U+12179,Curved moon
+M-369,369,Morning star,Celestial,456,4,U+1217A,Venus symbol
+M-370,370,Evening star,Celestial,345,3,U+1217B,Venus alt
+M-371,371,North star,Celestial,234,2,U+1217C,Pole star
+M-372,372,Star cluster,Celestial,189,2,U+1217D,Constellation
+M-373,373,Heavy rain,Weather,456,4,U+1217E,Storm rain
+M-374,374,Light rain,Weather,345,3,U+1217F,Drizzle
+M-375,375,Monsoon sign,Weather,234,2,U+12180,Seasonal rain
+M-376,376,Dark cloud,Weather,189,2,U+12181,Storm cloud
+M-377,377,White cloud,Weather,456,4,U+12182,Fair cloud
+M-378,378,Storm sign,Weather,345,3,U+12183,Tempest
+M-379,379,Thunder sign,Weather,234,2,U+12184,Sound storm
+M-380,380,Gentle wind,Weather,189,2,U+12185,Breeze
+M-381,381,High mountain,Geography,456,4,U+12186,Peak
+M-382,382,Low mountain,Geography,345,3,U+12187,Hill
+M-383,383,Mountain range,Geography,234,2,U+12188,Chain
+M-384,384,Pass sign,Geography,189,2,U+12189,Mountain gap
+M-385,385,Wide river,Geography,456,4,U+1218A,Major river
+M-386,386,Narrow river,Geography,345,3,U+1218B,Stream
+M-387,387,River mouth,Geography,234,2,U+1218C,Delta
+M-388,388,River source,Geography,189,2,U+1218D,Spring
+M-389,389,Deep sea,Geography,456,4,U+1218E,Ocean depth
+M-390,390,Shallow sea,Geography,345,3,U+1218F,Coast water
+M-391,391,Lake sign,Geography,234,2,U+12190,Inland water
+M-392,392,Pond sign,Geography,189,2,U+12191,Small water
+M-393,393,Large island,Geography,456,4,U+12192,Major island
+M-394,394,Small island,Geography,345,3,U+12193,Minor island
+M-395,395,Sandy desert,Geography,234,2,U+12194,Sand land
+M-396,396,Rocky desert,Geography,189,2,U+12195,Stone land
+M-397,397,Dense forest,Geography,456,4,U+12196,Thick woods
+M-398,398,Sparse forest,Geography,345,3,U+12197,Light woods
+M-399,399,Jungle sign,Geography,234,2,U+12198,Wild forest
+M-400,400,Planted field,Geography,189,2,U+12199,Crop field
+M-401,401,Great king,Titles,456,4,U+1219A,Emperor
+M-402,402,Lesser king,Titles,345,3,U+1219B,Prince
+M-403,403,High priest,Titles,234,2,U+1219C,Chief priest
+M-404,404,Assistant priest,Titles,189,2,U+1219D,Junior priest
+M-405,405,Rich merchant,Titles,456,4,U+1219E,Wealthy trader
+M-406,406,Poor merchant,Titles,345,3,U+1219F,Small trader
+M-407,407,Master craftsman,Titles,234,2,U+121A0,Chief artisan
+M-408,408,Apprentice,Titles,189,2,U+121A1,Learner
+M-409,409,Fish+U sign,Compound,456,4,U+121A2,Fish bracket
+M-410,410,Bull+U sign,Compound,345,3,U+121A3,Bull bracket
+M-411,411,Jar+man,Compound,234,2,U+121A4,Carrier
+M-412,412,Fish+numeral,Compound,189,2,U+121A5,Counted fish
+M-413,413,Bull+numeral,Compound,456,4,U+121A6,Counted bull
+M-414,414,Jar+numeral,Compound,345,3,U+121A7,Counted jar
+M-415,415,Man+numeral,Compound,234,2,U+121A8,Counted man
+M-416,416,Star+man,Compound,189,2,U+121A9,Celestial man
+M-417,417,Terminal sign,Markers,567,5,U+121AA,End marker
