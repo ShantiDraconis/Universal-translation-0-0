@@ -24,6 +24,11 @@ class PhoneticScorer:
     LIQUIDS = set("lr")
     FRICATIVES = set("sfhśṣ")
 
+    # Similarity calculation weights
+    LEVENSHTEIN_WEIGHT = 0.4
+    FEATURE_WEIGHT = 0.3
+    PATTERN_WEIGHT = 0.3
+
     def __init__(self) -> None:
         """Initialize the scorer."""
         pass
@@ -50,7 +55,9 @@ class PhoneticScorer:
         pattern_sim = self._pattern_similarity(p1, p2)
 
         # Weighted average
-        return 0.4 * levenshtein_sim + 0.3 * feature_sim + 0.3 * pattern_sim
+        return (self.LEVENSHTEIN_WEIGHT * levenshtein_sim + 
+                self.FEATURE_WEIGHT * feature_sim + 
+                self.PATTERN_WEIGHT * pattern_sim)
 
     def _levenshtein(self, s1: str, s2: str) -> int:
         """Calculate Levenshtein edit distance."""

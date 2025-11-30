@@ -4,6 +4,9 @@ import pytest
 
 from universal_translation_00.harappan.mapping import HarappanMapping, HarappanSign
 
+# Total number of Harappan signs in the system
+TOTAL_HARAPPAN_SIGNS = 417
+
 
 class TestHarappanMapping:
     """Test suite for HarappanMapping class."""
@@ -46,7 +49,7 @@ class TestHarappanMapping:
     def test_get_all_signs(self) -> None:
         """Test getting all signs."""
         signs = self.mapping.get_all_signs()
-        assert len(signs) == 417
+        assert len(signs) == TOTAL_HARAPPAN_SIGNS
 
     def test_get_all_phonemes(self) -> None:
         """Test getting all unique phonemes."""
