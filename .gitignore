@@ -26,6 +26,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+*.egg-info/
+.installed.cfg
+*.egg
 
 # PyInstaller
 *.manifest
@@ -123,6 +126,7 @@ dmypy.json
 .pyre/
 
 # IDE
+# IDEs
 .idea/
 .vscode/
 *.swp
@@ -163,3 +167,19 @@ Thumbs.db
 # Project specific
 /tmp/
 *.tmp
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS files
+.DS_Store
+Thumbs.db
