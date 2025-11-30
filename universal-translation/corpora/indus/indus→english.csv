@@ -1,0 +1,101 @@
+indus_sign,indus_phoneme,english_word,english_meaning,semantic_category,confidence_score,etymology,indo_european_root,notes
+M-001,A,person,human being,anthropomorphic,0.92,Latin persona,*per- (through),Universal human concept
+M-002,AN,sky,heavens/divine realm,celestial,0.88,Old English heofon,*ak- (sharp),Sky/heaven connection
+M-003,AMA,mother,female parent,anthropomorphic,0.98,Middle English moder,*meh₂ter-,Universal mother sound
+M-004,BA,father,male parent,anthropomorphic,0.85,Old English fæder,*ph₂tēr,Father/authority figure
+M-005,DA,give,to transfer,action,0.80,Old English giefan,*gʰebʰ-,Giving action
+M-006,GA,go,to move,motion,0.75,Old English gān,*gʰeh₁-,Movement verb
+M-007,HA,breath,respiration,vital,0.78,Old English brǣþ,*bʰrē-,Life breath concept
+M-008,KA,head,top of body,body_part,0.82,Old English hēafod,*kaput-,Authority/head symbol
+M-009,LA,tongue,speech organ,body_part,0.80,Old English tunge,*dn̥ǵʰwéh₂s,Speech/language
+M-010,MA,water,liquid element,element,0.95,Old English wæter,*wed- (water),Water element
+M-011,NA,name,identifier,identity,0.85,Old English nama,*h₁nómn̥,Name/identity marker
+M-012,NU,new,recent/fresh,temporal,0.78,Old English nīwe,*néwos,Newness concept
+M-013,PA,protect,to guard,action,0.80,Latin protegere,*teg- (cover),Protection action
+M-014,RA,sun,solar body,celestial,0.92,Old English sunne,*sóh₂wl̥,Solar/light source
+M-015,SA,all,complete/whole,completeness,0.75,Old English eall,*h₂el-,Completeness concept
+M-016,SHA,peace,tranquility,spiritual,0.88,Latin pax,*pak- (fasten),Peace/stillness
+M-017,TA,that,demonstrative,deictic,0.90,Old English þæt,*to-,Demonstrative marker
+M-018,VA,word,speech unit,communication,0.82,Old English word,*werdʰh₁om,Speech/word
+M-019,YA,go,to move,motion,0.78,Old English gān,*gʰeh₁-,Movement verb
+M-020,I,self,ego/identity,identity,0.95,Old English ic,*éǵh₂,First person pronoun
+M-021,OM,sacred,holy sound,spiritual,0.98,Sanskrit oṁ,n/a,Sacred syllable - borrowed
+M-022,U,up,upward direction,spatial,0.80,Old English ūp,*upo,Upward direction
+M-023,E,here,this place,location,0.85,Old English hēr,*ḱi-,Location deictic
+M-024,O,origin,source/beginning,foundational,0.82,Latin orīgō,*h₃reǵ- (rise),Source/origin concept
+M-025,MBOI,serpent,snake,zoomorphic,0.90,Latin serpēns,*serp- (crawl),Serpent archetype
+M-026,TUPA,thunder,atmospheric sound,celestial,0.72,Old English þunor,*(s)tenH-,Thunder phenomenon
+M-027,PARA,beyond,transcending,transcendence,0.78,Greek para,*per- (through),Transcendence marker
+M-028,KARA,hand,limb for grasping,body_part,0.95,Old English hand,*ḱent-,Hand symbol
+M-029,MARA,death,end of life,transformation,0.92,Old English dēaþ,*dʰew-,Death concept
+M-030,VARA,blessing,divine favor,spiritual,0.88,Latin benedictio,*deyḱ- (show),Selection/blessing
+M-031,NAGA,snake,serpent deity,zoomorphic,0.95,Sanskrit nāga,n/a,Snake deity - borrowed
+M-032,DEVA,divine,godly,divine,0.92,Latin dīvīnus,*deywós (god),Divine being
+M-033,AGNI,fire,combustion element,element,0.95,Latin ignis,*h₁égnis,Fire element - cognate
+M-034,VAYU,wind,moving air,element,0.90,Old English wind,*h₂wéh₁ntos,Wind element - cognate
+M-035,PRTHVI,earth,ground/soil,element,0.85,Old English eorþe,*h₁er-,Earth element
+M-036,AKASHA,space,ether/void,element,0.88,Greek aither,*h₂eydʰ-,Space/void element
+M-037,JALA,water,aqueous element,element,0.92,Old English wæter,*wed-,Water element
+M-038,SURYA,sun,solar deity,celestial,0.95,Old English sunne,*sóh₂wl̥,Sun deity - IE cognate
+M-039,CHANDRA,moon,lunar body,celestial,0.95,Old English mōna,*mḗh₁n̥s,Moon deity
+M-040,GURU,teacher,instructor,social,0.98,Latin gravis,*gʷreh₂-us (heavy),Teacher/heavy - IE cognate
+M-041,SIDDHA,perfected,accomplished,spiritual,0.92,Sanskrit siddha,n/a,Perfected one - borrowed
+M-042,YANTRA,device,instrument,ritual,0.90,Sanskrit yantra,n/a,Mystical device - borrowed
+M-043,MANTRA,spell,sacred formula,ritual,0.95,Sanskrit mantra,*men- (think),Sacred utterance - IE root
+M-044,TANTRA,weave,system,ritual,0.88,Latin texere,*teks- (weave),System/technique - cognate
+M-045,CHAKRA,wheel,circular symbol,energy,0.95,Greek kyklos,*kwékwlos (wheel),Energy center - IE cognate
+M-046,BINDU,point,dot/spot,geometric,0.85,Latin punctum,*pewg- (prick),Concentrated point
+M-047,NADA,sound,vibration,acoustic,0.92,Latin sonus,*swenh₂-,Cosmic sound
+M-048,PRANA,life force,vital breath,vital,0.90,Old English brǣþ,*bʰrē-,Life breath energy
+M-049,KUNDALINI,coiled,spiral energy,energy,0.88,Sanskrit kuṇḍalinī,n/a,Serpent energy - borrowed
+M-050,MOKSHA,liberation,freedom,spiritual,0.90,Sanskrit mokṣa,*mewk- (release),Liberation concept
+M-051,DHARMA,duty,righteousness,ethical,0.95,Greek thermos,*dʰer- (hold),Cosmic law - IE root
+M-052,KARMA,action,deed/fate,ethical,0.95,Latin creare,*kwer- (make),Action/consequence - IE root
+M-053,YOGA,union,joining,spiritual,0.98,Latin jugum,*yewg- (yoke),Union practice - IE cognate
+M-054,ATMAN,soul,self/spirit,spiritual,0.92,Old English ǣþm,*h₁eh₁t-,Soul concept - IE cognate
+M-055,BRAHMAN,absolute,ultimate reality,divine,0.88,Sanskrit brahman,*bʰerǵʰ- (high),Ultimate reality
+M-056,SHAKTI,power,divine energy,divine,0.95,Sanskrit śakti,*seǵʰ- (hold),Divine feminine power
+M-057,SHIVA,auspicious,blessed,divine,0.98,Sanskrit śiva,n/a,Auspicious deity
+M-058,VISHNU,pervading,all-encompassing,divine,0.92,Sanskrit viṣṇu,*wis- (work),Preserver deity
+M-059,LAKSHMI,fortune,prosperity,divine,0.90,Sanskrit lakṣmī,*leǵ- (collect),Fortune goddess
+M-060,SARASWATI,flowing,river/wisdom,divine,0.90,Sanskrit sarasvatī,*sel- (flow),Wisdom goddess
+M-061,GANESHA,lord,ruler of hosts,divine,0.88,Sanskrit gaṇeśa,*gʷeh₃- (go) + *h₂eyǵ-,Obstacle remover
+M-062,HANUMAN,jaw,monkey deity,divine,0.85,Sanskrit hanumān,n/a,Devotee/strength
+M-063,FISH,fish,aquatic animal,zoomorphic,0.98,Old English fisc,*peysk-,Fish - primary symbol
+M-064,TORTOISE,tortoise,shelled reptile,zoomorphic,0.85,Latin tortuca,*ters-,Tortoise symbol
+M-065,BOAR,boar,wild pig,zoomorphic,0.80,Old English bār,n/a,Boar symbol
+M-066,LION,lion,large feline,zoomorphic,0.85,Latin leō,*lew- (lion),Lion symbol
+M-067,DWARF,dwarf,small being,divine,0.82,Old English dweorg,*dʰwergʰos,Small deity
+M-068,AX,ax,cutting tool,object,0.80,Old English æx,*h₂éḱs-,Ax tool
+M-069,HERO,hero,champion,divine,0.92,Greek hērōs,*ser- (watch),Hero archetype
+M-070,DARK,dark,absence of light,divine,0.92,Old English deorc,*dʰerǵʰ-,Dark/attractive deity
+M-071,FISH,fish,aquatic creature,zoomorphic,0.98,Old English fisc,*peysk-,Primary fish symbol
+M-072,TIGER,tiger,striped feline,zoomorphic,0.85,Greek tigris,n/a,Large feline
+M-073,BULL,bull,male bovine,zoomorphic,0.82,Old English bula,*bʰel-,Bovine animal
+M-074,SNAKE,snake,serpent,zoomorphic,0.92,Old English snaca,*sneg-,Serpent
+M-075,WATER,water,liquid,element,0.95,Old English wæter,*wed-,Water element
+M-076,BONE,bone,skeletal element,body_part,0.75,Old English bān,*bʰeh₂-,Bone/structure
+M-077,HAND,hand,grasping limb,body_part,0.90,Old English hand,*ḱent-,Hand = five
+M-078,SPEAR,spear,pole weapon,object,0.78,Old English spere,*sper-,Pole weapon
+M-079,BOW,bow,ranged weapon,object,0.85,Old English boga,*bʰewgʰ-,Bow weapon
+M-080,GOD,god,deity,divine,0.80,Old English god,*ǵʰew-,Thunder deity
+M-081,SOUL,soul,spirit,spiritual,0.82,Old English sāwol,*seh₂i-,Soul/spirit
+M-082,SUN,sun,solar body,celestial,0.88,Old English sunne,*sóh₂wl̥,Sun deity
+M-083,MOON,moon,lunar body,celestial,0.88,Old English mōna,*mḗh₁n̥s,Moon deity
+M-084,SEA,sea,ocean,element,0.78,Old English sǣ,*sáh₂i-wlo-,Ocean goddess
+M-085,WAR,war,conflict,divine,0.72,Old English wyrre,*wers-,War deity
+M-086,RIVER,river,flowing water,element,0.80,Latin rīpa,*h₁reyH-,Fresh water
+M-087,THUNDER,thunder,sky sound,divine,0.75,Old English þunor,*(s)tenH-,Thunder deity
+M-088,WIND,wind,moving air,element,0.78,Old English wind,*h₂wéh₁ntos,Wind goddess
+M-089,WHITE,white,light color,divine,0.70,Old English hwīt,*ḱweyt-,Creator deity
+M-090,PATH,path,way/road,divine,0.75,Old English pæþ,*pent-,Messenger deity
+M-091,DOVE,dove,bird,zoomorphic,0.82,Old English dūfe,*dʰewbʰ-,Dove symbol
+M-092,SERPENT,serpent,snake,divine,0.85,Latin serpēns,*serp-,Serpent deity
+M-093,LOVE,love,affection,divine,0.72,Old English lufu,*lewbʰ-,Love goddess
+M-094,TREE,tree,plant,botanical,0.78,Old English trēow,*dóru,Tree spirit
+M-095,MEDICINE,medicine,healing,spiritual,0.75,Latin medicīna,*med-,Healing spirit
+M-096,REBIRTH,rebirth,resurrection,divine,0.82,re- + Old English byrþ,*bʰer-,Death/resurrection
+M-097,MOTHER,mother,divine female,divine,0.85,Old English mōdor,*meh₂ter-,Divine mother
+M-098,WISDOM,wisdom,knowledge,divine,0.78,Old English wīsdōm,*weyd-,Wisdom deity
+M-099,LIGHT,light,illumination,celestial,0.92,Old English lēoht,*lewk-,Sun god
+M-100,GUIDE,guide,leader,divine,0.75,Old French guider,*weyd-,Death guide

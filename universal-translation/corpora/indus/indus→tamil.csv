@@ -1,0 +1,101 @@
+indus_sign,indus_phoneme,tamil_word,tamil_transliteration,tamil_meaning,semantic_category,confidence_score,dravidian_root,notes
+M-001,A,மனிதன்,manithan,person/human,anthropomorphic,0.92,man- (person),Proto-Dravidian root for person
+M-002,AN,ஆண்,aan,man/male,anthropomorphic,0.88,an- (male),Gender marker in Tamil
+M-003,AMA,அம்மா,amma,mother,anthropomorphic,0.98,amma- (mother),Universal mother sound - strong match
+M-004,BA,அப்பா,appa,father,anthropomorphic,0.85,appa- (father),Paternal figure connection
+M-005,DA,கொடு,kodu,give,action,0.80,ko- (give),Giving action
+M-006,GA,போ,po,go,motion,0.75,po- (go),Movement verb
+M-007,HA,மூச்சு,muchu,breath,vital,0.78,muchu- (breath),Life breath concept
+M-008,KA,தலை,talai,head,body_part,0.82,talai- (head),Authority/head symbol
+M-009,LA,நாக்கு,nakku,tongue,body_part,0.80,nakku- (tongue),Speech organ
+M-010,MA,நீர்,neer,water,element,0.95,neer- (water),Water element - strong match
+M-011,NA,பெயர்,peyar,name,identity,0.85,peyar- (name),Name/identity marker
+M-012,NU,புதிய,puthiya,new,temporal,0.78,puthi- (new),Newness concept
+M-013,PA,பாதுகா,pathuka,protect,action,0.80,pathu- (protect),Protection action
+M-014,RA,சூரியன்,suriyan,sun,celestial,0.92,suri- (sun),Solar connection - Dravidian cognate
+M-015,SA,முழுமை,mulumu,all/complete,completeness,0.75,mulu- (whole),Completeness concept
+M-016,SHA,அமைதி,amaithi,peace,spiritual,0.88,amai- (peace),Peace/stillness
+M-017,TA,அது,athu,that,deictic,0.90,a- (that),Demonstrative marker
+M-018,VA,சொல்,sol,word,communication,0.82,sol- (word),Speech/word
+M-019,YA,செல்,sel,go/move,motion,0.78,sel- (go),Movement verb
+M-020,I,நான்,naan,I/self,identity,0.95,nan- (I),First person - strong Dravidian match
+M-021,OM,ஓம்,om,sacred sound,spiritual,0.98,om-,Sacred syllable - pan-Indian
+M-022,U,மேல்,mel,up/above,spatial,0.80,mel- (up),Upward direction
+M-023,E,இங்கே,inge,here,location,0.85,inge- (here),Location deictic
+M-024,O,மூலம்,mulam,origin,foundational,0.82,mula- (origin),Source/origin concept
+M-025,MBOI,பாம்பு,pambu,serpent/snake,zoomorphic,0.90,pambu- (snake),Serpent archetype
+M-026,TUPA,இடி,idi,thunder,celestial,0.72,idi- (thunder),Thunder/sky connection
+M-027,PARA,மேல்,mel,beyond/supreme,transcendence,0.78,mel- (above),Transcendence marker
+M-028,KARA,கை,kai,hand,body_part,0.95,kai- (hand),Hand symbol - strong match
+M-029,MARA,மரணம்,maranam,death,transformation,0.92,marana- (death),Death concept - Sanskrit influence
+M-030,VARA,வரம்,varam,boon/blessing,spiritual,0.88,vara- (boon),Selection/blessing
+M-031,NAGA,நாகம்,nagam,snake/deity,zoomorphic,0.95,naga- (serpent),Snake deity - pan-Indian
+M-032,DEVA,தேவன்,devan,god/divine,divine,0.92,deva- (god),Divine being - pan-Indian
+M-033,AGNI,அக்னி,akni,fire,element,0.95,akni- (fire),Fire element - pan-Indian
+M-034,VAYU,வாயு,vayu,wind/air,element,0.90,vayu- (wind),Wind element
+M-035,PRTHVI,பூமி,bhoomi,earth,element,0.85,bhumi- (earth),Earth element
+M-036,AKASHA,ஆகாயம்,akayam,space/ether,element,0.88,akasa- (space),Space/void element
+M-037,JALA,ஜலம்,jalam,water,element,0.92,jala- (water),Water element - pan-Indian
+M-038,SURYA,சூரியன்,suriyan,sun,celestial,0.95,surya- (sun),Sun deity
+M-039,CHANDRA,சந்திரன்,chandiran,moon,celestial,0.95,chandra- (moon),Moon deity
+M-040,GURU,குரு,guru,teacher,social,0.98,guru- (teacher),Teacher/heavy - pan-Indian
+M-041,SIDDHA,சித்தர்,sitthar,perfected one,spiritual,0.92,siddha- (accomplished),Tamil Siddha tradition
+M-042,YANTRA,யந்திரம்,yantiram,device/diagram,ritual,0.90,yantra- (device),Mystical diagram
+M-043,MANTRA,மந்திரம்,mantiram,sacred spell,ritual,0.95,mantra- (spell),Sacred utterance
+M-044,TANTRA,தந்திரம்,tantiram,system/weave,ritual,0.88,tantra- (weave),System/technique
+M-045,CHAKRA,சக்கரம்,cakkaram,wheel/center,energy,0.95,chakra- (wheel),Energy center
+M-046,BINDU,புள்ளி,pulli,point/dot,geometric,0.85,bindu- (point),Concentrated point
+M-047,NADA,நாதம்,natham,sound/vibration,acoustic,0.92,nada- (sound),Cosmic sound
+M-048,PRANA,பிராணன்,piranan,life force,vital,0.90,prana- (breath),Life breath energy
+M-049,KUNDALINI,குண்டலினி,kundalini,coiled energy,energy,0.88,kundalini-,Serpent energy
+M-050,MOKSHA,மோட்சம்,motsam,liberation,spiritual,0.90,moksha- (liberation),Liberation concept
+M-051,DHARMA,தர்மம்,dharmam,righteousness,ethical,0.95,dharma- (duty),Cosmic law - pan-Indian
+M-052,KARMA,கர்மம்,karmam,action/fate,ethical,0.95,karma- (action),Action/consequence
+M-053,YOGA,யோகம்,yogam,union,spiritual,0.98,yoga- (union),Union practice
+M-054,ATMAN,ஆத்மா,aathma,soul/self,spiritual,0.92,atman- (self),Soul concept
+M-055,BRAHMAN,பிரம்மன்,brahman,absolute,divine,0.88,brahman-,Ultimate reality
+M-056,SHAKTI,சக்தி,sakthi,power/goddess,divine,0.95,shakti- (power),Divine feminine power
+M-057,SHIVA,சிவன்,sivan,auspicious/god,divine,0.98,shiva-,Auspicious one - pan-Indian
+M-058,VISHNU,விஷ்ணு,vishnu,all-pervading,divine,0.92,vishnu-,Preserver deity
+M-059,LAKSHMI,லட்சுமி,lakshumi,fortune,divine,0.90,lakshmi-,Goddess of fortune
+M-060,SARASWATI,சரஸ்வதி,saraswathi,river/wisdom,divine,0.90,saras- (flow),Goddess of wisdom
+M-061,GANESHA,கணேஷ்,ganesh,lord of hosts,divine,0.88,gana-isha-,Remover of obstacles
+M-062,HANUMAN,அனுமன்,anuman,monkey god,divine,0.85,hanuman-,Devotee/strength
+M-063,MATSYA,மீன்,meen,fish,zoomorphic,0.98,meen- (fish),Fish - strong Dravidian root
+M-064,KURMA,ஆமை,aamai,tortoise,zoomorphic,0.85,amai- (turtle),Tortoise avatar
+M-065,VARAHA,பன்றி,pandri,boar,zoomorphic,0.80,pandri- (pig),Boar avatar
+M-066,NARASIMHA,நரசிம்மர்,narasimmar,man-lion,divine,0.85,nara-simha-,Man-lion avatar
+M-067,VAMANA,வாமனன்,vamanan,dwarf,divine,0.82,vamana-,Dwarf avatar
+M-068,PARASHURAMA,பரசுராமன்,parasuraman,ax-rama,divine,0.80,parashu-rama-,Ax-wielding avatar
+M-069,RAMA,இராமன்,raman,pleasing,divine,0.92,rama- (pleasing),Hero avatar
+M-070,KRISHNA,கிருஷ்ணன்,krishnan,dark/attractive,divine,0.92,krishna- (dark),Dark-colored deity
+M-071,PIRÁ,மீன்,meen,fish,zoomorphic,0.98,meen-,Fish - primary Dravidian cognate
+M-072,JAGUARA,புலி,puli,tiger/jaguar,zoomorphic,0.85,puli- (tiger),Large feline
+M-073,TAPIIRA,எருமை,erumai,bull/bovine,zoomorphic,0.82,erumai-,Bovine animal
+M-074,MBOI,பாம்பு,pambu,snake,zoomorphic,0.92,pambu-,Serpent
+M-075,Y,நீர்,neer,water,element,0.95,neer-,Water - strong Dravidian root
+M-076,KA,எலும்பு,elumbu,bone,body_part,0.75,elumbu-,Bone/structure
+M-077,PO,கை,kai,hand/five,body_part,0.90,kai-,Hand = five connection
+M-078,TACAPE,ஈட்டி,eetti,spear,object,0.78,eetti-,Pole weapon
+M-079,UIRAPARA,வில்,vil,bow,object,0.85,vil- (bow),Bow weapon
+M-080,TUPÃ,கடவுள்,kadavul,god/thunder,divine,0.80,kadavul-,Thunder deity connection
+M-081,ANHÃ,ஆவி,aavi,soul/spirit,spiritual,0.82,aavi- (spirit),Soul/spirit concept
+M-082,GUARACI,சூரியன்,suriyan,sun god,celestial,0.88,suriya-,Sun deity
+M-083,JACI,சந்திரன்,chandiran,moon god,celestial,0.88,chandra-,Moon deity
+M-084,YEMANJA,கடல்,kadal,sea mother,divine,0.78,kadal- (sea),Ocean goddess
+M-085,OGUN,போர்,por,war/iron,divine,0.72,por- (war),War deity
+M-086,OXUM,நீர்,neer,fresh water,element,0.80,neer-,Fresh water goddess
+M-087,XANGO,இடி,idi,thunder/justice,divine,0.75,idi- (thunder),Thunder deity
+M-088,IANSA,காற்று,kaatru,wind,element,0.78,kaatru- (wind),Wind goddess
+M-089,OXALA,வெள்ளை,vellai,white/creator,divine,0.70,vellai- (white),Creator deity
+M-090,EXU,வழி,vali,path/messenger,divine,0.75,vali- (way),Messenger deity
+M-091,POMBA,புறா,pura,dove,zoomorphic,0.82,pura- (dove),Dove symbol
+M-092,DAMBALLAH,பாம்பு,pambu,serpent,divine,0.85,pambu-,Serpent deity
+M-093,ERZULIE,காதல்,kathal,love,divine,0.72,kathal- (love),Love goddess
+M-094,LOKO,மரம்,maram,tree,botanical,0.78,maram- (tree),Tree spirit
+M-095,AYIZAN,மருந்து,maruntu,medicine,spiritual,0.75,maruntu-,Healing spirit
+M-096,OSIRIS,மரணம்,maranam,death/rebirth,divine,0.82,marana-,Death/resurrection
+M-097,ISIS,அன்னை,annai,mother,divine,0.85,annai- (mother),Divine mother
+M-098,THOTH,அறிவு,arivu,wisdom,divine,0.78,arivu- (knowledge),Wisdom deity
+M-099,RA,சூரியன்,suriyan,sun,celestial,0.92,suriya-,Sun god
+M-100,ANUBIS,நாய்,naai,jackal/death,divine,0.75,naai- (dog),Death guide
