@@ -8,6 +8,9 @@ on:
       - "site/**"
       - ".github/workflows/build-whitepaper-and-site.yml"
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
