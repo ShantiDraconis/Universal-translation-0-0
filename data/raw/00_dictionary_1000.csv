@@ -1,0 +1,101 @@
+token,phoneme,meaning_en,meaning_pt,semantic_class,frequency
+1,a,open/from,abrir/de,abstract,high
+2,i,this/is,isto/é,abstract,high
+3,u,that/mouth,aquilo/boca,abstract,high
+4,e,toward/from,para/de,abstract,high
+5,o,whole/unity,todo/unidade,abstract,high
+6,ma,mother/matter,mãe/matéria,human,high
+7,na,self/person,eu/pessoa,human,high
+8,ka,object/place,objeto/lugar,container,high
+9,ta,action/do,ação/fazer,operator,high
+10,sa,sacred/spirit,sagrado/espírito,ritual,high
+11,ra,flow/king,fluxo/rei,grid,high
+12,la,level/plane,nível/plano,grid,medium
+13,ya,motion/go,movimento/ir,abstract,medium
+14,ha,breath/spirit,sopro/espírito,abstract,medium
+15,wa,unity/weave,unidade/tecer,abstract,medium
+16,pa,part/father,parte/pai,human,medium
+17,ga,solid/grasp,sólido/agarrar,container,medium
+18,da,give/donate,dar/doar,operator,medium
+19,ko,structure,estrutura,architecture,medium
+20,ku,interior,interior,container,medium
+21,ki,sharp/cut,agudo/cortar,chevron,medium
+22,so,sun/solar,sol/solar,circle,medium
+23,su,water/sap,água/seiva,circle,medium
+24,si,sign/silk,signo/seda,plant,medium
+25,ri,order/ritual,ordem/ritual,operator,medium
+26,ru,path/track,caminho/trilha,grid,medium
+27,ro,rotation,rotação,circle,low
+28,re,relation,relação,grid,low
+29,li,line,linha,grid,low
+30,lu,light/plane,luz/plano,grid,low
+31,le,boundary,limite,grid,low
+32,we,weave/way,tecer/caminho,grid,low
+33,yo,union/yoke,união/jugo,circle,low
+34,yu,young/together,jovem/junto,circle,low
+35,yi,go/sprout,ir/brotar,abstract,low
+36,mi,person,pessoa,human,low
+37,mu,front/face,frente/face,human,low
+38,ni,you/self,você/si,human,low
+39,nu,new,novo,human,low
+40,mo,surface/mold,superfície/molde,container,low
+41,po,opening/port,abertura/porto,container,low
+42,pu,flower/young,flor/jovem,plant,low
+43,pi,small/skin,pequeno/pele,animal,low
+44,gi,beak/carry,bico/carregar,animal,low
+45,gu,throat/deep,garganta/profundo,animal,low
+46,go,good/capacity,bom/capacidade,container,low
+47,tak,strike ritual,batida ritual,ritual,low
+48,sak,sacred power,poder sagrado,ritual,low
+49,ram,cosmic order,ordem cósmica,ritual,low
+50,lam,ritual blade,lâmina ritual,ritual,low
+51,kam,desire love,desejo amor,ritual,low
+52,han,breath ritual,sopro ritual,ritual,low
+53,yum,union ritual,união ritual,ritual,low
+54,kum,pot vessel,pote vasilha,ritual,low
+55,kal,stone temple,pedra templo,architecture,low
+56,kul,clan family,clã família,architecture,low
+57,kar,make create,fazer criar,architecture,low
+58,tor,tower gate,torre portão,architecture,low
+59,dom,house domain,casa domínio,architecture,low
+60,mur,wall boundary,muro limite,architecture,low
+61,ama,great mother,grande mãe,human,low
+62,ani,elder year,ancião ano,human,low
+63,anu,heaven god,céu deus,human,low
+64,ima,this image,esta imagem,human,low
+65,ina,that from,aquele de,human,low
+66,inu,loyal dog,leal cão,human,low
+67,ti,time,tempo,number,medium
+68,tu,do/safe,fazer/seguro,number,medium
+69,hi,spirit/winter,espírito/inverno,chevron,low
+70,hu,soul/earth,alma/terra,chevron,low
+71,di,day,dia,operator,low
+72,du,double,duplo,operator,low
+73,ti,time count,tempo contagem,number,medium
+74,tu,measure,medida,number,medium
+75,amma,mother,mãe,human,high
+76,naan,I/self,eu,human,high
+77,tara,star/cross,estrela/cruz,circle,medium
+78,kara,hand/make,mão/fazer,human,medium
+79,vara,blessing,bênção,ritual,medium
+80,nara,man/person,homem/pessoa,human,medium
+81,para,beyond/other,além/outro,abstract,medium
+82,mara,death/tree,morte/árvore,plant,medium
+83,sara,flow/arrow,fluxo/flecha,operator,medium
+84,dara,hold/support,segurar/suporte,operator,low
+85,gara,swallow,engolir,animal,low
+86,hara,take/Shiva,tomar/Shiva,ritual,low
+87,yara,friend,amigo,human,low
+88,wara,shelter,abrigo,architecture,low
+89,kala,time/art,tempo/arte,abstract,medium
+90,mala,garland/rosary,guirlanda/rosário,ritual,low
+91,pala,fruit/protect,fruta/proteger,plant,low
+92,tala,palm/surface,palma/superfície,grid,low
+93,sala,hall/room,salão/sala,architecture,low
+94,vala,enclosure,cercado,architecture,low
+95,bala,strength,força,human,low
+96,nala,stem/reed,caule/junco,plant,low
+97,rasa,taste/essence,sabor/essência,abstract,medium
+98,dasa,ten/servant,dez/servo,number,low
+99,vasa,dwelling,moradia,architecture,low
+100,masa,moon/month,lua/mês,circle,medium
