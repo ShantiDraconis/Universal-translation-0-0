@@ -223,6 +223,7 @@ def calculate_random_probability(
     Calculate the probability that observed phonetic matches occur by chance.
     
     Uses a simplified binomial model with normal approximation for large samples.
+    Requires n*p >= 5 and n*(1-p) >= 5 for valid normal approximation.
     """
     if total_comparisons == 0:
         return 1.0
@@ -232,6 +233,14 @@ def calculate_random_probability(
     
     # Expected matches by chance
     expected_random = total_comparisons * p_random
+    
+    # Validate normal approximation conditions
+    # Rule of thumb: n*p >= 5 and n*(1-p) >= 5
+    np = total_comparisons * p_random
+    nq = total_comparisons * (1 - p_random)
+    if np < 5 or nq < 5:
+        # Sample too small for normal approximation, return conservative estimate
+        return 0.5
     
     # If observed is much higher than expected, probability of chance is low
     if observed_matches <= expected_random:
@@ -305,13 +314,17 @@ def generate_similarity_matrix(tokens: List[Token], top_n: int = 20) -> List[Lis
 def link_harappan_to_universal(
     signs: List[HarappanSign],
     tokens: List[Token]
-) -> List[Dict]:
+) -> Tuple[List[Dict], int]:
     """
     Create linkage table between Harappan signs and universal tokens.
+    
+    Returns:
+        Tuple of (list of linkages, count of unmatched signs)
     """
     links = []
     token_map = {t.token_id: t for t in tokens}
     token_name_map = {t.token: t for t in tokens}
+    unmatched_count = 0
     
     for sign in signs:
         link_token = sign.universal_token_link
@@ -333,8 +346,10 @@ def link_harappan_to_universal(
                     if c and c.strip() and c != '-'
                 )
             })
+        else:
+            unmatched_count += 1
     
-    return links
+    return links, unmatched_count
 
 
 def generate_report(tokens: List[Token], signs: List[HarappanSign]) -> str:
@@ -390,9 +405,11 @@ def generate_report(tokens: List[Token], signs: List[HarappanSign]) -> str:
     report.append("-" * 40)
     report.append(f"   Total Harappan signs catalogued: {len(signs)}")
     
-    links = link_harappan_to_universal(signs, tokens)
+    links, unmatched_count = link_harappan_to_universal(signs, tokens)
     linked_count = len(links)
     report.append(f"   Signs linked to universal tokens: {linked_count}")
+    if unmatched_count > 0:
+        report.append(f"   Signs without token match: {unmatched_count}")
     
     if links:
         avg_semantic = sum(l['semantic_alignment'] for l in links) / len(links)
