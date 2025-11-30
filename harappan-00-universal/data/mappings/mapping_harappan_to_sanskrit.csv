@@ -1,0 +1,136 @@
+harappan_sign,mahadevan_num,sanskrit_word,sanskrit_iast,sanskrit_meaning,phonetic_similarity,semantic_match,dravidian_connection,notes
+M-001,1,नर,nara,man/human,0.70,0.98,0.85,Strong human figure correlation
+M-002,2,पुरुष,puruṣa,person/man,0.60,0.95,0.80,Human variant
+M-003,3,भारक,bhāraka,carrier/bearer,0.55,0.90,0.75,Person carrying
+M-004,4,देव,deva,divine being,0.75,0.95,0.85,Sacred figure
+M-005,5,उपविष्ट,upaviṣṭa,seated,0.50,0.90,0.70,Seated position
+M-006,6,स्त्री,strī,woman,0.55,0.90,0.75,Female figure
+M-007,7,शिव,śiva,auspicious/deity,0.80,0.95,0.90,Proto-Shiva connection
+M-008,8,मत्स्य,matsya,fish,0.85,0.98,0.95,Strong fish match - mīn cognate
+M-009,9,मत्स्य-गृह,matsya-gṛha,fish house,0.65,0.85,0.80,Fish with shelter
+M-010,10,द्वि-मत्स्य,dvi-matsya,two fish,0.55,0.85,0.75,Dual fish
+M-011,11,त्रि-मत्स्य,tri-matsya,three fish,0.55,0.85,0.75,Triple fish
+M-012,12,मत्स्य,matsya,fish variant,0.85,0.95,0.95,Directional fish
+M-013,13,वृषभ,vṛṣabha,bull,0.80,0.98,0.90,Strong bull match
+M-014,14,वृषभ-खाद्य,vṛṣabha-khādya,feeding bull,0.60,0.85,0.75,Bull at manger
+M-015,15,गज,gaja,elephant,0.85,0.98,0.90,Strong elephant match
+M-016,16,गण्ड,gaṇḍa,rhinoceros,0.75,0.95,0.85,Horned animal
+M-017,17,व्याघ्र,vyāghra,tiger,0.80,0.98,0.85,Large feline
+M-018,18,मकर,makara,crocodile,0.80,0.95,0.90,River creature
+M-019,19,मयूर,mayūra,peacock,0.85,0.98,0.90,Distinctive bird
+M-020,20,गरुड,garuḍa,eagle,0.70,0.95,0.85,Bird of prey
+M-021,21,सर्प,sarpa,snake,0.75,0.98,0.85,Serpent match
+M-022,22,वृश्चिक,vṛścika,scorpion,0.70,0.95,0.80,Arachnid
+M-023,23,कर्कट,karkaṭa,crab,0.75,0.95,0.85,Crustacean
+M-024,24,कुम्भ,kumbha,jar/pot,0.85,0.98,0.95,Strong vessel match
+M-025,25,द्विहस्त-कुम्भ,dvihasta-kumbha,two-handled jar,0.55,0.90,0.75,Handled variant
+M-026,26,कलश,kalaśa,narrow vessel,0.70,0.90,0.85,Elongated vessel
+M-027,27,घट,ghaṭa,wide pot,0.75,0.95,0.85,Broad vessel
+M-028,28,आच्छादित-कुम्भ,ācchādita-kumbha,covered jar,0.50,0.85,0.70,Lidded vessel
+M-029,29,जल-पात्र,jala-pātra,water vessel,0.70,0.95,0.85,Water container
+M-030,30,भाण्ड,bhāṇḍa,storage pot,0.65,0.90,0.80,Large container
+M-031,31,चक्र,cakra,wheel,0.90,0.98,0.95,Strong wheel match
+M-032,32,रथ,ratha,chariot/cart,0.85,0.98,0.90,Vehicle
+M-033,33,हल,hala,plow,0.80,0.95,0.85,Agriculture tool
+M-034,34,परशु,paraśu,ax,0.75,0.95,0.85,Cutting tool
+M-035,35,बाण,bāṇa,arrow,0.80,0.98,0.85,Projectile
+M-036,36,धनुष,dhanuṣ,bow,0.85,0.98,0.90,Weapon
+M-037,37,शूल,śūla,spear/lance,0.75,0.95,0.85,Pole weapon
+M-038,38,खड्ग,khaḍga,dagger/sword,0.70,0.95,0.80,Blade
+M-039,39,कङ्कत,kaṅkata,comb,0.65,0.85,0.75,Grooming tool
+M-040,40,दर्पण,darpaṇa,mirror,0.70,0.90,0.80,Reflective
+M-041,41,एक,eka,one,0.90,0.98,0.95,Number match
+M-042,42,द्वि,dvi,two,0.90,0.98,0.95,Number match
+M-043,43,त्रि,tri,three,0.90,0.98,0.95,Number match
+M-044,44,चतुर्,catur,four,0.85,0.98,0.90,Number match
+M-045,45,पञ्च,pañca,five,0.85,0.98,0.90,Number match
+M-046,46,षट्,ṣaṭ,six,0.85,0.98,0.90,Number match
+M-047,47,सप्त,sapta,seven,0.90,0.98,0.95,Number match
+M-048,48,अष्ट,aṣṭa,eight,0.90,0.98,0.95,Number match
+M-049,49,दश,daśa,ten,0.85,0.98,0.90,Base number
+M-050,50,विंशति,viṃśati,twenty,0.75,0.95,0.85,Two tens
+M-051,51,अर्ध-चन्द्र,ardha-candra,half-moon shape,0.55,0.80,0.70,U-shape bracket
+M-052,52,तोरण,toraṇa,arch/gateway,0.65,0.85,0.75,Curved shape
+M-053,53,क्षेत्र,kṣetra,field,0.80,0.95,0.90,Enclosed space
+M-054,54,आयत,āyata,rectangle,0.60,0.85,0.75,Shape variant
+M-055,55,वज्र,vajra,diamond/thunderbolt,0.70,0.90,0.80,Gem shape
+M-056,56,त्रिकोण,trikoṇa,triangle,0.75,0.95,0.85,Mountain shape
+M-058,58,सूर्य,sūrya,sun,0.90,0.98,0.95,Solar match
+M-059,59,अर्ध-चन्द्र,ardha-candra,half moon,0.80,0.95,0.90,Lunar phase
+M-060,60,चन्द्र,candra,moon/crescent,0.85,0.98,0.90,Moon symbol
+M-061,61,स्वस्तिक,svastika,cross/auspicious,0.75,0.90,0.85,Intersection
+M-063,63,तारा,tārā,star,0.85,0.98,0.90,Night star
+M-065,65,जल,jala,water,0.90,0.98,0.95,Water waves - strong match
+M-066,66,तरङ्ग,taraṅga,wave,0.80,0.95,0.85,Flowing water
+M-068,68,सोपान,sopāna,ladder/steps,0.70,0.90,0.80,Vertical rungs
+M-071,71,वृक्ष,vṛkṣa,tree,0.85,0.98,0.90,Plant match
+M-072,72,ताल,tāla,palm tree,0.80,0.95,0.90,Date palm
+M-073,73,पिप्पल,pippala,pipal/sacred fig,0.90,0.98,0.95,Sacred tree - strong match
+M-074,74,पुष्प,puṣpa,flower,0.85,0.98,0.90,Blossom
+M-075,75,पद्म,padma,lotus,0.90,0.98,0.95,Water flower - strong match
+M-076,76,धान्य,dhānya,grain,0.80,0.95,0.85,Food plant
+M-077,77,व्रीहि,vrīhi,rice,0.75,0.90,0.85,Specific grain
+M-078,78,कार्पास,kārpāsa,cotton,0.70,0.90,0.80,Fiber plant
+M-079,79,अङ्कुर,aṅkura,sprout,0.70,0.90,0.80,New growth
+M-080,80,मूल,mūla,root,0.80,0.95,0.85,Underground plant
+M-081,81,गृह,gṛha,house,0.90,0.98,0.95,Dwelling - strong match
+M-082,82,मन्दिर,mandira,temple,0.85,0.98,0.90,Sacred building
+M-083,83,द्वार,dvāra,door/gate,0.90,0.98,0.95,Entrance - strong match
+M-084,84,प्राकार,prākāra,wall/rampart,0.70,0.95,0.85,Fortification
+M-085,85,गोपुर,gopura,tower/gateway,0.75,0.95,0.85,Elevated structure
+M-086,86,कूप,kūpa,well,0.85,0.98,0.90,Water source
+M-087,87,वेदिका,vedikā,platform/altar,0.70,0.90,0.80,Raised surface
+M-088,88,सोपान,sopāna,steps/stairway,0.75,0.95,0.85,Stairway
+M-089,89,सेतु,setu,bridge,0.80,0.95,0.85,Crossing structure
+M-090,90,नौ,nau,boat/ship,0.90,0.98,0.95,Watercraft - strong match
+M-091,91,कुल्या,kulyā,raft,0.65,0.85,0.75,Simple boat
+M-092,92,वात-यान,vāta-yāna,sail/wind vehicle,0.60,0.90,0.80,Sailing element
+M-093,93,अरित्र,aritra,oar,0.70,0.90,0.80,Rowing implement
+M-094,94,लङ्गर,laṅgara,anchor,0.65,0.85,0.75,Mooring device
+M-095,95,जाल,jāla,net,0.90,0.98,0.95,Fishing net - strong match
+M-096,96,अङ्कुश,aṅkuśa,hook/goad,0.75,0.95,0.85,Catching tool
+M-097,97,रज्जु,rajju,rope,0.85,0.98,0.90,Cordage
+M-098,98,ग्रन्थि,granthi,knot,0.75,0.95,0.85,Tied rope
+M-099,99,पटल,paṭala,basket,0.70,0.90,0.80,Container
+M-100,100,तुला,tulā,scale/balance,0.85,0.98,0.90,Weighing device
+M-101,101,हस्त,hasta,hand,0.95,0.98,0.95,Body part - strong match
+M-102,102,दक्षिण-हस्त,dakṣiṇa-hasta,right hand,0.80,0.95,0.85,Body part
+M-103,103,पाद,pāda,foot,0.95,0.98,0.95,Body part - strong match
+M-104,104,नेत्र,netra,eye,0.90,0.98,0.95,Seeing organ
+M-105,105,कर्ण,karṇa,ear,0.90,0.98,0.95,Hearing organ
+M-106,106,मुख,mukha,mouth/face,0.90,0.98,0.95,Speaking organ
+M-107,107,शिरस्,śiras,head,0.90,0.98,0.95,Body part
+M-108,108,हृदय,hṛdaya,heart,0.90,0.98,0.95,Center/emotion
+M-109,109,सूर्य,sūrya,sun,0.95,0.98,0.95,Solar disc - strong match
+M-110,110,चन्द्र,candra,moon,0.95,0.98,0.95,Lunar body - strong match
+M-111,111,नक्षत्र,nakṣatra,star/constellation,0.85,0.98,0.90,Night star
+M-112,112,ग्रह,graha,planet,0.80,0.95,0.85,Wandering star
+M-113,113,वर्ष,varṣa,rain,0.85,0.98,0.90,Precipitation
+M-114,114,मेघ,megha,cloud,0.80,0.95,0.85,Sky cover
+M-115,115,विद्युत्,vidyut,lightning,0.85,0.98,0.90,Storm flash
+M-116,116,वायु,vāyu,wind,0.90,0.98,0.95,Air movement
+M-117,117,पर्वत,parvata,mountain,0.90,0.98,0.95,Elevated land - strong match
+M-118,118,नदी,nadī,river,0.95,0.98,0.95,Water course - strong match
+M-119,119,समुद्र,samudra,sea/ocean,0.90,0.98,0.95,Large water
+M-120,120,द्वीप,dvīpa,island,0.85,0.95,0.90,Land in water
+M-121,121,मरुभूमि,marubhūmi,desert,0.75,0.90,0.80,Arid land
+M-122,122,वन,vana,forest,0.90,0.98,0.95,Wooded area
+M-123,123,क्षेत्र,kṣetra,field,0.85,0.98,0.90,Cultivated land
+M-124,124,मार्ग,mārga,road/path,0.90,0.98,0.95,Way - strong match
+M-125,125,सीमा,sīmā,border/boundary,0.80,0.95,0.85,Boundary
+M-126,126,नगर,nagara,city,0.90,0.98,0.95,Urban center
+M-127,127,ग्राम,grāma,village,0.90,0.98,0.95,Small settlement
+M-128,128,पत्तन,pattana,port/harbor,0.85,0.95,0.90,Harbor
+M-129,129,राजन्,rājan,king,0.95,0.98,0.95,Royal title - strong match
+M-130,130,राज्ञी,rājñī,queen,0.90,0.98,0.95,Female ruler
+M-131,131,पुरोहित,purohita,priest,0.90,0.98,0.95,Religious figure
+M-132,132,वणिज्,vaṇij,merchant,0.85,0.98,0.90,Trader
+M-133,133,शिल्पिन्,śilpin,craftsman,0.85,0.95,0.90,Artisan
+M-134,134,कृषक,kṛṣaka,farmer,0.85,0.98,0.90,Agricultural worker
+M-135,135,योधिन्,yodhin,warrior,0.85,0.95,0.90,Fighter
+M-136,136,लेखक,lekhaka,scribe,0.80,0.95,0.85,Writer
+M-137,137,कुम्भकार,kumbhakāra,potter,0.90,0.98,0.95,Ceramic maker - strong match
+M-138,138,तन्तुवाय,tantuvāya,weaver,0.80,0.95,0.85,Textile worker
+M-139,139,लोहकार,lohakāra,smith,0.85,0.95,0.90,Metal worker
+M-140,140,शिलाकार,śilākāra,mason,0.80,0.95,0.85,Stone worker
+M-417,417,अन्त,anta,end/finish,0.85,0.98,0.90,Terminal marker
