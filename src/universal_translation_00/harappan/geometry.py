@@ -99,6 +99,11 @@ class HarappanGeometry:
         "pa": "down", "pi": "down", "pu": "down",
     }
 
+    # Balance thresholds for elemental analysis
+    MONO_ELEMENTAL_COUNT = 1
+    DUAL_ELEMENTAL_COUNT = 2
+    BALANCED_MIN_COUNT = 4
+
     def __init__(self) -> None:
         """Initialize the geometry analyzer."""
         pass
@@ -239,10 +244,10 @@ class HarappanGeometry:
     def _calculate_balance(self, elements: list[str]) -> str:
         """Calculate elemental balance of a sequence."""
         counts = {e: elements.count(e) for e in set(elements)}
-        if len(counts) == 1:
+        if len(counts) == self.MONO_ELEMENTAL_COUNT:
             return "mono-elemental"
-        if len(counts) == 2:
+        if len(counts) == self.DUAL_ELEMENTAL_COUNT:
             return "dual-elemental"
-        if len(counts) >= 4:
+        if len(counts) >= self.BALANCED_MIN_COUNT:
             return "balanced"
         return "varied"

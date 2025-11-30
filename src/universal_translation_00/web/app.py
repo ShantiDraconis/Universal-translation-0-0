@@ -62,6 +62,22 @@ class SignResponse(BaseModel):
     cognates: dict
 
 
+class SignListResponse(BaseModel):
+    """Response model for sign list."""
+
+    id: str
+    group: str
+    group_full: str
+    phoneme: str
+    semantic_field: str
+    tamil_root: str
+    chinese_root: str
+    norse_root: str
+    latin_root: str
+    tupi_root: str
+    description: str
+
+
 # API Routes
 @app.get("/", response_class=HTMLResponse)
 async def root() -> str:
@@ -148,12 +164,12 @@ async def api_get_sign(sign_id: str) -> SignResponse:
     )
 
 
-@app.get("/api/signs")
+@app.get("/api/signs", response_model=list[SignListResponse])
 async def api_list_signs(
     group: Optional[str] = Query(None, description="Filter by group"),
     phoneme: Optional[str] = Query(None, description="Filter by phoneme"),
     limit: int = Query(50, le=417, description="Maximum results"),
-) -> list[dict]:
+) -> list[SignListResponse]:
     """List Harappan signs with optional filters."""
     if group:
         signs = harappan.get_signs_by_group(group)
