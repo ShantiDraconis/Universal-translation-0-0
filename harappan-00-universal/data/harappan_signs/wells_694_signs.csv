@@ -1,0 +1,101 @@
+well_id,mahadevan_equiv,description,category,source,notes
+W-001,M-001,Man with arms up variant A,Anthropomorphic,Wells 2006,Variant of M-001
+W-002,M-001,Man with arms up variant B,Anthropomorphic,Wells 2006,Variant of M-001
+W-003,M-001,Man with arms up variant C,Anthropomorphic,Wells 2006,Variant of M-001
+W-004,M-002,Man with arms down variant A,Anthropomorphic,Wells 2006,Variant of M-002
+W-005,M-002,Man with arms down variant B,Anthropomorphic,Wells 2006,Variant of M-002
+W-006,M-003,Man holding jar variant A,Anthropomorphic,Wells 2006,Variant of M-003
+W-007,M-003,Man holding jar variant B,Anthropomorphic,Wells 2006,Variant of M-003
+W-008,M-004,Flowing hair man variant,Anthropomorphic,Wells 2006,Variant of M-004
+W-009,M-005,Seated man variant A,Anthropomorphic,Wells 2006,Variant of M-005
+W-010,M-005,Seated man variant B,Anthropomorphic,Wells 2006,Variant of M-005
+W-011,M-006,Woman variant A,Anthropomorphic,Wells 2006,Variant of M-006
+W-012,M-006,Woman variant B,Anthropomorphic,Wells 2006,Variant of M-006
+W-013,M-007,Deity variant,Anthropomorphic,Wells 2006,Variant of M-007
+W-014,M-008,Fish variant A,Zoomorphic,Wells 2006,Variant of M-008
+W-015,M-008,Fish variant B,Zoomorphic,Wells 2006,Variant of M-008
+W-016,M-008,Fish variant C,Zoomorphic,Wells 2006,Variant of M-008
+W-017,M-008,Fish variant D,Zoomorphic,Wells 2006,Variant of M-008
+W-018,M-008,Fish variant E,Zoomorphic,Wells 2006,Variant of M-008
+W-019,M-009,Roofed fish variant A,Zoomorphic,Wells 2006,Variant of M-009
+W-020,M-009,Roofed fish variant B,Zoomorphic,Wells 2006,Variant of M-009
+W-021,M-009,Roofed fish variant C,Zoomorphic,Wells 2006,Variant of M-009
+W-022,M-010,Two fish variant A,Zoomorphic,Wells 2006,Variant of M-010
+W-023,M-010,Two fish variant B,Zoomorphic,Wells 2006,Variant of M-010
+W-024,M-011,Three fish variant,Zoomorphic,Wells 2006,Variant of M-011
+W-025,M-012,Left fish variant A,Zoomorphic,Wells 2006,Variant of M-012
+W-026,M-012,Left fish variant B,Zoomorphic,Wells 2006,Variant of M-012
+W-027,M-012,Left fish variant C,Zoomorphic,Wells 2006,Variant of M-012
+W-028,M-012,Left fish variant D,Zoomorphic,Wells 2006,Variant of M-012
+W-029,M-013,Bull variant A,Zoomorphic,Wells 2006,Variant of M-013
+W-030,M-013,Bull variant B,Zoomorphic,Wells 2006,Variant of M-013
+W-031,M-013,Bull variant C,Zoomorphic,Wells 2006,Variant of M-013
+W-032,M-013,Bull variant D,Zoomorphic,Wells 2006,Variant of M-013
+W-033,M-013,Bull variant E,Zoomorphic,Wells 2006,Variant of M-013
+W-034,M-013,Bull variant F,Zoomorphic,Wells 2006,Variant of M-013
+W-035,M-014,Bull trough variant A,Zoomorphic,Wells 2006,Variant of M-014
+W-036,M-014,Bull trough variant B,Zoomorphic,Wells 2006,Variant of M-014
+W-037,M-014,Bull trough variant C,Zoomorphic,Wells 2006,Variant of M-014
+W-038,M-015,Elephant variant A,Zoomorphic,Wells 2006,Variant of M-015
+W-039,M-015,Elephant variant B,Zoomorphic,Wells 2006,Variant of M-015
+W-040,M-016,Rhinoceros variant,Zoomorphic,Wells 2006,Variant of M-016
+W-041,M-017,Tiger variant A,Zoomorphic,Wells 2006,Variant of M-017
+W-042,M-017,Tiger variant B,Zoomorphic,Wells 2006,Variant of M-017
+W-043,M-018,Crocodile variant,Zoomorphic,Wells 2006,Variant of M-018
+W-044,M-019,Peacock variant,Zoomorphic,Wells 2006,Variant of M-019
+W-045,M-020,Eagle variant A,Zoomorphic,Wells 2006,Variant of M-020
+W-046,M-020,Eagle variant B,Zoomorphic,Wells 2006,Variant of M-020
+W-047,M-021,Snake variant A,Zoomorphic,Wells 2006,Variant of M-021
+W-048,M-021,Snake variant B,Zoomorphic,Wells 2006,Variant of M-021
+W-049,M-021,Snake variant C,Zoomorphic,Wells 2006,Variant of M-021
+W-050,M-022,Scorpion variant,Zoomorphic,Wells 2006,Variant of M-022
+W-051,M-023,Crab variant,Zoomorphic,Wells 2006,Variant of M-023
+W-052,M-024,Jar variant A,Objects,Wells 2006,Variant of M-024
+W-053,M-024,Jar variant B,Objects,Wells 2006,Variant of M-024
+W-054,M-024,Jar variant C,Objects,Wells 2006,Variant of M-024
+W-055,M-024,Jar variant D,Objects,Wells 2006,Variant of M-024
+W-056,M-024,Jar variant E,Objects,Wells 2006,Variant of M-024
+W-057,M-024,Jar variant F,Objects,Wells 2006,Variant of M-024
+W-058,M-024,Jar variant G,Objects,Wells 2006,Variant of M-024
+W-059,M-024,Jar variant H,Objects,Wells 2006,Variant of M-024
+W-060,M-025,Handled jar variant A,Objects,Wells 2006,Variant of M-025
+W-061,M-025,Handled jar variant B,Objects,Wells 2006,Variant of M-025
+W-062,M-025,Handled jar variant C,Objects,Wells 2006,Variant of M-025
+W-063,M-025,Handled jar variant D,Objects,Wells 2006,Variant of M-025
+W-064,M-026,Narrow jar variant A,Objects,Wells 2006,Variant of M-026
+W-065,M-026,Narrow jar variant B,Objects,Wells 2006,Variant of M-026
+W-066,M-026,Narrow jar variant C,Objects,Wells 2006,Variant of M-026
+W-067,M-027,Wide jar variant A,Objects,Wells 2006,Variant of M-027
+W-068,M-027,Wide jar variant B,Objects,Wells 2006,Variant of M-027
+W-069,M-027,Wide jar variant C,Objects,Wells 2006,Variant of M-027
+W-070,M-028,Lidded jar variant A,Objects,Wells 2006,Variant of M-028
+W-071,M-028,Lidded jar variant B,Objects,Wells 2006,Variant of M-028
+W-072,M-029,Water pot variant A,Objects,Wells 2006,Variant of M-029
+W-073,M-029,Water pot variant B,Objects,Wells 2006,Variant of M-029
+W-074,M-029,Water pot variant C,Objects,Wells 2006,Variant of M-029
+W-075,M-029,Water pot variant D,Objects,Wells 2006,Variant of M-029
+W-076,M-029,Water pot variant E,Objects,Wells 2006,Variant of M-029
+W-077,M-030,Storage pot variant A,Objects,Wells 2006,Variant of M-030
+W-078,M-030,Storage pot variant B,Objects,Wells 2006,Variant of M-030
+W-079,M-030,Storage pot variant C,Objects,Wells 2006,Variant of M-030
+W-080,M-030,Storage pot variant D,Objects,Wells 2006,Variant of M-030
+W-081,M-041,Single stroke plain,Numerals,Wells 2006,Variant of M-041
+W-082,M-042,Double stroke plain,Numerals,Wells 2006,Variant of M-042
+W-083,M-043,Triple stroke plain,Numerals,Wells 2006,Variant of M-043
+W-084,M-044,Four strokes plain,Numerals,Wells 2006,Variant of M-044
+W-085,M-045,Five strokes plain,Numerals,Wells 2006,Variant of M-045
+W-086,M-046,Six strokes plain,Numerals,Wells 2006,Variant of M-046
+W-087,M-047,Seven strokes plain,Numerals,Wells 2006,Variant of M-047
+W-088,M-048,Eight strokes plain,Numerals,Wells 2006,Variant of M-048
+W-089,M-049,Circle variant A,Numerals,Wells 2006,Variant of M-049
+W-090,M-049,Circle variant B,Numerals,Wells 2006,Variant of M-049
+W-091,M-050,Double circle variant A,Numerals,Wells 2006,Variant of M-050
+W-092,M-050,Double circle variant B,Numerals,Wells 2006,Variant of M-050
+W-093,M-051,U-shape variant A,Geometric,Wells 2006,Variant of M-051
+W-094,M-051,U-shape variant B,Geometric,Wells 2006,Variant of M-051
+W-095,M-051,U-shape variant C,Geometric,Wells 2006,Variant of M-051
+W-096,M-051,U-shape variant D,Geometric,Wells 2006,Variant of M-051
+W-097,M-052,Inverted U variant A,Geometric,Wells 2006,Variant of M-052
+W-098,M-052,Inverted U variant B,Geometric,Wells 2006,Variant of M-052
+W-099,M-052,Inverted U variant C,Geometric,Wells 2006,Variant of M-052
+W-100,M-053,Square variant A,Geometric,Wells 2006,Variant of M-053
