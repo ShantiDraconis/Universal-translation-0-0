@@ -5,7 +5,7 @@ Maps text and phonemes to Harappan sign equivalents.
 """
 
 from dataclasses import dataclass
-from typing import Dict, List
+# Modern Python typing (3.10+)
 
 from ute00.harappan.signs import HarappanSign, HarappanSignSystem
 
@@ -15,9 +15,9 @@ class HarappanMapping:
     """Result of mapping text to Harappan signs."""
 
     original: str
-    signs: List[HarappanSign]
+    signs: list[HarappanSign]
     total_numeric_value: int
-    dynamics: List[str]
+    dynamics: list[str]
 
 
 class HarappanMapper:
@@ -28,7 +28,7 @@ class HarappanMapper:
     """
 
     # Phoneme to sign category mappings
-    PHONEME_CATEGORY_MAP: Dict[str, str] = {
+    PHONEME_CATEGORY_MAP: dict[str, str] = {
         # Vowels map to elemental/abstract
         "a": "elemental",
         "e": "elemental",
@@ -111,7 +111,7 @@ class HarappanMapper:
             return signs[0] if signs else None
         return None
 
-    def get_sign_sequence(self, text: str) -> List[str]:
+    def get_sign_sequence(self, text: str) -> list[str]:
         """
         Get the symbol sequence for text.
 

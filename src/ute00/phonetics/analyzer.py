@@ -5,7 +5,6 @@ Provides phonetic analysis and phoneme-to-number mapping.
 """
 
 from dataclasses import dataclass
-from typing import List, Tuple
 
 
 @dataclass
@@ -71,7 +70,7 @@ class PhoneticAnalyzer:
         """Initialize the PhoneticAnalyzer."""
         self._cache: dict = {}
 
-    def analyze(self, text: str) -> List[PhonemeMapping]:
+    def analyze(self, text: str) -> list[PhonemeMapping]:
         """
         Analyze text and return phoneme mappings.
 
@@ -99,7 +98,7 @@ class PhoneticAnalyzer:
         """
         return self.PHONEME_MAPPINGS.get(phoneme.lower())
 
-    def calculate_phi(self, phoneme: str) -> Tuple[float, float, float] | None:
+    def calculate_phi(self, phoneme: str) -> tuple[float, float, float] | None:
         """
         Calculate the Φ(f) = (n_r, n_i, n_s) for a phoneme.
 

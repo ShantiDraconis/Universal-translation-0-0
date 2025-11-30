@@ -5,7 +5,7 @@ Analyzes text for archetypal and symbolic content.
 """
 
 from dataclasses import dataclass
-from typing import Dict, List
+# Modern Python typing (3.10+)
 
 from ute00.symbolic.archetypes import Archetype, ArchetypalSystem
 
@@ -15,9 +15,9 @@ class SymbolicAnalysis:
     """Result of symbolic analysis."""
 
     original: str
-    detected_archetypes: List[Archetype]
-    dominant_elements: List[str]
-    vibration_profile: Dict[str, int]
+    detected_archetypes: list[Archetype]
+    dominant_elements: list[str]
+    vibration_profile: dict[str, int]
     symbolic_meaning: str
 
 
@@ -29,7 +29,7 @@ class SymbolicAnalyzer:
     """
 
     # Word to archetype mapping (simplified)
-    WORD_ARCHETYPE_MAP: Dict[str, str] = {
+    WORD_ARCHETYPE_MAP: dict[str, str] = {
         # Mother archetype keywords
         "mother": "mother",
         "mãe": "mother",
@@ -123,8 +123,8 @@ class SymbolicAnalyzer:
         """
         words = text.lower().split()
         detected = []
-        element_counts: Dict[str, int] = {}
-        vibration_counts: Dict[str, int] = {}
+        element_counts: dict[str, int] = {}
+        vibration_counts: dict[str, int] = {}
 
         for word in words:
             # Clean punctuation
@@ -162,7 +162,7 @@ class SymbolicAnalyzer:
         )
 
     def _generate_meaning(
-        self, archetypes: List[Archetype], elements: List[str]
+        self, archetypes: list[Archetype], elements: list[str]
     ) -> str:
         """
         Generate a symbolic meaning summary.

@@ -5,7 +5,7 @@ Defines the core archetypes for symbolic analysis.
 """
 
 from dataclasses import dataclass
-from typing import Dict, List
+# Modern Python typing (3.10+)
 
 
 @dataclass
@@ -23,8 +23,8 @@ class Archetype:
 
     name: str
     symbol: str
-    meanings: List[str]
-    elements: List[str]
+    meanings: list[str]
+    elements: list[str]
     vibration: str
 
 
@@ -40,7 +40,7 @@ class ArchetypalSystem:
     - Primordial water
     """
 
-    ARCHETYPES: Dict[str, Archetype] = {
+    ARCHETYPES: dict[str, Archetype] = {
         # Core 5 archetypes from UTE-0/0 system
         "mother": Archetype(
             name="mother",
@@ -165,7 +165,7 @@ class ArchetypalSystem:
 
     def __init__(self):
         """Initialize the archetypal system."""
-        self._by_element: Dict[str, List[Archetype]] = {}
+        self._by_element: dict[str, list[Archetype]] = {}
         for archetype in self.ARCHETYPES.values():
             for element in archetype.elements:
                 if element not in self._by_element:
@@ -184,7 +184,7 @@ class ArchetypalSystem:
         """
         return self.ARCHETYPES.get(name.lower())
 
-    def get_by_element(self, element: str) -> List[Archetype]:
+    def get_by_element(self, element: str) -> list[Archetype]:
         """
         Get archetypes associated with an element.
 
@@ -196,7 +196,7 @@ class ArchetypalSystem:
         """
         return self._by_element.get(element.lower(), [])
 
-    def get_by_vibration(self, vibration: str) -> List[Archetype]:
+    def get_by_vibration(self, vibration: str) -> list[Archetype]:
         """
         Get archetypes by vibrational quality.
 
@@ -210,7 +210,7 @@ class ArchetypalSystem:
             a for a in self.ARCHETYPES.values() if a.vibration == vibration.lower()
         ]
 
-    def find_by_meaning(self, meaning: str) -> List[Archetype]:
+    def find_by_meaning(self, meaning: str) -> list[Archetype]:
         """
         Find archetypes containing a specific meaning.
 
@@ -223,7 +223,7 @@ class ArchetypalSystem:
         meaning = meaning.lower()
         return [a for a in self.ARCHETYPES.values() if meaning in a.meanings]
 
-    def get_core_archetypes(self) -> List[Archetype]:
+    def get_core_archetypes(self) -> list[Archetype]:
         """
         Get the core 5 archetypes of UTE-0/0.
 
@@ -234,6 +234,6 @@ class ArchetypalSystem:
         return [self.ARCHETYPES[name] for name in core_names]
 
     @property
-    def all_archetypes(self) -> List[Archetype]:
+    def all_archetypes(self) -> list[Archetype]:
         """Return all archetypes."""
         return list(self.ARCHETYPES.values())

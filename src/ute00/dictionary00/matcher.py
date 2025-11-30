@@ -5,7 +5,6 @@ Matches words to primordial roots using phonetic similarity.
 """
 
 from dataclasses import dataclass
-from typing import List, Tuple
 
 from ute00.dictionary00.roots import UniversalRoot, UniversalRoots
 
@@ -34,7 +33,7 @@ class RootMatcher:
         """Initialize the root matcher."""
         self.roots = UniversalRoots()
 
-    def match_word(self, word: str, top_n: int = 5) -> List[RootMatch]:
+    def match_word(self, word: str, top_n: int = 5) -> list[RootMatch]:
         """
         Find matching primordial roots for a word.
 
@@ -121,7 +120,7 @@ class RootMatcher:
         """
         return self.roots.get_root_by_meaning(meaning)
 
-    def get_related_roots(self, root: UniversalRoot) -> List[UniversalRoot]:
+    def get_related_roots(self, root: UniversalRoot) -> list[UniversalRoot]:
         """
         Get roots related by semantic field.
 
@@ -133,7 +132,7 @@ class RootMatcher:
         """
         return self.roots.get_roots_by_field(root.semantic_field)
 
-    def analyze_etymology(self, word: str) -> List[Tuple[str, UniversalRoot]]:
+    def analyze_etymology(self, word: str) -> list[tuple[str, UniversalRoot]]:
         """
         Analyze possible etymological connections.
 

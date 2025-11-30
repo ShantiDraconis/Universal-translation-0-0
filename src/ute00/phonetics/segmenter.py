@@ -5,7 +5,7 @@ Provides segmentation and mirroring functionality for phonetic analysis.
 """
 
 from dataclasses import dataclass
-from typing import List
+# Modern Python typing (3.10+)
 
 
 @dataclass
@@ -15,9 +15,9 @@ class SegmentationResult:
     original: str
     horizontal_inversion: str
     vertical_inversion: str
-    syllables: List[str]
-    phonemes: List[str]
-    nuclear_vowels: List[str]
+    syllables: list[str]
+    phonemes: list[str]
+    nuclear_vowels: list[str]
 
 
 class PhoneticSegmenter:
@@ -115,7 +115,7 @@ class PhoneticSegmenter:
             result.append(self.VERTICAL_MIRROR.get(char, char))
         return "".join(result)
 
-    def syllabify(self, text: str) -> List[str]:
+    def syllabify(self, text: str) -> list[str]:
         """
         Basic syllabification of text.
 
@@ -161,7 +161,7 @@ class PhoneticSegmenter:
 
         return syllables if syllables else [text]
 
-    def extract_phonemes(self, text: str) -> List[str]:
+    def extract_phonemes(self, text: str) -> list[str]:
         """
         Extract individual phonemes from text.
 
@@ -173,7 +173,7 @@ class PhoneticSegmenter:
         """
         return [char for char in text.lower() if char.isalpha()]
 
-    def extract_nuclear_vowels(self, text: str) -> List[str]:
+    def extract_nuclear_vowels(self, text: str) -> list[str]:
         """
         Extract nuclear vowels from text.
 

@@ -5,7 +5,7 @@ Calculates numerical values using the four numerology systems.
 """
 
 from dataclasses import dataclass
-from typing import Dict, List
+# Modern Python typing (3.10+)
 
 from ute00.numerology.systems import (
     NUMEROLOGY_SYSTEMS,
@@ -42,7 +42,7 @@ class NumerologyCalculator:
     MASTER_NUMBERS = {11, 22, 33, 44}
 
     # Number interpretations
-    NUMBER_MEANINGS: Dict[int, str] = {
+    NUMBER_MEANINGS: dict[int, str] = {
         1: "Unity, beginning, individuality, leadership",
         2: "Duality, partnership, balance, cooperation",
         3: "Creation, expression, synthesis, growth",
@@ -184,7 +184,7 @@ class NumerologyCalculator:
 
     def get_letter_values(
         self, text: str, system_type: NumerologyType
-    ) -> List[tuple[str, int]]:
+    ) -> list[tuple[str, int]]:
         """
         Get individual letter values.
 
@@ -198,7 +198,7 @@ class NumerologyCalculator:
         system = self.systems[system_type]
         return [(char, system.letter_values.get(char, 0)) for char in text.lower()]
 
-    def compare_systems(self, text: str) -> Dict[str, tuple[int, int]]:
+    def compare_systems(self, text: str) -> dict[str, tuple[int, int]]:
         """
         Compare results across all systems.
 

@@ -5,7 +5,7 @@ Contains the 1000 primordial word roots of the Universal Dictionary 00.
 """
 
 from dataclasses import dataclass
-from typing import Dict, List
+# Modern Python typing (3.10+)
 
 
 @dataclass
@@ -27,7 +27,7 @@ class UniversalRoot:
     meaning: str
     phonetic_class: str
     semantic_field: str
-    related_languages: List[str]
+    related_languages: list[str]
 
 
 class UniversalRoots:
@@ -43,7 +43,7 @@ class UniversalRoots:
 
     # Initial set of primordial roots (representative sample)
     # Full dictionary would contain 1000 roots
-    ROOTS: Dict[int, UniversalRoot] = {
+    ROOTS: dict[int, UniversalRoot] = {
         # Water/Liquid roots
         1: UniversalRoot(
             1,
@@ -331,10 +331,10 @@ class UniversalRoots:
 
     def __init__(self):
         """Initialize the Universal Roots dictionary."""
-        self._by_meaning: Dict[str, UniversalRoot] = {
+        self._by_meaning: dict[str, UniversalRoot] = {
             root.meaning: root for root in self.ROOTS.values()
         }
-        self._by_field: Dict[str, List[UniversalRoot]] = {}
+        self._by_field: dict[str, list[UniversalRoot]] = {}
         for root in self.ROOTS.values():
             if root.semantic_field not in self._by_field:
                 self._by_field[root.semantic_field] = []
@@ -364,7 +364,7 @@ class UniversalRoots:
         """
         return self._by_meaning.get(meaning)
 
-    def get_roots_by_field(self, field: str) -> List[UniversalRoot]:
+    def get_roots_by_field(self, field: str) -> list[UniversalRoot]:
         """
         Get all roots in a semantic field.
 
@@ -376,7 +376,7 @@ class UniversalRoots:
         """
         return self._by_field.get(field, [])
 
-    def get_all_fields(self) -> List[str]:
+    def get_all_fields(self) -> list[str]:
         """
         Get all semantic field names.
 
@@ -385,7 +385,7 @@ class UniversalRoots:
         """
         return list(self._by_field.keys())
 
-    def search_by_phonetic_class(self, phonetic_class: str) -> List[UniversalRoot]:
+    def search_by_phonetic_class(self, phonetic_class: str) -> list[UniversalRoot]:
         """
         Search roots by phonetic class.
 
@@ -401,7 +401,7 @@ class UniversalRoots:
             if root.phonetic_class == phonetic_class
         ]
 
-    def search_by_language(self, language: str) -> List[UniversalRoot]:
+    def search_by_language(self, language: str) -> list[UniversalRoot]:
         """
         Search roots that have cognates in a language.
 

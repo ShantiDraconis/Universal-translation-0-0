@@ -10,7 +10,7 @@ Defines the four numerology systems used in Phase 6:
 
 from dataclasses import dataclass
 from enum import Enum
-from typing import Dict
+# Modern Python typing (3.10+)
 
 
 class NumerologyType(Enum):
@@ -35,11 +35,11 @@ class NumerologySystem:
 
     name: str
     description: str
-    letter_values: Dict[str, int]
+    letter_values: dict[str, int]
 
 
 # Pythagorean numerology: most common Western system
-PYTHAGOREAN_VALUES: Dict[str, int] = {
+PYTHAGOREAN_VALUES: dict[str, int] = {
     "a": 1,
     "b": 2,
     "c": 3,
@@ -69,7 +69,7 @@ PYTHAGOREAN_VALUES: Dict[str, int] = {
 }
 
 # Kabbalistic/Hebrew numerology (Gematria-inspired)
-KABBALISTIC_VALUES: Dict[str, int] = {
+KABBALISTIC_VALUES: dict[str, int] = {
     "a": 1,
     "b": 2,
     "c": 3,
@@ -99,7 +99,7 @@ KABBALISTIC_VALUES: Dict[str, int] = {
 }
 
 # Astrological numerology (based on planetary associations)
-ASTROLOGICAL_VALUES: Dict[str, int] = {
+ASTROLOGICAL_VALUES: dict[str, int] = {
     "a": 1,  # Sun
     "b": 2,  # Moon
     "c": 3,  # Jupiter
@@ -129,7 +129,7 @@ ASTROLOGICAL_VALUES: Dict[str, int] = {
 }
 
 # Mirrored numerology (reflection system for UTE-0/0)
-MIRRORED_VALUES: Dict[str, int] = {
+MIRRORED_VALUES: dict[str, int] = {
     "a": 9,
     "b": 8,
     "c": 7,
@@ -159,7 +159,7 @@ MIRRORED_VALUES: Dict[str, int] = {
 }
 
 # System definitions
-NUMEROLOGY_SYSTEMS: Dict[NumerologyType, NumerologySystem] = {
+NUMEROLOGY_SYSTEMS: dict[NumerologyType, NumerologySystem] = {
     NumerologyType.PYTHAGOREAN: NumerologySystem(
         name="Pythagorean",
         description="Western numerology based on Pythagorean number philosophy",
@@ -196,7 +196,7 @@ def get_system(system_type: NumerologyType) -> NumerologySystem:
     return NUMEROLOGY_SYSTEMS[system_type]
 
 
-def get_all_systems() -> Dict[NumerologyType, NumerologySystem]:
+def get_all_systems() -> dict[NumerologyType, NumerologySystem]:
     """
     Get all numerology systems.
 

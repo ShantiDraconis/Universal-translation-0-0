@@ -5,7 +5,7 @@ Defines the 12 linguistic families used in Phase 4.
 """
 
 from dataclasses import dataclass
-from typing import Dict, List
+# Modern Python typing (3.10+)
 
 
 @dataclass
@@ -22,10 +22,10 @@ class LinguisticFamily:
     """
 
     name: str
-    languages: List[str]
+    languages: list[str]
     region: str
-    characteristics: List[str]
-    sample_words: Dict[str, str]
+    characteristics: list[str]
+    sample_words: dict[str, str]
 
 
 class LinguisticFamilySystem:
@@ -35,7 +35,7 @@ class LinguisticFamilySystem:
     Implements Phase 4 of the pipeline.
     """
 
-    FAMILIES: Dict[str, LinguisticFamily] = {
+    FAMILIES: dict[str, LinguisticFamily] = {
         "tupi": LinguisticFamily(
             name="Tupi",
             languages=["Tupinambá", "Guarani", "Nheengatu", "Tupi Antigo"],
@@ -270,7 +270,7 @@ class LinguisticFamilySystem:
         """
         return self.FAMILIES.get(name.lower())
 
-    def get_all_families(self) -> List[LinguisticFamily]:
+    def get_all_families(self) -> list[LinguisticFamily]:
         """
         Get all linguistic families.
 
@@ -279,7 +279,7 @@ class LinguisticFamilySystem:
         """
         return list(self.FAMILIES.values())
 
-    def find_cognates(self, word: str, meaning: str) -> Dict[str, str]:
+    def find_cognates(self, word: str, meaning: str) -> dict[str, str]:
         """
         Find cognates for a concept across families.
 
@@ -296,7 +296,7 @@ class LinguisticFamilySystem:
                 cognates[name] = family.sample_words[meaning]
         return cognates
 
-    def get_families_by_region(self, region_keyword: str) -> List[LinguisticFamily]:
+    def get_families_by_region(self, region_keyword: str) -> list[LinguisticFamily]:
         """
         Get families by geographic region.
 
@@ -312,7 +312,7 @@ class LinguisticFamilySystem:
 
     def get_families_by_characteristic(
         self, characteristic: str
-    ) -> List[LinguisticFamily]:
+    ) -> list[LinguisticFamily]:
         """
         Get families sharing a linguistic characteristic.
 

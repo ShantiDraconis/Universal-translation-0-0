@@ -6,7 +6,7 @@ Symbol → Number → Dynamics
 """
 
 from dataclasses import dataclass
-from typing import Dict, List
+# Modern Python typing (3.10+)
 
 
 @dataclass
@@ -39,7 +39,7 @@ class HarappanSignSystem:
 
     # Initial set of key Harappan signs (simplified representation)
     # Full system would contain all 417 documented signs
-    SIGNS: Dict[int, HarappanSign] = {
+    SIGNS: dict[int, HarappanSign] = {
         # Anthropomorphic signs
         1: HarappanSign(1, "𐠀", 1, "human_standing", "anthropomorphic"),
         2: HarappanSign(2, "𐠁", 2, "human_seated", "anthropomorphic"),
@@ -89,7 +89,7 @@ class HarappanSignSystem:
 
     def __init__(self):
         """Initialize the Harappan sign system."""
-        self._reverse_lookup: Dict[str, HarappanSign] = {
+        self._reverse_lookup: dict[str, HarappanSign] = {
             sign.symbol: sign for sign in self.SIGNS.values()
         }
 
@@ -117,7 +117,7 @@ class HarappanSignSystem:
         """
         return self._reverse_lookup.get(symbol)
 
-    def get_signs_by_category(self, category: str) -> List[HarappanSign]:
+    def get_signs_by_category(self, category: str) -> list[HarappanSign]:
         """
         Get all signs in a category.
 
@@ -142,7 +142,7 @@ class HarappanSignSystem:
         sign = self.get_sign(sign_id)
         return sign.numeric_value if sign else None
 
-    def get_all_categories(self) -> List[str]:
+    def get_all_categories(self) -> list[str]:
         """
         Get all unique sign categories.
 

@@ -13,7 +13,6 @@ Where:
 """
 
 from dataclasses import dataclass
-from typing import Any, Dict, List
 
 from ute00.phonetics.analyzer import PhoneticAnalyzer, PhonemeMapping
 from ute00.phonetics.segmenter import PhoneticSegmenter, SegmentationResult
@@ -37,16 +36,16 @@ class TranslationResult:
 
     # Phase 1: Segmentation
     segmentation: SegmentationResult
-    phoneme_mappings: List[PhonemeMapping]
+    phoneme_mappings: list[PhonemeMapping]
 
     # Phase 2: Dictionary 00
-    root_matches: List[RootMatch]
+    root_matches: list[RootMatch]
 
     # Phase 3: Harappan
     harappan: HarappanMapping
 
     # Phase 4: Linguistic families (cognates)
-    cognates: Dict[str, str]
+    cognates: dict[str, str]
 
     # Phase 5: Symbolic analysis
     symbolic: SymbolicAnalysis
@@ -142,7 +141,7 @@ class UniversalTranslator:
             indetermination_operator=self.I,
         )
 
-    def _find_cognates(self, text: str) -> Dict[str, str]:
+    def _find_cognates(self, text: str) -> dict[str, str]:
         """
         Find cognates for words in text across linguistic families.
 
@@ -183,7 +182,7 @@ class UniversalTranslator:
         self,
         text: str,
         segmentation: SegmentationResult,
-        root_matches: List[RootMatch],
+        root_matches: list[RootMatch],
         harappan: HarappanMapping,
         symbolic: SymbolicAnalysis,
         numerology: NumerologyResult,
@@ -246,7 +245,7 @@ class UniversalTranslator:
         """
         return self.phonetic_analyzer.get_total_vibration(text)
 
-    def get_harappan_sequence(self, text: str) -> List[str]:
+    def get_harappan_sequence(self, text: str) -> list[str]:
         """
         Get the Harappan symbol sequence for text.
 
@@ -258,7 +257,7 @@ class UniversalTranslator:
         """
         return self.harappan_mapper.get_sign_sequence(text)
 
-    def get_archetypes(self, text: str) -> List[str]:
+    def get_archetypes(self, text: str) -> list[str]:
         """
         Get detected archetypes in text.
 
@@ -271,7 +270,7 @@ class UniversalTranslator:
         analysis = self.symbolic_analyzer.analyze(text)
         return [a.name for a in analysis.detected_archetypes]
 
-    def compare_numerology(self, text: str) -> Dict[str, tuple[int, int]]:
+    def compare_numerology(self, text: str) -> dict[str, tuple[int, int]]:
         """
         Compare numerology across all systems.
 
