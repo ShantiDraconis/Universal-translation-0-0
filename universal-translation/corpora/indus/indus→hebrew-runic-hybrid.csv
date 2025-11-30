@@ -1,0 +1,101 @@
+indus_sign,indus_phoneme,hebrew_word,hebrew_transliteration,runic_equivalent,runic_name,hybrid_meaning,semantic_category,confidence_score,kabbalistic_value,notes
+M-001,A,אָדָם,adam,ᚨ,ansuz,person/breath divine,anthropomorphic,0.92,45,Universal human - breath of Odin
+M-002,AN,שָׁמַיִם,shamayim,ᚨᚾ,ansuz-nauthiz,sky/divine need,celestial,0.88,390,Heavens - divine necessity connection
+M-003,AMA,אֵם,em,ᚨᛗᚨ,ansuz-mannaz-ansuz,mother divine,anthropomorphic,0.98,41,Universal mother - breath-human-breath
+M-004,BA,אָב,av,ᛒ,berkano,father/birch,anthropomorphic,0.85,3,Father - growth/fertility connection
+M-005,DA,נָתַן,natan,ᛞ,dagaz,give/day breakthrough,action,0.80,500,Giving - dawn transformation
+M-006,GA,הָלַךְ,halakh,ᚷ,gebo,go/gift,motion,0.75,55,Movement - gift exchange
+M-007,HA,נְשָׁמָה,neshamah,ᚺ,hagalaz,breath/hail,vital,0.78,395,Life breath - transformative ice
+M-008,KA,רֹאשׁ,rosh,ᚲ,kenaz,head/torch,body_part,0.82,501,Authority - illuminating flame
+M-009,LA,לָשׁוֹן,lashon,ᛚ,laguz,tongue/water,body_part,0.80,386,Speech - flowing water
+M-010,MA,מַיִם,mayim,ᛗ,mannaz,water/humanity,element,0.95,90,Water element - human essence
+M-011,NA,שֵׁם,shem,ᚾ,nauthiz,name/need,identity,0.85,340,Name/identity - necessity
+M-012,NU,חָדָשׁ,chadash,ᚾᚢ,nauthiz-uruz,new/need-strength,temporal,0.78,312,Newness - need for strength
+M-013,PA,שָׁמַר,shamar,ᛈ,perthro,protect/fate,action,0.80,540,Protection - destiny unfolds
+M-014,RA,שֶׁמֶשׁ,shemesh,ᚱ,raido,sun/ride journey,celestial,0.92,640,Solar - journey/wheel connection
+M-015,SA,כֹּל,kol,ᛊ,sowilo,all/sun,completeness,0.75,50,Completeness - solar totality
+M-016,SHA,שָׁלוֹם,shalom,ᛊᚺ,sowilo-hagalaz,peace/sun-hail,spiritual,0.88,376,Peace - transformative light
+M-017,TA,זֶה,zeh,ᛏ,tiwaz,that/Tyr justice,deictic,0.90,12,Demonstrative - justice marker
+M-018,VA,דָּבָר,davar,ᚹ,wunjo,word/joy,communication,0.82,206,Speech - joyful expression
+M-019,YA,יָצָא,yatsa,ᛃ,jera,go/year harvest,motion,0.78,101,Movement - cyclical harvest
+M-020,I,אֲנִי,ani,ᛁ,isa,self/ice,identity,0.95,61,Core identity - stillness/ice
+M-021,OM,אוֹם,om,ᛟ,othala,sacred/inheritance,spiritual,0.98,47,Sacred syllable - ancestral home
+M-022,U,מַעַל,ma'al,ᚢ,uruz,up/aurochs strength,spatial,0.80,140,Upward - primal strength
+M-023,E,פֹּה,poh,ᛖ,ehwaz,here/horse partnership,location,0.85,85,Location - partnership movement
+M-024,O,מָקוֹר,makor,ᛟ,othala,origin/inheritance,foundational,0.82,346,Source - ancestral origin
+M-025,MBOI,נָחָשׁ,nachash,ᛗᛒᛟᛁ,mannaz-berkano-othala-isa,serpent/human-growth-home-ice,zoomorphic,0.90,358,Serpent archetype - transformation cycle
+M-026,TUPA,רַעַם,ra'am,ᛏᚢᛈᚨ,tiwaz-uruz-perthro-ansuz,thunder/justice-strength-fate-breath,celestial,0.72,310,Thunder - divine justice manifestation
+M-027,PARA,מֵעֵבֶר,me'ever,ᛈᚨᚱᚨ,perthro-ansuz-raido-ansuz,beyond/fate-breath-journey-breath,transcendence,0.78,317,Transcendence - destiny journey
+M-028,KARA,יָד,yad,ᚲᚨᚱᚨ,kenaz-ansuz-raido-ansuz,hand/torch-breath-journey-breath,body_part,0.95,14,Hand symbol - illuminated action
+M-029,MARA,מָוֶת,mavet,ᛗᚨᚱᚨ,mannaz-ansuz-raido-ansuz,death/human-breath-journey-breath,transformation,0.92,446,Death - human journey transition
+M-030,VARA,בְּרָכָה,berakah,ᚹᚨᚱᚨ,wunjo-ansuz-raido-ansuz,blessing/joy-breath-journey-breath,spiritual,0.88,227,Blessing - joyful breath journey
+M-031,NAGA,נָגָה,nagah,ᚾᚨᚷᚨ,nauthiz-ansuz-gebo-ansuz,serpent/need-breath-gift-breath,zoomorphic,0.95,58,Snake deity - needed gift of breath
+M-032,DEVA,אֵל,el,ᛞᛖᚹᚨ,dagaz-ehwaz-wunjo-ansuz,divine/day-horse-joy-breath,divine,0.92,31,Divine being - dawn partnership joy
+M-033,AGNI,אֵשׁ,esh,ᚨᚷᚾᛁ,ansuz-gebo-nauthiz-isa,fire/breath-gift-need-ice,element,0.95,301,Fire element - transformative gift
+M-034,VAYU,רוּחַ,ruach,ᚹᚨᛃᚢ,wunjo-ansuz-jera-uruz,wind/joy-breath-harvest-strength,element,0.90,214,Wind element - joyful harvest strength
+M-035,PRTHVI,אֲדָמָה,adamah,ᛈᚱᚦᚹᛁ,perthro-raido-thurisaz-wunjo-isa,earth/fate-journey-giant-joy-ice,element,0.85,55,Earth element - destiny journey
+M-036,AKASHA,תֹּהוּ,tohu,ᚨᚲᚨᛊᚺᚨ,ansuz-kenaz-ansuz-sowilo-hagalaz-ansuz,space/breath-torch-breath-sun-hail-breath,element,0.88,411,Space/void - illuminated transformation
+M-037,JALA,מַיִם,mayim,ᛃᚨᛚᚨ,jera-ansuz-laguz-ansuz,water/harvest-breath-water-breath,element,0.92,90,Water element - cyclical flow
+M-038,SURYA,שֶׁמֶשׁ,shemesh,ᛊᚢᚱᛃᚨ,sowilo-uruz-raido-jera-ansuz,sun/sun-strength-journey-harvest-breath,celestial,0.95,640,Sun deity - solar strength journey
+M-039,CHANDRA,יָרֵחַ,yareach,ᚲᚺᚨᚾᛞᚱᚨ,kenaz-hagalaz-ansuz-nauthiz-dagaz-raido-ansuz,moon/torch-hail-breath-need-day-journey-breath,celestial,0.95,218,Moon deity - transformative illumination
+M-040,GURU,מוֹרֶה,moreh,ᚷᚢᚱᚢ,gebo-uruz-raido-uruz,teacher/gift-strength-journey-strength,social,0.98,251,Teacher - gift of strength journey
+M-041,SIDDHA,צַדִּיק,tzaddik,ᛊᛁᛞᛞᚺᚨ,sowilo-isa-dagaz-dagaz-hagalaz-ansuz,perfected/sun-ice-day-day-hail-breath,spiritual,0.92,204,Perfected one - illuminated stillness
+M-042,YANTRA,מַכְשִׁיר,makhshir,ᛃᚨᚾᛏᚱᚨ,jera-ansuz-nauthiz-tiwaz-raido-ansuz,device/harvest-breath-need-justice-journey-breath,ritual,0.90,568,Mystical device - cyclical justice
+M-043,MANTRA,לַחַשׁ,lachash,ᛗᚨᚾᛏᚱᚨ,mannaz-ansuz-nauthiz-tiwaz-raido-ansuz,spell/human-breath-need-justice-journey-breath,ritual,0.95,338,Sacred utterance - human need for justice
+M-044,TANTRA,רֶקֶם,rekem,ᛏᚨᚾᛏᚱᚨ,tiwaz-ansuz-nauthiz-tiwaz-raido-ansuz,weave/justice-breath-need-justice-journey-breath,ritual,0.88,340,System/weave - dual justice
+M-045,CHAKRA,גַּלְגַּל,galgal,ᚲᚺᚨᚲᚱᚨ,kenaz-hagalaz-ansuz-kenaz-raido-ansuz,wheel/torch-hail-breath-torch-journey-breath,energy,0.95,66,Energy center - dual illumination journey
+M-046,BINDU,נְקֻדָּה,nekudah,ᛒᛁᚾᛞᚢ,berkano-isa-nauthiz-dagaz-uruz,point/birch-ice-need-day-strength,geometric,0.85,164,Concentrated point - growth through stillness
+M-047,NADA,קוֹל,kol,ᚾᚨᛞᚨ,nauthiz-ansuz-dagaz-ansuz,sound/need-breath-day-breath,acoustic,0.92,136,Cosmic sound - needed breath of dawn
+M-048,PRANA,נֶפֶשׁ,nefesh,ᛈᚱᚨᚾᚨ,perthro-raido-ansuz-nauthiz-ansuz,life force/fate-journey-breath-need-breath,vital,0.90,430,Life breath - destiny journey of breath
+M-049,KUNDALINI,כֹּחַ נָחָשׁ,koach nachash,ᚲᚢᚾᛞᚨᛚᛁᚾᛁ,kenaz-uruz-nauthiz-dagaz-ansuz-laguz-isa-nauthiz-isa,coiled/torch-strength-need-day-breath-water-ice-need-ice,energy,0.88,386,Serpent energy - illuminated primal force
+M-050,MOKSHA,חֵרוּת,cherut,ᛗᛟᚲᛊᚺᚨ,mannaz-othala-kenaz-sowilo-hagalaz-ansuz,liberation/human-home-torch-sun-hail-breath,spiritual,0.90,614,Liberation - human ancestral illumination
+M-051,DHARMA,תּוֹרָה,torah,ᛞᚺᚨᚱᛗᚨ,dagaz-hagalaz-ansuz-raido-mannaz-ansuz,righteousness/day-hail-breath-journey-human-breath,ethical,0.95,611,Cosmic law - dawn transformation journey
+M-052,KARMA,מַעֲשֶׂה,ma'aseh,ᚲᚨᚱᛗᚨ,kenaz-ansuz-raido-mannaz-ansuz,action/torch-breath-journey-human-breath,ethical,0.95,415,Action - illuminated human journey
+M-053,YOGA,דְּבֵקוּת,devekut,ᛃᛟᚷᚨ,jera-othala-gebo-ansuz,union/harvest-home-gift-breath,spiritual,0.98,516,Union practice - cyclical homecoming gift
+M-054,ATMAN,נְשָׁמָה,neshamah,ᚨᛏᛗᚨᚾ,ansuz-tiwaz-mannaz-ansuz-nauthiz,soul/breath-justice-human-breath-need,spiritual,0.92,395,Soul - breath of just humanity
+M-055,BRAHMAN,אֵין סוֹף,ein sof,ᛒᚱᚨᚺᛗᚨᚾ,berkano-raido-ansuz-hagalaz-mannaz-ansuz-nauthiz,absolute/birch-journey-breath-hail-human-breath-need,divine,0.88,207,Ultimate reality - growth journey transformation
+M-056,SHAKTI,גְּבוּרָה,gevurah,ᛊᚺᚨᚲᛏᛁ,sowilo-hagalaz-ansuz-kenaz-tiwaz-isa,power/sun-hail-breath-torch-justice-ice,divine,0.95,216,Divine power - solar transformation justice
+M-057,SHIVA,מַלְאַךְ הַמָּוֶת,malakh hamavet,ᛊᚺᛁᚹᚨ,sowilo-hagalaz-isa-wunjo-ansuz,auspicious/sun-hail-ice-joy-breath,divine,0.98,n/a,Auspicious one - transformative joy
+M-058,VISHNU,שׁוֹמֵר,shomer,ᚹᛁᛊᚺᚾᚢ,wunjo-isa-sowilo-hagalaz-nauthiz-uruz,pervading/joy-ice-sun-hail-need-strength,divine,0.92,546,Preserver - joyful solar transformation
+M-059,LAKSHMI,עֹשֶׁר,osher,ᛚᚨᚲᛊᚺᛗᛁ,laguz-ansuz-kenaz-sowilo-hagalaz-mannaz-isa,fortune/water-breath-torch-sun-hail-human-ice,divine,0.90,570,Fortune goddess - flowing illumination
+M-060,SARASWATI,חָכְמָה,chokhmah,ᛊᚨᚱᚨᛊᚹᚨᛏᛁ,sowilo-ansuz-raido-ansuz-sowilo-wunjo-ansuz-tiwaz-isa,wisdom/sun-breath-journey-breath-sun-joy-breath-justice-ice,divine,0.90,73,Wisdom goddess - solar journey of joy
+M-061,GANESHA,שׂר,sar,ᚷᚨᚾᛖᛊᚺᚨ,gebo-ansuz-nauthiz-ehwaz-sowilo-hagalaz-ansuz,lord/gift-breath-need-horse-sun-hail-breath,divine,0.88,500,Obstacle remover - gift of partnership
+M-062,HANUMAN,עֶבֶד נֶאֱמָן,eved ne'eman,ᚺᚨᚾᚢᛗᚨᚾ,hagalaz-ansuz-nauthiz-uruz-mannaz-ansuz-nauthiz,devotee/hail-breath-need-strength-human-breath-need,divine,0.85,n/a,Devotee - transformative strength
+M-063,MATSYA,דָּג,dag,ᛗᚨᛏᛊᛃᚨ,mannaz-ansuz-tiwaz-sowilo-jera-ansuz,fish/human-breath-justice-sun-harvest-breath,zoomorphic,0.98,7,Fish - human solar harvest
+M-064,KURMA,צָב,tsav,ᚲᚢᚱᛗᚨ,kenaz-uruz-raido-mannaz-ansuz,tortoise/torch-strength-journey-human-breath,zoomorphic,0.85,92,Tortoise - illuminated strength journey
+M-065,VARAHA,חֲזִיר,chazir,ᚹᚨᚱᚨᚺᚨ,wunjo-ansuz-raido-ansuz-hagalaz-ansuz,boar/joy-breath-journey-breath-hail-breath,zoomorphic,0.80,225,Boar - joyful transformative journey
+M-066,NARASIMHA,אַרְיֵה אָדָם,aryeh adam,ᚾᚨᚱᚨᛊᛁᛗᚺᚨ,nauthiz-ansuz-raido-ansuz-sowilo-isa-mannaz-hagalaz-ansuz,man-lion/need-breath-journey-breath-sun-ice-human-hail-breath,divine,0.85,n/a,Man-lion - needed solar human transformation
+M-067,VAMANA,קָטָן,katan,ᚹᚨᛗᚨᚾᚨ,wunjo-ansuz-mannaz-ansuz-nauthiz-ansuz,dwarf/joy-breath-human-breath-need-breath,divine,0.82,159,Dwarf - joyful human need
+M-068,PARASHURAMA,גַּרְזֶן,garzen,ᛈᚨᚱᚨᛊᚺᚢᚱᚨᛗᚨ,perthro-ansuz-raido-ansuz-sowilo-hagalaz-uruz-raido-ansuz-mannaz-ansuz,ax/fate-breath-journey-breath-sun-hail-strength-journey-breath-human-breath,divine,0.80,270,Ax-wielder - destiny solar transformation
+M-069,RAMA,גִּבּוֹר,gibor,ᚱᚨᛗᚨ,raido-ansuz-mannaz-ansuz,hero/journey-breath-human-breath,divine,0.92,211,Hero - human breath journey
+M-070,KRISHNA,שָׁחוֹר,shachor,ᚲᚱᛁᛊᚺᚾᚨ,kenaz-raido-isa-sowilo-hagalaz-nauthiz-ansuz,dark/torch-journey-ice-sun-hail-need-breath,divine,0.92,508,Dark deity - illuminated solar transformation
+M-071,PIRÁ,דָּג,dag,ᛈᛁᚱᚨ,perthro-isa-raido-ansuz,fish/fate-ice-journey-breath,zoomorphic,0.98,7,Fish - destiny stillness journey
+M-072,JAGUARA,נָמֵר,namer,ᛃᚨᚷᚢᚨᚱᚨ,jera-ansuz-gebo-uruz-ansuz-raido-ansuz,jaguar/harvest-breath-gift-strength-breath-journey-breath,zoomorphic,0.85,290,Tiger - cyclical gift of strength
+M-073,TAPIIRA,שׁוֹר,shor,ᛏᚨᛈᛁᛁᚱᚨ,tiwaz-ansuz-perthro-isa-isa-raido-ansuz,bull/justice-breath-fate-ice-ice-journey-breath,zoomorphic,0.82,506,Bull - just destiny stillness
+M-074,MBOI,נָחָשׁ,nachash,ᛗᛒᛟᛁ,mannaz-berkano-othala-isa,snake/human-birch-home-ice,zoomorphic,0.92,358,Serpent - human growth homecoming
+M-075,Y,מַיִם,mayim,ᛃ,jera,water/harvest,element,0.95,90,Water - cyclical harvest
+M-076,KA,עֶצֶם,etsem,ᚲᚨ,kenaz-ansuz,bone/torch-breath,body_part,0.75,200,Bone - illuminated breath
+M-077,PO,יָד,yad,ᛈᛟ,perthro-othala,hand/fate-home,body_part,0.90,14,Hand - destiny home
+M-078,TACAPE,חֲנִית,chanit,ᛏᚨᚲᚨᛈᛖ,tiwaz-ansuz-kenaz-ansuz-perthro-ehwaz,spear/justice-breath-torch-breath-fate-horse,object,0.78,68,Spear - just illuminated destiny
+M-079,UIRAPARA,קֶשֶׁת,keshet,ᚢᛁᚱᚨᛈᚨᚱᚨ,uruz-isa-raido-ansuz-perthro-ansuz-raido-ansuz,bow/strength-ice-journey-breath-fate-breath-journey-breath,object,0.85,800,Bow - strength destiny journey
+M-080,TUPÃ,אֵל,el,ᛏᚢᛈᚨ,tiwaz-uruz-perthro-ansuz,god/justice-strength-fate-breath,divine,0.80,31,Thunder deity - just strong destiny
+M-081,ANHÃ,נְשָׁמָה,neshamah,ᚨᚾᚺᚨ,ansuz-nauthiz-hagalaz-ansuz,soul/breath-need-hail-breath,spiritual,0.82,395,Soul - breath needed transformation
+M-082,GUARACI,שֶׁמֶשׁ,shemesh,ᚷᚢᚨᚱᚨᚲᛁ,gebo-uruz-ansuz-raido-ansuz-kenaz-isa,sun/gift-strength-breath-journey-breath-torch-ice,celestial,0.88,640,Sun deity - gift strength journey
+M-083,JACI,יָרֵחַ,yareach,ᛃᚨᚲᛁ,jera-ansuz-kenaz-isa,moon/harvest-breath-torch-ice,celestial,0.88,218,Moon deity - cyclical illumination
+M-084,YEMANJA,יָם אֵם,yam em,ᛃᛖᛗᚨᚾᛃᚨ,jera-ehwaz-mannaz-ansuz-nauthiz-jera-ansuz,sea mother/harvest-horse-human-breath-need-harvest-breath,divine,0.78,n/a,Ocean goddess - cyclical partnership
+M-085,OGUN,לוֹחֵם,lochem,ᛟᚷᚢᚾ,othala-gebo-uruz-nauthiz,war/home-gift-strength-need,divine,0.72,84,War deity - ancestral gift strength
+M-086,OXUM,נָהָר,nahar,ᛟᛪᚢᛗ,othala-unknown-uruz-mannaz,river/home-mystery-strength-human,element,0.80,255,Fresh water - ancestral human strength
+M-087,XANGO,רַעַם,ra'am,ᛪᚨᚾᚷᛟ,unknown-ansuz-nauthiz-gebo-othala,thunder/mystery-breath-need-gift-home,divine,0.75,310,Thunder deity - mysterious needed gift
+M-088,IANSA,רוּחַ,ruach,ᛁᚨᚾᛊᚨ,isa-ansuz-nauthiz-sowilo-ansuz,wind/ice-breath-need-sun-breath,element,0.78,214,Wind goddess - stillness solar breath
+M-089,OXALA,לָבָן,lavan,ᛟᛪᚨᛚᚨ,othala-unknown-ansuz-laguz-ansuz,white/home-mystery-breath-water-breath,divine,0.70,82,Creator deity - ancestral flowing breath
+M-090,EXU,דֶּרֶךְ,derekh,ᛖᛪᚢ,ehwaz-unknown-uruz,path/horse-mystery-strength,divine,0.75,224,Messenger deity - partnership mystery
+M-091,POMBA,יוֹנָה,yonah,ᛈᛟᛗᛒᚨ,perthro-othala-mannaz-berkano-ansuz,dove/fate-home-human-birch-breath,zoomorphic,0.82,71,Dove - destiny human growth
+M-092,DAMBALLAH,נָחָשׁ,nachash,ᛞᚨᛗᛒᚨᛚᛚᚨᚺ,dagaz-ansuz-mannaz-berkano-ansuz-laguz-laguz-ansuz-hagalaz,serpent/day-breath-human-birch-breath-water-water-breath-hail,divine,0.85,358,Serpent deity - dawn human growth flow
+M-093,ERZULIE,אַהֲבָה,ahavah,ᛖᚱᛉᚢᛚᛁᛖ,ehwaz-raido-algiz-uruz-laguz-isa-ehwaz,love/horse-journey-protection-strength-water-ice-horse,divine,0.72,13,Love goddess - partnership journey protection
+M-094,LOKO,עֵץ,ets,ᛚᛟᚲᛟ,laguz-othala-kenaz-othala,tree/water-home-torch-home,botanical,0.78,160,Tree spirit - flowing ancestral illumination
+M-095,AYIZAN,רְפוּאָה,refuah,ᚨᛃᛁᛉᚨᚾ,ansuz-jera-isa-algiz-ansuz-nauthiz,medicine/breath-harvest-ice-protection-breath-need,spiritual,0.75,291,Healing spirit - cyclical protection need
+M-096,OSIRIS,תְּחִיָּה,techiyah,ᛟᛊᛁᚱᛁᛊ,othala-sowilo-isa-raido-isa-sowilo,rebirth/home-sun-ice-journey-ice-sun,divine,0.82,428,Death/resurrection - ancestral solar stillness
+M-097,ISIS,אֵם אֱלֹהִית,em elohit,ᛁᛊᛁᛊ,isa-sowilo-isa-sowilo,mother/ice-sun-ice-sun,divine,0.85,n/a,Divine mother - dual solar stillness
+M-098,THOTH,חָכְמָה,chokhmah,ᚦᛟᚦᚺ,thurisaz-othala-thurisaz-hagalaz,wisdom/giant-home-giant-hail,divine,0.78,73,Wisdom deity - transformative ancestral power
+M-099,RA,שֶׁמֶשׁ,shemesh,ᚱᚨ,raido-ansuz,sun/journey-breath,celestial,0.92,640,Sun god - breath journey
+M-100,ANUBIS,מַנְחֶה,mancheh,ᚨᚾᚢᛒᛁᛊ,ansuz-nauthiz-uruz-berkano-isa-sowilo,guide/breath-need-strength-birch-ice-sun,divine,0.75,n/a,Death guide - breath strength growth solar

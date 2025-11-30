@@ -1,0 +1,101 @@
+indus_sign,indus_phoneme,portuguese_word,portuguese_meaning,semantic_category,confidence_score,latin_root,romance_cognates,notes
+M-001,A,pessoa,ser humano,anthropomorphic,0.92,persona,pessoa (pt) / persona (es/it),Conceito universal de humano
+M-002,AN,céu,firmamento/divino,celestial,0.88,caelum,céu (pt) / cielo (es/it),Conexão céu/divino
+M-003,AMA,mãe,progenitora,anthropomorphic,0.98,mater,mãe (pt) / madre (es) / madre (it),Som universal de mãe
+M-004,BA,pai,progenitor,anthropomorphic,0.85,pater,pai (pt) / padre (es) / padre (it),Figura paterna
+M-005,DA,dar,transferir,action,0.80,dare,dar (pt/es) / dare (it),Ação de dar
+M-006,GA,ir,mover-se,motion,0.75,ire,ir (pt/es) / andare (it),Verbo de movimento
+M-007,HA,respiração,ar vital,vital,0.78,spiritus,respiração (pt) / respiración (es),Sopro de vida
+M-008,KA,cabeça,topo do corpo,body_part,0.82,caput,cabeça (pt) / cabeza (es) / capo (it),Símbolo de autoridade
+M-009,LA,língua,órgão da fala,body_part,0.80,lingua,língua (pt) / lengua (es) / lingua (it),Fala/linguagem
+M-010,MA,água,elemento líquido,element,0.95,aqua,água (pt) / agua (es) / acqua (it),Elemento água
+M-011,NA,nome,identificador,identity,0.85,nomen,nome (pt) / nombre (es) / nome (it),Marcador de identidade
+M-012,NU,novo,recente,temporal,0.78,novus,novo (pt) / nuevo (es) / nuovo (it),Conceito de novidade
+M-013,PA,proteger,guardar,action,0.80,protegere,proteger (pt/es) / proteggere (it),Ação de proteção
+M-014,RA,sol,corpo solar,celestial,0.92,sol,sol (pt/es/it),Fonte solar/luz
+M-015,SA,todo,completo,completeness,0.75,totus,todo (pt/es) / tutto (it),Conceito de completude
+M-016,SHA,paz,tranquilidade,spiritual,0.88,pax,paz (pt/es) / pace (it),Paz/quietude
+M-017,TA,aquele,demonstrativo,deictic,0.90,ille,aquele (pt) / aquel (es) / quello (it),Marcador demonstrativo
+M-018,VA,palavra,unidade de fala,communication,0.82,verbum,palavra (pt) / palabra (es) / parola (it),Fala/palavra
+M-019,YA,ir,mover-se,motion,0.78,ire,ir (pt/es) / andare (it),Verbo de movimento
+M-020,I,eu,identidade própria,identity,0.95,ego,eu (pt) / yo (es) / io (it),Pronome de primeira pessoa
+M-021,OM,sagrado,som santo,spiritual,0.98,n/a,n/a,Sílaba sagrada - empréstimo
+M-022,U,acima,direção para cima,spatial,0.80,super,acima (pt) / arriba (es) / sopra (it),Direção ascendente
+M-023,E,aqui,este lugar,location,0.85,hic,aqui (pt) / aquí (es) / qui (it),Dêitico locativo
+M-024,O,origem,fonte/início,foundational,0.82,origo,origem (pt) / origen (es) / origine (it),Conceito de fonte
+M-025,MBOI,serpente,cobra,zoomorphic,0.90,serpens,serpente (pt/it) / serpiente (es),Arquétipo da serpente
+M-026,TUPA,trovão,som atmosférico,celestial,0.72,tonus,trovão (pt) / trueno (es) / tuono (it),Fenômeno do trovão
+M-027,PARA,além,transcendendo,transcendence,0.78,para (grego),além (pt) / más allá (es),Marcador de transcendência
+M-028,KARA,mão,membro de agarrar,body_part,0.95,manus,mão (pt) / mano (es/it),Símbolo da mão
+M-029,MARA,morte,fim da vida,transformation,0.92,mors,morte (pt/it) / muerte (es),Conceito de morte
+M-030,VARA,bênção,favor divino,spiritual,0.88,benedictio,bênção (pt) / bendición (es),Seleção/bênção
+M-031,NAGA,naga,divindade serpente,zoomorphic,0.95,n/a,n/a,Divindade serpente - empréstimo
+M-032,DEVA,divino,divindade,divine,0.92,divinus,divino (pt/es/it),Ser divino
+M-033,AGNI,fogo,elemento combustão,element,0.95,ignis,fogo (pt) / fuego (es) / fuoco (it),Elemento fogo - cognato
+M-034,VAYU,vento,ar em movimento,element,0.90,ventus,vento (pt/it) / viento (es),Elemento vento - cognato
+M-035,PRTHVI,terra,solo/chão,element,0.85,terra,terra (pt/es/it),Elemento terra
+M-036,AKASHA,espaço,éter/vazio,element,0.88,aether,éter (pt/es/it),Elemento espaço/vazio
+M-037,JALA,água,elemento aquoso,element,0.92,aqua,água (pt) / agua (es) / acqua (it),Elemento água
+M-038,SURYA,sol,divindade solar,celestial,0.95,sol,sol (pt/es/it),Divindade solar - cognato IE
+M-039,CHANDRA,lua,corpo lunar,celestial,0.95,luna,lua (pt) / luna (es/it),Divindade lunar
+M-040,GURU,mestre,instrutor,social,0.98,gravis,mestre (pt) / maestro (es/it),Professor/pesado - cognato IE
+M-041,SIDDHA,perfeito,realizado,spiritual,0.92,perfectus,perfeito (pt/it) / perfecto (es),Um realizado - empréstimo
+M-042,YANTRA,dispositivo,instrumento,ritual,0.90,instrumentum,dispositivo (pt) / dispositivo (es),Dispositivo místico - empréstimo
+M-043,MANTRA,mantra,fórmula sagrada,ritual,0.95,n/a,mantra (pt/es/it),Enunciado sagrado - empréstimo
+M-044,TANTRA,tantra,sistema,ritual,0.88,textus,tantra (pt/es/it),Sistema/técnica - empréstimo
+M-045,CHAKRA,chakra,símbolo circular,energy,0.95,circus,chakra (pt/es/it),Centro de energia - cognato IE
+M-046,BINDU,ponto,marca/mancha,geometric,0.85,punctum,ponto (pt) / punto (es/it),Ponto concentrado
+M-047,NADA,som,vibração,acoustic,0.92,sonus,som (pt) / sonido (es) / suono (it),Som cósmico
+M-048,PRANA,prana,sopro vital,vital,0.90,spiritus,prana (pt/es/it) / alento (pt),Energia da respiração vital
+M-049,KUNDALINI,kundalini,energia espiral,energy,0.88,n/a,kundalini (pt/es/it),Energia serpente - empréstimo
+M-050,MOKSHA,libertação,liberdade,spiritual,0.90,libertas,libertação (pt) / liberación (es),Conceito de libertação
+M-051,DHARMA,dharma,retidão,ethical,0.95,lex,dharma (pt/es/it) / lei (pt),Lei cósmica
+M-052,KARMA,karma,ação/destino,ethical,0.95,actio,karma (pt/es/it) / ação (pt),Ação/consequência
+M-053,YOGA,yoga,união,spiritual,0.98,iugum,yoga (pt/es/it) / jugo (pt/es),Prática de união - cognato IE
+M-054,ATMAN,atman,alma/eu,spiritual,0.92,anima,atman (pt/es/it) / alma (pt/es),Conceito de alma - cognato IE
+M-055,BRAHMAN,brahman,absoluto,divine,0.88,n/a,brahman (pt/es/it),Realidade última
+M-056,SHAKTI,shakti,poder,divine,0.95,potentia,shakti (pt/es/it) / poder (pt/es),Poder feminino divino
+M-057,SHIVA,shiva,auspicioso,divine,0.98,n/a,shiva (pt/es/it),Divindade auspiciosa
+M-058,VISHNU,vishnu,onipresente,divine,0.92,n/a,vishnu (pt/es/it),Divindade preservadora
+M-059,LAKSHMI,lakshmi,fortuna,divine,0.90,fortuna,lakshmi (pt/es/it) / fortuna (pt/es),Deusa da fortuna
+M-060,SARASWATI,saraswati,fluente,divine,0.90,fluens,saraswati (pt/es/it),Deusa da sabedoria
+M-061,GANESHA,ganesha,senhor,divine,0.88,dominus,ganesha (pt/es/it),Removedor de obstáculos
+M-062,HANUMAN,hanuman,macaco divino,divine,0.85,n/a,hanuman (pt/es/it),Devoção/força
+M-063,MATSYA,peixe,animal aquático,zoomorphic,0.98,piscis,peixe (pt) / pez (es) / pesce (it),Peixe - símbolo primário
+M-064,KURMA,tartaruga,réptil com casco,zoomorphic,0.85,testudo,tartaruga (pt/es/it),Símbolo da tartaruga
+M-065,VARAHA,javali,porco selvagem,zoomorphic,0.80,aper,javali (pt) / jabalí (es),Símbolo do javali
+M-066,NARASIMHA,leão,grande felino,divine,0.85,leo,leão (pt) / león (es) / leone (it),Símbolo homem-leão
+M-067,VAMANA,anão,ser pequeno,divine,0.82,nanus,anão (pt) / enano (es) / nano (it),Divindade anã
+M-068,PARASHURAMA,machado,ferramenta cortante,object,0.80,securis,machado (pt) / hacha (es),Ferramenta machado
+M-069,RAMA,herói,campeão,divine,0.92,heros,herói (pt) / héroe (es) / eroe (it),Arquétipo do herói
+M-070,KRISHNA,escuro,ausência de luz,divine,0.92,obscurus,escuro (pt) / oscuro (es/it),Divindade escura/atraente
+M-071,PIRÁ,peixe,criatura aquática,zoomorphic,0.98,piscis,peixe (pt) / pez (es) / pesce (it),Símbolo de peixe primário
+M-072,JAGUARA,jaguar,felino listrado,zoomorphic,0.85,tigris,jaguar (pt/es) / giaguaro (it),Grande felino - Tupi cognato
+M-073,TAPIIRA,touro,bovino macho,zoomorphic,0.82,taurus,touro (pt) / toro (es/it),Animal bovino
+M-074,MBOI,cobra,serpente,zoomorphic,0.92,serpens,cobra (pt) / culebra (es),Serpente - Tupi cognato
+M-075,Y,água,líquido,element,0.95,aqua,água (pt) / agua (es) / acqua (it),Elemento água - Tupi cognato
+M-076,KA,osso,elemento esquelético,body_part,0.75,os,osso (pt) / hueso (es) / osso (it),Osso/estrutura
+M-077,PO,mão,membro de agarrar,body_part,0.90,manus,mão (pt) / mano (es/it),Mão = cinco
+M-078,TACAPE,lança,arma de haste,object,0.78,lancea,lança (pt) / lanza (es) / lancia (it),Arma de haste
+M-079,UIRAPARA,arco,arma de alcance,object,0.85,arcus,arco (pt/es/it),Arma arco
+M-080,TUPÃ,deus,divindade,divine,0.80,deus,deus (pt) / dios (es) / dio (it),Divindade do trovão - Tupi
+M-081,ANHÃ,alma,espírito,spiritual,0.82,anima,alma (pt/es) / anima (it),Alma/espírito - Tupi
+M-082,GUARACI,sol,corpo solar,celestial,0.88,sol,sol (pt/es/it),Divindade solar - Tupi
+M-083,JACI,lua,corpo lunar,celestial,0.88,luna,lua (pt) / luna (es/it),Divindade lunar - Tupi
+M-084,YEMANJA,mar,mãe do oceano,divine,0.78,mare,mar (pt/es) / mare (it),Deusa do oceano - Yoruba
+M-085,OGUN,guerra,conflito,divine,0.72,bellum,guerra (pt/es) / guerra (it),Divindade da guerra - Yoruba
+M-086,OXUM,rio,água corrente,element,0.80,rivus,rio (pt) / río (es) / fiume (it),Água doce - Yoruba
+M-087,XANGO,trovão,som celeste,divine,0.75,tonus,trovão (pt) / trueno (es),Divindade do trovão - Yoruba
+M-088,IANSA,vento,ar em movimento,element,0.78,ventus,vento (pt/it) / viento (es),Deusa do vento - Yoruba
+M-089,OXALA,branco,cor clara,divine,0.70,albus,branco (pt) / blanco (es),Divindade criadora - Yoruba
+M-090,EXU,caminho,via/estrada,divine,0.75,via,caminho (pt) / camino (es),Divindade mensageira - Yoruba
+M-091,POMBA,pomba,ave,zoomorphic,0.82,columba,pomba (pt) / paloma (es) / colomba (it),Símbolo da pomba
+M-092,DAMBALLAH,serpente,cobra,divine,0.85,serpens,serpente (pt/it) / serpiente (es),Divindade serpente - Vodou
+M-093,ERZULIE,amor,afeição,divine,0.72,amor,amor (pt/es) / amore (it),Deusa do amor - Vodou
+M-094,LOKO,árvore,planta,botanical,0.78,arbor,árvore (pt) / árbol (es) / albero (it),Espírito da árvore - Vodou
+M-095,AYIZAN,medicina,cura,spiritual,0.75,medicina,medicina (pt/es/it),Espírito da cura - Vodou
+M-096,OSIRIS,renascimento,ressurreição,divine,0.82,resurrectio,renascimento (pt) / renacimiento (es),Morte/ressurreição - Egípcio
+M-097,ISIS,mãe,divina feminina,divine,0.85,mater,mãe (pt) / madre (es) / madre (it),Mãe divina - Egípcia
+M-098,THOTH,sabedoria,conhecimento,divine,0.78,sapientia,sabedoria (pt) / sabiduría (es),Divindade da sabedoria - Egípcio
+M-099,RA,sol,corpo solar,celestial,0.92,sol,sol (pt/es/it),Deus sol - Egípcio
+M-100,ANUBIS,guia,líder,divine,0.75,dux,guia (pt) / guía (es) / guida (it),Guia da morte - Egípcio
