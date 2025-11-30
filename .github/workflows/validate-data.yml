@@ -16,6 +16,9 @@ on:
       - 'universal_translation/datasets/**'
       - 'universal_translation/mappings/**'
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest

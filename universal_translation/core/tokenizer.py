@@ -110,7 +110,11 @@ def phoneme_tokenize(text: str) -> List[str]:
             phonemes.append(char.lower())
         phonemes.append(" ")  # Word boundary marker
 
-    return [p for p in phonemes if p != " " or phonemes.count(" ") > 0][:-1] if phonemes else []
+    # Remove trailing space marker if present
+    if phonemes and phonemes[-1] == " ":
+        phonemes = phonemes[:-1]
+
+    return phonemes
 
 
 def harappan_sign_tokenize(sequence: str) -> List[str]:

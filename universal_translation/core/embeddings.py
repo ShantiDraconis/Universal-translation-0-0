@@ -84,9 +84,9 @@ def phoneme_embedding(ipa: str, dim: int = 8) -> List[float]:
         sum(ord(c) for c in ipa) / 1000.0,  # Character value feature
     ]
 
-    # Pad or truncate to desired dimension
+    # Pad to desired dimension with zeros
     while len(features) < dim:
-        features.append(math.sin(len(features) * sum(features)))
+        features.append(0.0)
 
     return features[:dim]
 

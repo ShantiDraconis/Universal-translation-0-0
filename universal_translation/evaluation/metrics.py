@@ -332,12 +332,15 @@ def benchmark_report(
     gold_tokens = [" ".join(g.get("tokens", [])) for g in gold]
     report["metrics"]["token_match"] = simple_accuracy(pred_tokens, gold_tokens)
 
-    # Symbol recognition
+    # Symbol recognition - flatten and compare symbolic annotations
     pred_symbolic = [p.get("symbolic", []) for p in predictions]
     gold_symbolic = [g.get("symbolic", []) for g in gold]
-    flat_pred = [s for sublist in pred_symbolic for s in sublist]
-    flat_gold = [s for sublist in gold_symbolic for s in sublist]
-    report["metrics"]["symbol_recognition"] = symbol_recognition_score(flat_pred, flat_gold)
+    flat_pred = [s for sublist in pred_symbolic for s in sublist if isinstance(s, dict)]
+    flat_gold = [s for sublist in gold_symbolic for s in sublist if isinstance(s, dict)]
+    if flat_pred and flat_gold:
+        report["metrics"]["symbol_recognition"] = symbol_recognition_score(flat_pred, flat_gold)
+    else:
+        report["metrics"]["symbol_recognition"] = 0.0
 
     # Numerology consistency
     pred_roots = [

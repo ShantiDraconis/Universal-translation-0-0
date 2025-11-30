@@ -184,17 +184,13 @@ def load_sign_database(data_path: Optional[Path] = None) -> Dict[str, Any]:
         data_path = module_dir / "datasets" / "harappan" / "harappan_417_signs.json"
 
     if not data_path.exists():
-        # Try alternative location
-        alt_path = (
-            Path(__file__).parent.parent.parent
-            / "harappan-00-universal"
-            / "data"
-            / "harappan_signs"
-            / "harappan_417_signs.json"
-        )
+        # Try alternative location in the repository root
+        repo_root = Path(__file__).parent.parent.parent
+        alt_path = repo_root / "harappan-00-universal" / "data" / "harappan_signs" / "harappan_417_signs.json"
         if alt_path.exists():
             data_path = alt_path
         else:
+            # Return empty structure if no data found
             return {"metadata": {}, "signs": []}
 
     with open(data_path, "r", encoding="utf-8") as f:
