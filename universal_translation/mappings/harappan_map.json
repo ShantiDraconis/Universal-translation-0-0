@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "name": "Harappan Sign Mapping",
+    "version": "1.0",
+    "description": "Mapping of Harappan signs to Universal 0/0 codes",
+    "source": "Based on Mahadevan (1977) corpus",
+    "total_signs": 417
+  },
+  "category_codes": {
+    "HUM": "Anthropomorphic",
+    "DIV": "Divine/Sacred",
+    "ANI": "Animal/Zoomorphic",
+    "OBJ": "Object",
+    "NUM": "Numeral",
+    "GEO": "Geometric",
+    "CEL": "Celestial",
+    "NAT": "Nature",
+    "BOT": "Botanical",
+    "ARC": "Architecture",
+    "TRN": "Transport",
+    "TOL": "Tool",
+    "BOD": "Body Part",
+    "WEA": "Weather",
+    "GEG": "Geography",
+    "TTL": "Title/Occupation",
+    "CMP": "Compound",
+    "MRK": "Marker"
+  },
+  "sign_ranges": {
+    "M-001 to M-007": {"category": "Anthropomorphic", "code_prefix": "00-HUM"},
+    "M-008 to M-023": {"category": "Zoomorphic", "code_prefix": "00-ANI"},
+    "M-024 to M-040": {"category": "Objects", "code_prefix": "00-OBJ"},
+    "M-041 to M-050": {"category": "Numerals", "code_prefix": "00-NUM"},
+    "M-051 to M-070": {"category": "Geometric", "code_prefix": "00-GEO"},
+    "M-071 to M-080": {"category": "Botanical", "code_prefix": "00-BOT"},
+    "M-081 to M-089": {"category": "Architecture", "code_prefix": "00-ARC"},
+    "M-090 to M-094": {"category": "Transport", "code_prefix": "00-TRN"},
+    "M-095 to M-100": {"category": "Tools", "code_prefix": "00-TOL"},
+    "M-101 to M-108": {"category": "Body Parts", "code_prefix": "00-BOD"},
+    "M-109 to M-112": {"category": "Celestial", "code_prefix": "00-CEL"},
+    "M-113 to M-116": {"category": "Weather", "code_prefix": "00-WEA"},
+    "M-117 to M-128": {"category": "Geography", "code_prefix": "00-GEG"},
+    "M-129 to M-140": {"category": "Titles", "code_prefix": "00-TTL"},
+    "M-141 to M-416": {"category": "Compound", "code_prefix": "00-CMP"},
+    "M-417": {"category": "Markers", "code_prefix": "00-MRK"}
+  },
+  "sample_mappings": [
+    {
+      "mahadevan_id": "M-001",
+      "universal_code": "00-HUM-001",
+      "description": "Standing human figure",
+      "category": "Anthropomorphic",
+      "probability": 0.95
+    },
+    {
+      "mahadevan_id": "M-008",
+      "universal_code": "00-ANI-008",
+      "description": "Fish sign",
+      "category": "Zoomorphic",
+      "probability": 0.98,
+      "cross_linguistic": {
+        "sanskrit": "matsya",
+        "tamil": "meen",
+        "tupi": "pirá"
+      }
+    },
+    {
+      "mahadevan_id": "M-013",
+      "universal_code": "00-ANI-013",
+      "description": "Bull/bovine sign",
+      "category": "Zoomorphic",
+      "probability": 0.98,
+      "cross_linguistic": {
+        "sanskrit": "vṛṣabha",
+        "tamil": "erumai"
+      }
+    },
+    {
+      "mahadevan_id": "M-075",
+      "universal_code": "00-BOT-075",
+      "description": "Lotus/flower sign",
+      "category": "Botanical",
+      "probability": 0.92,
+      "cross_linguistic": {
+        "sanskrit": "padma",
+        "tamil": "tāmarai"
+      }
+    },
+    {
+      "mahadevan_id": "M-109",
+      "universal_code": "00-CEL-109",
+      "description": "Sun/wheel sign",
+      "category": "Celestial",
+      "probability": 0.85
+    },
+    {
+      "mahadevan_id": "M-417",
+      "universal_code": "00-MRK-417",
+      "description": "Terminal marker",
+      "category": "Markers",
+      "probability": 0.90
+    }
+  ]
+}

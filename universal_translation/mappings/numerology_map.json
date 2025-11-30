@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "name": "Numerology Map 0/0",
+    "version": "1.0",
+    "description": "Mapping of numerological values to symbolic meanings in the 0/0 system",
+    "systems": ["pythagorean", "hebrew_gematria", "universal_0_0"]
+  },
+  "root_numbers": {
+    "0": {
+      "name": "Zero / Void",
+      "archetype": "Infinite Potential",
+      "element": "Ether",
+      "planet": "None/All",
+      "color": "Clear/White",
+      "meaning": "The 0/0 indeterminate - pure potential before manifestation",
+      "keywords": ["void", "potential", "infinity", "source", "return"],
+      "tarot": "The Fool",
+      "hebrew_letter": null
+    },
+    "1": {
+      "name": "Unity",
+      "archetype": "The Magician/Creator",
+      "element": "Fire",
+      "planet": "Sun",
+      "color": "Gold/Yellow",
+      "meaning": "Beginning, individuality, leadership, initiative",
+      "keywords": ["beginning", "unity", "self", "creation", "will"],
+      "tarot": "The Magician",
+      "hebrew_letter": "Aleph"
+    },
+    "2": {
+      "name": "Duality",
+      "archetype": "The High Priestess",
+      "element": "Water",
+      "planet": "Moon",
+      "color": "Silver/Blue",
+      "meaning": "Balance, partnership, receptivity, intuition",
+      "keywords": ["duality", "balance", "partnership", "intuition", "receptivity"],
+      "tarot": "The High Priestess",
+      "hebrew_letter": "Beth"
+    },
+    "3": {
+      "name": "Trinity",
+      "archetype": "The Empress",
+      "element": "Fire",
+      "planet": "Jupiter",
+      "color": "Yellow/Green",
+      "meaning": "Creation, expression, growth, joy",
+      "keywords": ["creation", "growth", "expression", "joy", "synthesis"],
+      "tarot": "The Empress",
+      "hebrew_letter": "Gimel"
+    },
+    "4": {
+      "name": "Foundation",
+      "archetype": "The Emperor",
+      "element": "Earth",
+      "planet": "Uranus",
+      "color": "Green/Brown",
+      "meaning": "Stability, structure, order, manifestation",
+      "keywords": ["stability", "foundation", "structure", "order", "earth"],
+      "tarot": "The Emperor",
+      "hebrew_letter": "Daleth"
+    },
+    "5": {
+      "name": "Change",
+      "archetype": "The Hierophant",
+      "element": "Air",
+      "planet": "Mercury",
+      "color": "Light Blue",
+      "meaning": "Freedom, change, adventure, versatility",
+      "keywords": ["change", "freedom", "adventure", "senses", "humanity"],
+      "tarot": "The Hierophant",
+      "hebrew_letter": "He"
+    },
+    "6": {
+      "name": "Harmony",
+      "archetype": "The Lovers",
+      "element": "Earth",
+      "planet": "Venus",
+      "color": "Pink/Green",
+      "meaning": "Love, harmony, responsibility, beauty",
+      "keywords": ["love", "harmony", "family", "beauty", "responsibility"],
+      "tarot": "The Lovers",
+      "hebrew_letter": "Vav"
+    },
+    "7": {
+      "name": "Mystery",
+      "archetype": "The Chariot",
+      "element": "Water",
+      "planet": "Neptune",
+      "color": "Purple/Violet",
+      "meaning": "Wisdom, introspection, spirituality, analysis",
+      "keywords": ["wisdom", "mystery", "spirituality", "analysis", "inner"],
+      "tarot": "The Chariot",
+      "hebrew_letter": "Zayin"
+    },
+    "8": {
+      "name": "Power",
+      "archetype": "Strength",
+      "element": "Earth",
+      "planet": "Saturn",
+      "color": "Dark Blue/Black",
+      "meaning": "Power, karma, achievement, material mastery",
+      "keywords": ["power", "karma", "infinity", "abundance", "authority"],
+      "tarot": "Strength",
+      "hebrew_letter": "Cheth"
+    },
+    "9": {
+      "name": "Completion",
+      "archetype": "The Hermit",
+      "element": "Fire",
+      "planet": "Mars",
+      "color": "Gold/Bronze",
+      "meaning": "Completion, wisdom, humanitarian, universal love",
+      "keywords": ["completion", "universal", "wisdom", "humanitarianism", "endings"],
+      "tarot": "The Hermit",
+      "hebrew_letter": "Teth"
+    }
+  },
+  "master_numbers": {
+    "11": {
+      "name": "Master Intuition",
+      "meaning": "Spiritual insight, illumination, visionary",
+      "reduces_to": 2
+    },
+    "22": {
+      "name": "Master Builder",
+      "meaning": "Practical idealism, large-scale manifestation",
+      "reduces_to": 4
+    },
+    "33": {
+      "name": "Master Teacher",
+      "meaning": "Compassionate service, spiritual upliftment",
+      "reduces_to": 6
+    }
+  },
+  "letter_values": {
+    "pythagorean": {
+      "a": 1, "b": 2, "c": 3, "d": 4, "e": 5, "f": 6, "g": 7, "h": 8, "i": 9,
+      "j": 1, "k": 2, "l": 3, "m": 4, "n": 5, "o": 6, "p": 7, "q": 8, "r": 9,
+      "s": 1, "t": 2, "u": 3, "v": 4, "w": 5, "x": 6, "y": 7, "z": 8
+    },
+    "hebrew_gematria": {
+      "aleph": 1, "beth": 2, "gimel": 3, "daleth": 4, "he": 5,
+      "vav": 6, "zayin": 7, "cheth": 8, "teth": 9, "yod": 10,
+      "kaph": 20, "lamed": 30, "mem": 40, "nun": 50, "samekh": 60,
+      "ayin": 70, "pe": 80, "tsadi": 90, "qoph": 100, "resh": 200,
+      "shin": 300, "tav": 400
+    }
+  },
+  "zero_over_zero_integration": {
+    "description": "The 0/0 constant represents indeterminate potential - the source from which all numbers emerge and to which they return",
+    "formula": "I = 0/0",
+    "interpretation": {
+      "0": "The void from which creation springs",
+      "1-9": "Manifestations of the indeterminate into determinate forms",
+      "return_to_0": "The cycle of completion returning to source"
+    },
+    "symbolic_operations": {
+      "collapse": "Reducing complex meanings to root essence",
+      "expansion": "Generating meaning from indeterminate potential",
+      "transformation": "Moving between states of determination"
+    }
+  }
+}

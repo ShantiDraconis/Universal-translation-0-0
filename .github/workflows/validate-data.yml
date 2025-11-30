@@ -1,0 +1,116 @@
+name: Validate Data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.csv'
+      - '**.json'
+      - 'universal_translation/datasets/**'
+      - 'universal_translation/mappings/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - '**.csv'
+      - '**.json'
+      - 'universal_translation/datasets/**'
+      - 'universal_translation/mappings/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Validate UTF-8 encoding
+        run: |
+          echo "Checking UTF-8 encoding of all CSV and JSON files..."
+          find . -name "*.csv" -o -name "*.json" | while read file; do
+            if ! iconv -f UTF-8 -t UTF-8 "$file" > /dev/null 2>&1; then
+              echo "ERROR: $file is not valid UTF-8"
+              exit 1
+            fi
+          done
+          echo "All files are valid UTF-8"
+
+      - name: Validate JSON files
+        run: |
+          echo "Validating JSON syntax..."
+          find . -name "*.json" -not -path "./node_modules/*" | while read file; do
+            if ! python -c "import json; json.load(open('$file'))" 2>/dev/null; then
+              echo "ERROR: Invalid JSON in $file"
+              exit 1
+            fi
+          done
+          echo "All JSON files are valid"
+
+      - name: Validate CSV structure
+        run: |
+          python -c "
+          import csv
+          from pathlib import Path
+
+          errors = []
+          csv_files = list(Path('.').rglob('*.csv'))
+
+          for csv_file in csv_files:
+              if 'node_modules' in str(csv_file):
+                  continue
+              try:
+                  with open(csv_file, 'r', encoding='utf-8') as f:
+                      reader = csv.DictReader(f)
+                      rows = list(reader)
+                      if not rows:
+                          print(f'WARNING: {csv_file} is empty')
+                          continue
+                      headers = rows[0].keys()
+                      for i, row in enumerate(rows):
+                          if set(row.keys()) != set(headers):
+                              errors.append(f'{csv_file}:{i+2} - Inconsistent columns')
+                  print(f'OK: {csv_file} ({len(rows)} rows)')
+              except Exception as e:
+                  errors.append(f'{csv_file}: {e}')
+
+          if errors:
+              for e in errors:
+                  print(f'ERROR: {e}')
+              exit(1)
+          print('All CSV files validated successfully')
+          "
+
+      - name: Check for duplicate entries
+        run: |
+          python -c "
+          import csv
+          from pathlib import Path
+
+          for csv_file in Path('.').rglob('*.csv'):
+              if 'node_modules' in str(csv_file):
+                  continue
+              try:
+                  with open(csv_file, 'r', encoding='utf-8') as f:
+                      reader = csv.DictReader(f)
+                      rows = list(reader)
+                      if not rows:
+                          continue
+                      # Check first column for duplicates (usually ID)
+                      first_col = list(rows[0].keys())[0]
+                      values = [r[first_col] for r in rows if r[first_col]]
+                      duplicates = [v for v in set(values) if values.count(v) > 1]
+                      if duplicates:
+                          print(f'WARNING: Duplicates in {csv_file} column {first_col}: {duplicates[:5]}')
+              except Exception as e:
+                  print(f'Could not check {csv_file}: {e}')
+          print('Duplicate check complete')
+          "

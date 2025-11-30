@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "name": "Universal Translation Map 0/0",
+    "version": "1.0",
+    "description": "Universal mapping of concepts to 0/0 codes and archetypal categories",
+    "categories": [
+      "elements",
+      "celestial",
+      "life",
+      "human",
+      "sacred",
+      "nature",
+      "animals",
+      "body"
+    ]
+  },
+  "mappings": [
+    {
+      "concept": "fire",
+      "universal_code": "00-ELE-001",
+      "category": "elements",
+      "archetypes": ["transformation", "energy", "passion"],
+      "polarity": "positive",
+      "element": "fire",
+      "numerological_root": 9
+    },
+    {
+      "concept": "water",
+      "universal_code": "00-ELE-002",
+      "category": "elements",
+      "archetypes": ["flow", "emotion", "purification"],
+      "polarity": "negative",
+      "element": "water",
+      "numerological_root": 2
+    },
+    {
+      "concept": "earth",
+      "universal_code": "00-ELE-003",
+      "category": "elements",
+      "archetypes": ["stability", "material", "grounding"],
+      "polarity": "neutral",
+      "element": "earth",
+      "numerological_root": 4
+    },
+    {
+      "concept": "air",
+      "universal_code": "00-ELE-004",
+      "category": "elements",
+      "archetypes": ["thought", "communication", "spirit"],
+      "polarity": "positive",
+      "element": "air",
+      "numerological_root": 5
+    },
+    {
+      "concept": "ether",
+      "universal_code": "00-ELE-005",
+      "category": "elements",
+      "archetypes": ["void", "potential", "infinite"],
+      "polarity": "neutral",
+      "element": "ether",
+      "numerological_root": 0
+    },
+    {
+      "concept": "sun",
+      "universal_code": "00-CEL-001",
+      "category": "celestial",
+      "archetypes": ["consciousness", "life", "masculine"],
+      "polarity": "positive",
+      "element": "fire",
+      "numerological_root": 1
+    },
+    {
+      "concept": "moon",
+      "universal_code": "00-CEL-002",
+      "category": "celestial",
+      "archetypes": ["unconscious", "cycles", "feminine"],
+      "polarity": "negative",
+      "element": "water",
+      "numerological_root": 2
+    },
+    {
+      "concept": "star",
+      "universal_code": "00-CEL-003",
+      "category": "celestial",
+      "archetypes": ["guidance", "hope", "destiny"],
+      "polarity": "positive",
+      "element": "fire",
+      "numerological_root": 7
+    },
+    {
+      "concept": "birth",
+      "universal_code": "00-LIF-001",
+      "category": "life",
+      "archetypes": ["beginning", "potential", "emergence"],
+      "polarity": "positive",
+      "element": "water",
+      "numerological_root": 1
+    },
+    {
+      "concept": "death",
+      "universal_code": "00-LIF-002",
+      "category": "life",
+      "archetypes": ["transformation", "ending", "transition"],
+      "polarity": "neutral",
+      "element": "earth",
+      "numerological_root": 9
+    },
+    {
+      "concept": "growth",
+      "universal_code": "00-LIF-003",
+      "category": "life",
+      "archetypes": ["expansion", "development", "evolution"],
+      "polarity": "positive",
+      "element": "earth",
+      "numerological_root": 3
+    },
+    {
+      "concept": "father",
+      "universal_code": "00-HUM-001",
+      "category": "human",
+      "archetypes": ["authority", "protection", "structure"],
+      "polarity": "positive",
+      "element": "fire",
+      "numerological_root": 4
+    },
+    {
+      "concept": "mother",
+      "universal_code": "00-HUM-002",
+      "category": "human",
+      "archetypes": ["nurture", "creation", "receptivity"],
+      "polarity": "negative",
+      "element": "water",
+      "numerological_root": 3
+    },
+    {
+      "concept": "child",
+      "universal_code": "00-HUM-003",
+      "category": "human",
+      "archetypes": ["potential", "innocence", "future"],
+      "polarity": "neutral",
+      "element": "air",
+      "numerological_root": 5
+    },
+    {
+      "concept": "god",
+      "universal_code": "00-SAC-001",
+      "category": "sacred",
+      "archetypes": ["transcendence", "unity", "absolute"],
+      "polarity": "positive",
+      "element": "ether",
+      "numerological_root": 1
+    },
+    {
+      "concept": "goddess",
+      "universal_code": "00-SAC-002",
+      "category": "sacred",
+      "archetypes": ["creation", "wisdom", "nature"],
+      "polarity": "negative",
+      "element": "earth",
+      "numerological_root": 2
+    },
+    {
+      "concept": "river",
+      "universal_code": "00-NAT-001",
+      "category": "nature",
+      "archetypes": ["flow", "journey", "time"],
+      "polarity": "neutral",
+      "element": "water",
+      "numerological_root": 5
+    },
+    {
+      "concept": "mountain",
+      "universal_code": "00-NAT-002",
+      "category": "nature",
+      "archetypes": ["ascent", "challenge", "permanence"],
+      "polarity": "positive",
+      "element": "earth",
+      "numerological_root": 8
+    },
+    {
+      "concept": "fish",
+      "universal_code": "00-ANI-001",
+      "category": "animals",
+      "archetypes": ["fertility", "depth", "abundance"],
+      "polarity": "neutral",
+      "element": "water",
+      "numerological_root": 7
+    },
+    {
+      "concept": "bird",
+      "universal_code": "00-ANI-002",
+      "category": "animals",
+      "archetypes": ["freedom", "spirit", "messenger"],
+      "polarity": "positive",
+      "element": "air",
+      "numerological_root": 3
+    },
+    {
+      "concept": "snake",
+      "universal_code": "00-ANI-003",
+      "category": "animals",
+      "archetypes": ["transformation", "wisdom", "kundalini"],
+      "polarity": "neutral",
+      "element": "earth",
+      "numerological_root": 8
+    },
+    {
+      "concept": "eye",
+      "universal_code": "00-BOD-001",
+      "category": "body",
+      "archetypes": ["perception", "consciousness", "truth"],
+      "polarity": "positive",
+      "element": "fire",
+      "numerological_root": 1
+    },
+    {
+      "concept": "hand",
+      "universal_code": "00-BOD-002",
+      "category": "body",
+      "archetypes": ["action", "creation", "skill"],
+      "polarity": "positive",
+      "element": "earth",
+      "numerological_root": 5
+    },
+    {
+      "concept": "heart",
+      "universal_code": "00-BOD-003",
+      "category": "body",
+      "archetypes": ["love", "center", "courage"],
+      "polarity": "positive",
+      "element": "fire",
+      "numerological_root": 6
+    }
+  ]
+}

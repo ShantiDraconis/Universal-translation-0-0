@@ -1,0 +1,82 @@
+# Scoring system for human evaluation
+# Universal Translation Engine 0/0
+
+version: "1.0"
+description: "Human evaluation scoring system for translation quality assessment"
+
+dimensions:
+  - name: linguistic_plausibility
+    scale: 0-5
+    description: "How linguistically plausible is the translation/analysis?"
+    criteria:
+      - phonetic_correspondences
+      - etymological_connections
+      - historical_patterns
+      - comparative_evidence
+
+  - name: symbolic_coherence
+    scale: 0-5
+    description: "How coherent are the symbolic/archetypal interpretations?"
+    criteria:
+      - symbolic_tradition_consistency
+      - cross_cultural_patterns
+      - internal_consistency
+      - zero_over_zero_integration
+
+  - name: numerological_alignment
+    scale: 0-5
+    description: "How well-aligned are numerological interpretations?"
+    criteria:
+      - system_consistency
+      - mathematical_relationships
+      - traditional_meanings
+      - symbolic_integration
+
+  - name: harappan_accuracy
+    scale: 0-5
+    description: "Accuracy of Harappan sign identification/interpretation"
+    applicable_when: harappan_signs_present
+    criteria:
+      - sign_identification
+      - contextual_usage
+      - comparative_evidence
+      - academic_consensus
+
+aggregation:
+  method: weighted_average
+  weights:
+    linguistic_plausibility: 0.35
+    symbolic_coherence: 0.25
+    numerological_alignment: 0.20
+    harappan_accuracy: 0.20
+  
+  fallback_when_harappan_absent:
+    linguistic_plausibility: 0.45
+    symbolic_coherence: 0.30
+    numerological_alignment: 0.25
+
+thresholds:
+  accept: 3.5
+  accept_with_reservations: 2.5
+  needs_revision: 1.5
+  reject: 0.0
+
+reviewer_agreement:
+  minimum_reviewers: 2
+  agreement_threshold: 0.7  # 70% pairwise agreement required
+  resolution_method: discussion_or_third_reviewer
+
+output_format:
+  scores:
+    - dimension_scores
+    - aggregate_score
+    - agreement_metrics
+  comments:
+    - strengths
+    - weaknesses
+    - suggestions
+    - alternative_interpretations
+  decision:
+    - status  # accept/revise/reject
+    - confidence
+    - dissenting_opinions

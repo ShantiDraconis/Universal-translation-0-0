@@ -1,0 +1,21 @@
+root_id,proto_form,meaning,language_families,cognates,semantic_field,notes
+R001,*meh₂tēr,mother,"indo_european,universal","Latin: mater, Greek: μήτηρ, Sanskrit: mātṛ, English: mother",kinship,Nearly universal root for mother
+R002,*ph₂tḗr,father,"indo_european","Latin: pater, Greek: πατήρ, Sanskrit: pitṛ, English: father",kinship,Common PIE root
+R003,*h₂ékʷeh₂,water,"indo_european","Latin: aqua, Proto-Germanic: *ahwō",nature,Water/liquid concept
+R004,*māna,mind/spirit,"indo_european,dravidian","Sanskrit: manas, Latin: mens, English: mind",abstract,Mental/spiritual concept
+R005,*sol,sun,"indo_european","Latin: sol, Greek: ἥλιος, Sanskrit: sūrya",celestial,Solar deity root
+R006,*mēns,moon,"indo_european","Latin: mensis (month), Greek: μήν, English: moon/month",celestial,Lunar cycle root
+R007,*dʰeh₁,place/do,"indo_european","Greek: τίθημι, Latin: facio, Sanskrit: dhā",action,Creative action
+R008,*h₁es,to be,"indo_european","Latin: esse, Greek: εἰμί, Sanskrit: as, English: is",existence,Being/existence
+R009,*gʷem,to come/go,"indo_european","Latin: venire, Greek: βαίνω, Sanskrit: gam",movement,Motion concept
+R010,*weyd,to see/know,"indo_european","Latin: videre, Greek: εἶδον, Sanskrit: vid, English: wit",perception,Sight/knowledge
+R011,*amma,mother,"dravidian,proto_human","Tamil: அம்மா, Kannada: amma",kinship,Universal mother word
+R012,*appa,father,"dravidian","Tamil: அப்பா, Telugu: appa",kinship,Dravidian father term
+R013,*pirá,fish,"tupi_guarani","Tupi: pirá, Guarani: pira",animals,Fish in Tupi languages
+R014,*y,water,"tupi_guarani","Tupi: y, Guarani: y",nature,Water element
+R015,*šlm,peace/wholeness,"afro_asiatic","Hebrew: shalom, Arabic: salām",abstract,Semitic peace root
+R016,*ktb,to write,"afro_asiatic","Hebrew: כתב, Arabic: كتب",action,Writing root
+R017,*šm,name,"afro_asiatic","Hebrew: שם, Arabic: اسم",identity,Name/identity
+R018,*el,god,"afro_asiatic","Hebrew: אל, Arabic: الله",sacred,Divine name element
+R019,*ma,mother,"sino_tibetan","Chinese: 妈 (mā), Tibetan: ama",kinship,East Asian mother
+R020,*shui,water,"sino_tibetan","Chinese: 水 (shuǐ)",nature,Water in Chinese

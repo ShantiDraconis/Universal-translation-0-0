@@ -1,0 +1,2 @@
+[console_scripts]
+universal-translate = universal_translation.api.cli:main

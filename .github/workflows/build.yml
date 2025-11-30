@@ -1,0 +1,82 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+    tags:
+      - 'v*'
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install build twine
+
+      - name: Build package
+        run: |
+          python -m build
+
+      - name: Check package
+        run: |
+          twine check dist/*
+
+      - name: Test installation
+        run: |
+          pip install dist/*.whl
+          python -c "from universal_translation import translate_text; print('Import successful')"
+          python -c "from universal_translation.api.translate import translate; print(translate('test'))"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install linting tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff black isort mypy
+
+      - name: Check code formatting with Black
+        run: |
+          black --check --diff universal_translation/ tests/
+        continue-on-error: true
+
+      - name: Check imports with isort
+        run: |
+          isort --check-only --diff universal_translation/ tests/
+        continue-on-error: true
+
+      - name: Lint with Ruff
+        run: |
+          ruff check universal_translation/ tests/
+        continue-on-error: true
+
+      - name: Type check with mypy
+        run: |
+          mypy universal_translation/ --ignore-missing-imports
+        continue-on-error: true
