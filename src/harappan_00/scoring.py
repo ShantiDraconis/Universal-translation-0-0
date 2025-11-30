@@ -27,7 +27,7 @@ def compute_stats(df: pd.DataFrame) -> pd.DataFrame:
         )
         .reset_index()
     )
-    # melhor token_00 (maior confidência)
+    # best token_00 (highest confidence)
     idx = df.sort_values(["harappan_code", "confidence_score"], ascending=[True, False])
     idx = idx.groupby("harappan_code").head(1)
     stats = stats.merge(

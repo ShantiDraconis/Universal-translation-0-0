@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parents[2]  # raiz do repo
+BASE_DIR = Path(__file__).resolve().parents[2]  # repo root
 
 
 def load_harappan_signs() -> pd.DataFrame:

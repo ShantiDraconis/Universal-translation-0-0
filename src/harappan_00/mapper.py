@@ -3,12 +3,12 @@ from .loader import load_harappan_signs, load_dictionary_00
 
 
 def simple_phonetic_distance(a: str, b: str) -> float:
-    """Distância fonética simplificada (0 = diferente, 1 = muito parecido)."""
+    """Simplified phonetic distance (0 = different, 1 = very similar)."""
     a = a.lower()
     b = b.lower()
     if a == b:
         return 1.0
-    # heurística muito simples só pra começar
+    # simple heuristic to start with
     common = len(set(a) & set(b))
     max_len = max(len(a), len(b))
     return common / max_len if max_len > 0 else 0.0
@@ -21,7 +21,7 @@ def generate_initial_mapping(top_k: int = 5) -> pd.DataFrame:
     rows = []
     for _, hrow in har.iterrows():
         hcode = hrow["code"]
-        # você pode criar campo 'phonetic_guess' depois; aqui uso label_short
+        # phonetic_guess field can be added later; using label_short here
         h_label = str(hrow.get("label_short", hcode))
 
         scores = []
@@ -38,7 +38,7 @@ def generate_initial_mapping(top_k: int = 5) -> pd.DataFrame:
                 "candidate_rank": rank,
                 "confidence_score": round(float(score), 4),
                 "match_type": "phonetic-heuristic",
-                "justification_short": "heurística de interseção de letras",
+                "justification_short": "letter intersection heuristic",
                 "notes": "",
             })
 

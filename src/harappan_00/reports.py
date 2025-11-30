@@ -20,12 +20,12 @@ def save_mapping_and_stats(mapping: pd.DataFrame) -> None:
 
 
 def build_summary_reports(mapping: pd.DataFrame) -> None:
-    """Gera um relatório simples em Markdown com resumo das associações."""
+    """Generate a simple Markdown report with mapping summary."""
     docs_dir = BASE_DIR / "docs"
     docs_dir.mkdir(parents=True, exist_ok=True)
 
     stats = compute_stats(mapping)
-    lines = ["# Relatório de Mapeamento Harappan ↔ 00\n"]
+    lines = ["# Harappan ↔ 00 Mapping Report\n"]
     for _, row in stats.iterrows():
         lines.append(
             f"- {row['harappan_code']}: best = {row['best_token_00']} "

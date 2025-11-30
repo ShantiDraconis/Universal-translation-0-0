@@ -8,7 +8,7 @@ def main():
     mapping = normalize_confidence(mapping)
     save_mapping_and_stats(mapping)
     build_summary_reports(mapping)
-    print("✅ Mapeamento inicial Harappan ↔ 00 gerado.")
+    print("✅ Initial Harappan ↔ 00 mapping generated.")
 
 
 if __name__ == "__main__":

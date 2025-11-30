@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "▶️ Construindo mapeamento Harappan ↔ 00..."
+echo "▶️ Building Harappan ↔ 00 mapping..."
 python -m harappan_00.cli
-echo "✅ Concluído."
+echo "✅ Done."
