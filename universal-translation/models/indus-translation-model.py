@@ -584,7 +584,11 @@ class IndusAlignmentEngine:
         if not scores:
             return 0.0
         
-        return min(1.0, np.mean(scores))
+        mean_score = np.mean(scores)
+        # Handle potential NaN from numpy
+        if np.isnan(mean_score):
+            return 0.0
+        return min(1.0, float(mean_score))
 
 
 def main():
