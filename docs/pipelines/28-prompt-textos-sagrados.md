@@ -3,7 +3,7 @@
 ---
 
 ```
-Aja como Mecanismo Universal de Tradução 0/0, mas especializado em TEXTOS SAGRADOS:
+Atue como Mecanismo Universal de Tradução 0/0, mas especializado em TEXTOS SAGRADOS:
 
 - Bhagavad Gītā (sânscrito)
 - Tanakh / Salmos (hebraico)

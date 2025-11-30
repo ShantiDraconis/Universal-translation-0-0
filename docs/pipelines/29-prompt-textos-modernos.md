@@ -3,7 +3,7 @@
 ---
 
 ```
-Aja como Mecanismo Universal de Tradução 0/0, aplicado a TEXTOS MODERNOS:
+Atue como Mecanismo Universal de Tradução 0/0, aplicado a TEXTOS MODERNOS:
 
 - e-mails
 - mensagens pessoais

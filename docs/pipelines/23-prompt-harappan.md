@@ -49,8 +49,10 @@ Sílabas com tokens 00:
 | Sílaba | Token 00 | Signo Harappan | ID | Valor Numérico | Valor Geométrico | Valor Cosmológico | Proto-Sumério |
 |--------|----------|----------------|-----|----------------|------------------|-------------------|---------------|
 | a      | A        | ☉ (sol)        | H1  | 1              | círculo          | origem            | AN (céu)      |
-| ma     | MA       | 𐨀 (mãe)       | H47 | 7              | curva            | água/terra        | AMA           |
+| ma     | MA       | ⌇ (mãe)*       | H47 | 7              | curva            | água/terra        | AMA           |
 | ...    | ...      | ...            | ... | ...            | ...              | ...               | ...           |
+
+*Nota: O signo Harappan original pode não renderizar em todos os sistemas.
 
 ### Mini-Mapa de Signos Recorrentes
 
