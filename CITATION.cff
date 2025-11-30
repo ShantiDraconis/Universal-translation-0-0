@@ -38,3 +38,64 @@ references:
     year: 1994
     publisher:
       name: "Cambridge University Press"
+message: "If you use this work, please cite:"
+title: "harappan-00-universal: Symbolic and phonetic mapping between Harappan script and the 00 Universal Dictionary"
+authors:
+  - family-names: "Fagliari"
+    given-names: "Tiago Paschoalatto"
+    name-particle: ""
+    orcid: "TODO-ORCID"
+date-released: "2025-11-30"
+version: "0.1.0"
+repository-code: "https://github.com/ShantiDraconis/harappan-00-universal"
+message: "If you use this software, please cite it as below."
+type: software
+title: "Universal Translation Engine 0/0"
+version: 0.1.0
+date-released: 2025-01-01
+url: "https://github.com/ShantiDraconis/Universal-translation-0-0"
+repository-code: "https://github.com/ShantiDraconis/Universal-translation-0-0"
+license: MIT
+authors:
+  - family-names: "Draconis"
+    given-names: "Shanti"
+abstract: >-
+  A Universal Structural Theory of Language, semantics, symbol and phoneme,
+  sustained by a mathematical operator of indetermination (I = 0/0).
+  The Universal Translation Engine 0/0 is a mathematical-linguistic system
+  capable of reconstructing universal translations through multilingual
+  phonetic segmentation, symbolic projections, archetypal comparisons,
+  phonemic analysis, proto-linguistic reconstruction, Harappan modeling,
+  universal dictionary, and scientific numerology.
+keywords:
+  - linguistics
+  - phonetics
+  - translation
+  - semiotics
+  - harappan
+  - proto-language
+  - computational-linguistics
+  - universal-grammar
+title: "Universal Translation 0/0 - Motor de Tradução Universal"
+abstract: >-
+  A cross-linguistic analysis system for reconstructing Harappan phonemes
+  through comparative phonetic analysis across Tamil, Chinese, Norse, Latin,
+  Tupi, and other language families. Creates a modern Rosetta Stone for the
+  Indus Valley script.
+authors:
+  - family-names: "Draconis"
+    given-names: "Shanti"
+    alias: "ShantiDraconis"
+version: "0.1.0"
+date-released: 2025-01-01
+license: MIT
+repository-code: "https://github.com/ShantiDraconis/Universal-translation-0-0"
+keywords:
+  - harappan
+  - linguistics
+  - phonetics
+  - translation
+  - ancient-languages
+  - indus-valley
+  - dravidian
+  - proto-language

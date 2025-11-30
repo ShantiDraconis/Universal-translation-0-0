@@ -1,3 +1,9 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -20,11 +26,15 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
+*.egg-info/
+.installed.cfg
+*.egg
 
 # PyInstaller
 *.manifest
@@ -54,6 +64,7 @@ cover/
 *.pot
 
 # Django stuff:
+# Django stuff
 *.log
 local_settings.py
 db.sqlite3
@@ -64,6 +75,11 @@ instance/
 .webassets-cache
 
 # Scrapy stuff:
+# Flask stuff
+instance/
+.webassets-cache
+
+# Scrapy stuff
 .scrapy
 
 # Sphinx documentation
@@ -130,6 +146,8 @@ dmypy.json
 cython_debug/
 
 # IDE
+# IDE
+# IDEs
 .idea/
 .vscode/
 *.swp
@@ -142,3 +160,61 @@ Thumbs.db
 
 # Project specific
 *.egg-info/
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Build
+build/
+dist/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Lean
+.lake/
+
+# Coq
+*.vo
+*.vok
+*.vos
+*.glob
+.coqdeps.d
+
+# Isabelle
+.isabelle/
+
+# Agda
+*.agdai
+
+# Project specific
+/tmp/
+*.tmp
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS files
+.DS_Store
+Thumbs.db

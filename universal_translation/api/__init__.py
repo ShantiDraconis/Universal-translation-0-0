@@ -3,3 +3,4 @@
 from universal_translation.api.translate import translate
 
 __all__ = ["translate"]
+"""Universal Translation API module."""
