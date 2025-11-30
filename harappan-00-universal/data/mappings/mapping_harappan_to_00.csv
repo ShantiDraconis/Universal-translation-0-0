@@ -1,0 +1,142 @@
+harappan_sign,mahadevan_num,universal_00_code,concept,probability_match,notes
+M-001,1,00-HUM-001,Human/Person,0.95,Strong correlation with universal human concept
+M-002,2,00-HUM-002,Human variant,0.90,Standing human figure
+M-003,3,00-HUM-003,Bearer/Carrier,0.85,Human with object
+M-004,4,00-DIV-001,Divine/Sacred,0.75,Possibly deity representation
+M-005,5,00-HUM-004,Seated person,0.90,Position variant
+M-006,6,00-HUM-005,Female/Woman,0.85,Gender-specific symbol
+M-007,7,00-DIV-002,Deity,0.80,Proto-Shiva connection
+M-008,8,00-ANI-001,Fish,0.98,Most recognized symbol
+M-009,9,00-ANI-002,Protected fish,0.85,Fish with modifier
+M-010,10,00-NUM-002,Two/Pair,0.80,Dual concept through fish
+M-011,11,00-NUM-003,Three,0.80,Triple concept through fish
+M-012,12,00-ANI-001-V,Fish variant,0.90,Directional variant
+M-013,13,00-ANI-010,Bull/Bovine,0.98,Zebu bull clear match
+M-014,14,00-ANI-010-A,Bull+food,0.85,Bull at feeding
+M-015,15,00-ANI-020,Elephant,0.98,Clear animal match
+M-016,16,00-ANI-021,Rhinoceros,0.95,Clear animal match
+M-017,17,00-ANI-030,Tiger/Feline,0.90,Large cat
+M-018,18,00-ANI-040,Crocodile,0.85,River creature
+M-019,19,00-ANI-050,Peacock,0.95,Distinctive bird
+M-020,20,00-ANI-051,Eagle/Raptor,0.85,Bird of prey
+M-021,21,00-ANI-060,Snake/Serpent,0.95,Clear symbol
+M-022,22,00-ANI-070,Scorpion,0.90,Arachnid
+M-023,23,00-ANI-080,Crab,0.90,Crustacean
+M-024,24,00-OBJ-001,Vessel/Container,0.98,Most common object
+M-025,25,00-OBJ-002,Handled vessel,0.95,Variant vessel
+M-026,26,00-OBJ-003,Narrow vessel,0.90,Shape variant
+M-027,27,00-OBJ-004,Wide vessel,0.90,Shape variant
+M-028,28,00-OBJ-005,Covered vessel,0.85,Lid modifier
+M-029,29,00-OBJ-006,Water vessel,0.90,Function specific
+M-030,30,00-OBJ-007,Storage,0.85,Size/function variant
+M-031,31,00-OBJ-010,Wheel,0.95,Clear technology
+M-032,32,00-OBJ-011,Cart/Vehicle,0.90,Transport object
+M-033,33,00-OBJ-020,Plow,0.85,Agriculture tool
+M-034,34,00-OBJ-021,Ax/Cutting tool,0.90,Tool category
+M-035,35,00-OBJ-030,Arrow,0.95,Weapon
+M-036,36,00-OBJ-031,Bow,0.90,Weapon pair
+M-037,37,00-OBJ-032,Spear,0.85,Pole weapon
+M-038,38,00-OBJ-033,Dagger,0.90,Short blade
+M-039,39,00-OBJ-040,Comb,0.85,Personal object
+M-040,40,00-OBJ-041,Mirror,0.75,Reflective object
+M-041,41,00-NUM-001,One,0.98,Clear numeral
+M-042,42,00-NUM-002,Two,0.98,Clear numeral
+M-043,43,00-NUM-003,Three,0.98,Clear numeral
+M-044,44,00-NUM-004,Four,0.98,Clear numeral
+M-045,45,00-NUM-005,Five,0.98,Clear numeral
+M-046,46,00-NUM-006,Six,0.95,Clear numeral
+M-047,47,00-NUM-007,Seven,0.95,Clear numeral
+M-048,48,00-NUM-008,Eight,0.95,Clear numeral
+M-049,49,00-NUM-010,Ten,0.90,Base unit
+M-050,50,00-NUM-020,Twenty,0.85,Multiple base
+M-051,51,00-GEO-001,Bracket/Container,0.80,Abstract shape
+M-052,52,00-GEO-002,Arch,0.80,Inverted bracket
+M-053,53,00-GEO-003,Field/Enclosure,0.85,Square meaning
+M-054,54,00-GEO-004,Rectangle,0.80,Shape variant
+M-055,55,00-GEO-005,Diamond,0.75,Rotated square
+M-056,56,00-GEO-006,Mountain/Peak,0.85,Triangle = mountain
+M-057,57,00-GEO-007,Valley/Low,0.80,Inverted triangle
+M-058,58,00-CEL-001,Sun/Circle,0.90,Completeness symbol
+M-059,59,00-CEL-002,Half moon,0.85,Lunar phase
+M-060,60,00-CEL-003,Crescent,0.90,Moon symbol
+M-061,61,00-GEO-010,Cross/Intersection,0.80,Meeting point
+M-062,62,00-GEO-011,X-mark,0.80,Crossing
+M-063,63,00-CEL-004,Star,0.90,Celestial body
+M-064,64,00-CEL-005,Complex star,0.85,Six-pointed
+M-065,65,00-NAT-001,Water/Waves,0.90,Zigzag = water
+M-066,66,00-NAT-002,Flowing water,0.85,Wavy line
+M-067,67,00-NAT-003,Double water,0.80,Emphasis
+M-068,68,00-OBJ-050,Ladder/Steps,0.85,Vertical rungs
+M-069,69,00-OBJ-051,Grid/Weave,0.80,Pattern
+M-070,70,00-ARC-001,Fence/Enclosure,0.85,Boundary
+M-071,71,00-BOT-001,Tree,0.95,Generic plant
+M-072,72,00-BOT-002,Palm tree,0.90,Specific tree
+M-073,73,00-BOT-003,Sacred tree,0.90,Pipal/religious
+M-074,74,00-BOT-004,Flower,0.90,Blossom
+M-075,75,00-BOT-005,Lotus,0.90,Water flower
+M-076,76,00-BOT-010,Grain,0.90,Food plant
+M-077,77,00-BOT-011,Rice,0.85,Specific grain
+M-078,78,00-BOT-012,Cotton,0.80,Fiber plant
+M-079,79,00-BOT-013,Sprout,0.85,New growth
+M-080,80,00-BOT-014,Root,0.80,Underground
+M-081,81,00-ARC-010,House,0.95,Dwelling
+M-082,82,00-ARC-011,Temple,0.90,Sacred building
+M-083,83,00-ARC-012,Gate/Door,0.95,Entrance
+M-084,84,00-ARC-013,Wall,0.90,Fortification
+M-085,85,00-ARC-014,Tower,0.85,Elevated
+M-086,86,00-ARC-015,Well,0.90,Water source
+M-087,87,00-ARC-016,Platform,0.85,Raised area
+M-088,88,00-ARC-017,Steps,0.90,Stairway
+M-089,89,00-ARC-018,Bridge,0.80,Crossing
+M-090,90,00-TRN-001,Boat,0.95,Watercraft
+M-091,91,00-TRN-002,Raft,0.85,Simple boat
+M-092,92,00-TRN-003,Sail,0.90,Sailing element
+M-093,93,00-TRN-004,Oar,0.85,Rowing tool
+M-094,94,00-TRN-005,Anchor,0.80,Mooring
+M-095,95,00-TOL-001,Net,0.95,Fishing tool
+M-096,96,00-TOL-002,Hook,0.90,Catching tool
+M-097,97,00-TOL-003,Rope,0.95,Cordage
+M-098,98,00-TOL-004,Knot,0.85,Tied rope
+M-099,99,00-TOL-005,Basket,0.90,Container
+M-100,100,00-TOL-006,Scale,0.85,Weighing
+M-101,101,00-BOD-001,Left hand,0.95,Body part
+M-102,102,00-BOD-002,Right hand,0.95,Body part
+M-103,103,00-BOD-003,Foot,0.95,Body part
+M-104,104,00-BOD-004,Eye,0.95,Seeing
+M-105,105,00-BOD-005,Ear,0.90,Hearing
+M-106,106,00-BOD-006,Mouth,0.95,Speaking
+M-107,107,00-BOD-007,Head,0.95,Body part
+M-108,108,00-BOD-008,Heart,0.85,Center/emotion
+M-109,109,00-CEL-010,Sun,0.98,Solar disc
+M-110,110,00-CEL-011,Moon,0.98,Lunar body
+M-111,111,00-CEL-012,Star,0.95,Night star
+M-112,112,00-CEL-013,Planet,0.80,Wandering star
+M-113,113,00-WEA-001,Rain,0.90,Precipitation
+M-114,114,00-WEA-002,Cloud,0.85,Sky cover
+M-115,115,00-WEA-003,Lightning,0.85,Storm flash
+M-116,116,00-WEA-004,Wind,0.80,Air movement
+M-117,117,00-GEG-001,Mountain,0.95,Elevated land
+M-118,118,00-GEG-002,River,0.95,Water course
+M-119,119,00-GEG-003,Sea/Ocean,0.90,Large water
+M-120,120,00-GEG-004,Island,0.85,Land in water
+M-121,121,00-GEG-005,Desert,0.80,Arid land
+M-122,122,00-GEG-006,Forest,0.85,Wooded area
+M-123,123,00-GEG-007,Field,0.90,Cultivated land
+M-124,124,00-GEG-008,Road/Path,0.85,Way
+M-125,125,00-GEG-009,Border,0.80,Boundary
+M-126,126,00-GEG-010,City,0.85,Urban center
+M-127,127,00-GEG-011,Village,0.80,Small settlement
+M-128,128,00-GEG-012,Port,0.85,Harbor
+M-129,129,00-TTL-001,King/Ruler,0.90,Royal title
+M-130,130,00-TTL-002,Queen,0.85,Female ruler
+M-131,131,00-TTL-003,Priest,0.90,Religious figure
+M-132,132,00-TTL-004,Merchant,0.90,Trader
+M-133,133,00-TTL-005,Craftsman,0.85,Artisan
+M-134,134,00-TTL-006,Farmer,0.90,Agricultural worker
+M-135,135,00-TTL-007,Warrior,0.85,Fighter
+M-136,136,00-TTL-008,Scribe,0.85,Writer
+M-137,137,00-TTL-009,Potter,0.80,Ceramic maker
+M-138,138,00-TTL-010,Weaver,0.80,Textile worker
+M-139,139,00-TTL-011,Smith,0.85,Metal worker
+M-140,140,00-TTL-012,Mason,0.80,Stone worker
+M-417,417,00-MRK-001,Terminal/End,0.90,Sequence marker
