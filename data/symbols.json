@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "name": "Universal Translation Engine 0/0",
+    "version": "1.0.0",
+    "description": "Sistema de tradução simbólica universal",
+    "language": "pt-BR",
+    "methodology": {
+      "layers": [
+        "Fonética universal (68% das línguas)",
+        "Arquetipia transcultural",
+        "Regras matemáticas 0/0",
+        "Dicionário comparativo (Harappan/Tupi/Semítico/Dravídico)"
+      ]
+    }
+  },
+  "symbols": [
+    {
+      "id": 1,
+      "name": "O Vazio",
+      "notation": "0/0",
+      "probability": 98,
+      "rank": 1,
+      "category": "primordial",
+      "variants": {
+        "cabala": "Ein Sof",
+        "budismo": "Śūnyatā",
+        "taoismo": "Wuji",
+        "fisica": "Vácuo quântico",
+        "harappan": "Nada com borda",
+        "tupi": "mba'e"
+      },
+      "attributes": [
+        "Indeterminação matemática",
+        "Origem de todas as possibilidades",
+        "Vazio infinito",
+        "Vazio primordial"
+      ],
+      "significance": "Símbolo mais universal da Terra - representa origem, fim, ciclo, ausência e dualidade"
+    },
+    {
+      "id": 2,
+      "name": "Serpente",
+      "notation": "mboi/nāga/nahash/drakon",
+      "probability": 96,
+      "rank": 2,
+      "category": "animal",
+      "variants": {
+        "tupi": "mboi",
+        "sanskrit": "nāga",
+        "hebraico": "nahash",
+        "grego": "drakon"
+      },
+      "phonemes": ["s", "sh", "na", "ka", "bo", "dr"],
+      "traditions": ["Tupi", "Egito", "Índia", "Sumérios", "Hebraico", "China"],
+      "attributes": [
+        "Renovação",
+        "Ciclo",
+        "Energia vital",
+        "DNA (dupla hélice)",
+        "Curva contínua infinita"
+      ],
+      "significance": "Símbolo mais universal da história humana"
+    },
+    {
+      "id": 3,
+      "name": "Mãe Primordial",
+      "notation": "A-ma/Ana/Inanna/Shakti/Yemanjá",
+      "probability": 94,
+      "rank": 3,
+      "category": "divindade",
+      "variants": {
+        "universal": "A-ma",
+        "sumeria": "Inanna",
+        "india": "Shakti",
+        "yoruba": "Yemanjá",
+        "tupi": "sy, mboi-sy",
+        "cabala": "Biná",
+        "protoindoeuropeu": "méh₂tēr"
+      },
+      "phonemes": ["ma", "na", "ya"],
+      "attributes": [
+        "Origem da linguagem",
+        "Útero do universo",
+        "Entendimento",
+        "Vácuo quântico"
+      ],
+      "significance": "Sons ma/na/ya significam mãe em mais de 120 línguas"
+    },
+    {
+      "id": 4,
+      "name": "Fogo",
+      "notation": "Agni/Exu/Shin/Ka/Ra",
+      "probability": 92,
+      "rank": 4,
+      "category": "elemento",
+      "variants": {
+        "sanskrit": "Agni",
+        "yoruba": "Exu",
+        "hebraico": "Shin",
+        "egipcio": "Ka, Ra"
+      },
+      "phonemes": ["A-G-N", "Sh", "Ra", "Ka"],
+      "attributes": [
+        "Transformação",
+        "Operador I = 0/0",
+        "Destrói e renova",
+        "Renascimento espiritual"
+      ],
+      "significance": "100% das culturas têm um deus do fogo"
+    },
+    {
+      "id": 5,
+      "name": "Som Primordial",
+      "notation": "AUM/OM/AN/ON",
+      "probability": 90,
+      "rank": 5,
+      "category": "som",
+      "variants": {
+        "sanskrit": "AUM, OM",
+        "tupi": "ã",
+        "hebraico": "אום",
+        "egipcio": "Un",
+        "grego": "Ὦ"
+      },
+      "frequency": {
+        "male": "~100 Hz",
+        "female": "~200 Hz"
+      },
+      "attributes": [
+        "Primeira vogal do mundo (A)",
+        "Fechamento/ciclo (M)",
+        "Frequência fundamental da fala"
+      ],
+      "significance": "Representa o ciclo 0/0 através do som"
+    },
+    {
+      "id": 6,
+      "name": "Água Primordial",
+      "notation": "Nun/Ap/Yam/Yara/Aap",
+      "probability": 89,
+      "rank": 6,
+      "category": "elemento",
+      "variants": {
+        "egipcio": "Nun",
+        "sanskrit": "Ap, Aap",
+        "hebraico": "Yam",
+        "tupi": "Yara"
+      },
+      "phonemes": ["n", "y", "a", "u"],
+      "attributes": [
+        "Fonemas líquidos constantes",
+        "Símbolo Harappan frequente",
+        "Primeiro arquétipo cerebral",
+        "Origem cosmológica"
+      ],
+      "significance": "Todas as cosmologias começam na água"
+    },
+    {
+      "id": 7,
+      "name": "Sol / Luz",
+      "notation": "Ra/Surya/Kuaray/Helios",
+      "probability": 88,
+      "rank": 7,
+      "category": "astro",
+      "variants": {
+        "egipcio": "Ra",
+        "sanskrit": "Surya",
+        "tupi": "Kuaray",
+        "grego": "Helios"
+      },
+      "phonemes": ["R-L"],
+      "traditions_count": 72,
+      "attributes": [
+        "Vibração de língua",
+        "Brilho",
+        "Radiação",
+        "Energia cósmica"
+      ],
+      "significance": "Fonema R-L associado a brilho em 72 tradições"
+    },
+    {
+      "id": 8,
+      "name": "Roda / Ciclo",
+      "notation": "Chakra/Ouroboros/Yin-Yang/Shen",
+      "probability": 87,
+      "rank": 8,
+      "category": "geometria",
+      "variants": {
+        "tupi": "Mboi (espiral)",
+        "india": "Dharma Chakra",
+        "grecia": "Ouroboros",
+        "china": "Yin-Yang",
+        "egito": "Anel Shen"
+      },
+      "attributes": [
+        "Ciclos",
+        "Série de Fourier",
+        "Cosmos",
+        "Renascimento"
+      ],
+      "significance": "Representa o ciclo matemático universal"
+    },
+    {
+      "id": 9,
+      "name": "Tara (Caminho)",
+      "notation": "TARA",
+      "probability": 85,
+      "rank": 9,
+      "category": "conceito",
+      "variants": {
+        "india": "Tara",
+        "tupi": "Tare (caminho)",
+        "egito": "Ta-Ra (caminho de Ra)",
+        "latim": "Terra",
+        "hebraico": "Torah",
+        "ingles": "Track",
+        "portugues": "Trajetória"
+      },
+      "attributes": [
+        "Linha temporal",
+        "Caminho",
+        "Lei",
+        "Trajetória"
+      ],
+      "significance": "Convergência fonética muito acima do normal"
+    },
+    {
+      "id": 10,
+      "name": "Pai / Céus",
+      "notation": "OR/UR/OX",
+      "probability": 84,
+      "rank": 10,
+      "category": "divindade",
+      "variants": {
+        "sumerio": "Ur (fonte)",
+        "hebraico": "Or (luz)",
+        "yoruba": "Olorun (céu)",
+        "sincretico": "Oxalá (Or + Ala)",
+        "tupi": "oré (nós/plural divino)"
+      },
+      "attributes": [
+        "Fonte",
+        "Luz",
+        "Céu",
+        "Plural divino"
+      ],
+      "significance": "Representa a paternidade cósmica"
+    },
+    {
+      "id": 11,
+      "name": "Exu / Hermes (Ponte)",
+      "notation": "Exu/Hermes/Thoth",
+      "probability": 83,
+      "rank": 11,
+      "category": "divindade",
+      "variants": {
+        "yoruba": "Exu",
+        "grego": "Hermes",
+        "egipcio": "Thoth"
+      },
+      "phonemes": ["X", "Sh", "H"],
+      "attributes": [
+        "Mensageiro",
+        "Limiar",
+        "Fronteira",
+        "Corte de ar",
+        "Abertura"
+      ],
+      "significance": "Ponte entre mundos - universal nos mitos humanos"
+    },
+    {
+      "id": 12,
+      "name": "Guerreiro / Força",
+      "notation": "AR/KARAÍ",
+      "probability": 82,
+      "rank": 12,
+      "category": "arquetipo",
+      "variants": {
+        "indoeuropeu": "ar (movimento)",
+        "grego": "Ares (Marte)",
+        "tupi": "Karai (nobre sagrado)",
+        "turco": "Kara (força)",
+        "sanskrit": "Hara (Shiva)"
+      },
+      "attributes": [
+        "Movimento",
+        "Força",
+        "Nobreza sagrada"
+      ],
+      "significance": "Representa a força transformadora"
+    }
+  ],
+  "analysis": {
+    "thesis": "Símbolos universais não são uma invenção, mas uma convergência estatística da biologia, do cérebro e da estrutura fonética humana.",
+    "evidence": [
+      "Línguas desconexas apresentam símbolos semelhantes",
+      "Povos sem contato compartilham mitos idênticos",
+      "Geometrias se repetem em culturas independentes"
+    ],
+    "zerozero_capability": [
+      "Representa origem",
+      "Representa fim",
+      "Representa ciclo",
+      "Representa ausência",
+      "Representa DUO que se torna UM"
+    ],
+    "model_components": [
+      "Modelo fonético estatístico",
+      "Modelo arquetípico transcultural",
+      "Modelo matemático de indeterminação",
+      "Modelo linguístico comparado",
+      "Modelo simbólico convergente",
+      "Sistema de tradução integral"
+    ]
+  }
+}
