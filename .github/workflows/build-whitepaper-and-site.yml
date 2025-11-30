@@ -1,0 +1,39 @@
+name: Build Whitepaper and Site
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "whitepaper/**"
+      - "site/**"
+      - ".github/workflows/build-whitepaper-and-site.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup LaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: whitepaper/main.tex
+          working_directory: whitepaper
+
+      - name: Upload whitepaper PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: whitepaper-pdf
+          path: whitepaper/whitepaper.pdf
+
+      # Optional: Deploy site to GitHub Pages
+      # - name: Deploy to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./site

@@ -27,3 +27,26 @@ keywords:
   - proto-language
   - computational-linguistics
   - universal-grammar
+title: "Universal Translation 0/0 - Motor de Tradução Universal"
+abstract: >-
+  A cross-linguistic analysis system for reconstructing Harappan phonemes
+  through comparative phonetic analysis across Tamil, Chinese, Norse, Latin,
+  Tupi, and other language families. Creates a modern Rosetta Stone for the
+  Indus Valley script.
+authors:
+  - family-names: "Draconis"
+    given-names: "Shanti"
+    alias: "ShantiDraconis"
+version: "0.1.0"
+date-released: 2025-01-01
+license: MIT
+repository-code: "https://github.com/ShantiDraconis/Universal-translation-0-0"
+keywords:
+  - harappan
+  - linguistics
+  - phonetics
+  - translation
+  - ancient-languages
+  - indus-valley
+  - dravidian
+  - proto-language
