@@ -51,7 +51,7 @@ A serpente é o símbolo mais universal da história humana → por isso a chanc
 **Motivos:**
 
 - Origem da linguagem humana está ligada a sons como ma, na, ya, que significam "mãe" em mais de 120 línguas registradas
-- Linguística protoindoeuropeia confirma méh₂tēr
+- Linguística proto-indo-europeia confirma méh₂tēr
 - Tupi: "sy", "mboi-sy" (mãe serpente)
 - Cabala: Biná (entendimento, o ventre)
 - Física simbólica: o vácuo quântico funciona como "útero do universo"

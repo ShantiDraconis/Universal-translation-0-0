@@ -25,7 +25,7 @@
         "cabala": "Ein Sof",
         "budismo": "Śūnyatā",
         "taoismo": "Wuji",
-        "fisica": "Vácuo quântico",
+        "física": "Vácuo quântico",
         "harappan": "Nada com borda",
         "tupi": "mba'e"
       },
@@ -213,8 +213,8 @@
         "egito": "Ta-Ra (caminho de Ra)",
         "latim": "Terra",
         "hebraico": "Torah",
-        "ingles": "Track",
-        "portugues": "Trajetória"
+        "inglês": "Track",
+        "português": "Trajetória"
       },
       "attributes": [
         "Linha temporal",
@@ -232,10 +232,10 @@
       "rank": 10,
       "category": "divindade",
       "variants": {
-        "sumerio": "Ur (fonte)",
+        "sumério": "Ur (fonte)",
         "hebraico": "Or (luz)",
         "yoruba": "Olorun (céu)",
-        "sincretico": "Oxalá (Or + Ala)",
+        "sincrético": "Oxalá (Or + Ala)",
         "tupi": "oré (nós/plural divino)"
       },
       "attributes": [
@@ -276,7 +276,7 @@
       "rank": 12,
       "category": "arquetipo",
       "variants": {
-        "indoeuropeu": "ar (movimento)",
+        "indo-europeu": "ar (movimento)",
         "grego": "Ares (Marte)",
         "tupi": "Karai (nobre sagrado)",
         "turco": "Kara (força)",
