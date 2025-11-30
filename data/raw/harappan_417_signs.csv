@@ -1,0 +1,418 @@
+id,group,group_full,phoneme,semantic_field,tamil_root,chinese_root,norse_root,latin_root,tupi_root,description
+H001,NUM,NUM_TALLY,ta,counting,taṭṭu,打,tala,tactus,ta,Single stroke - counting one
+H002,NUM,NUM_TALLY,ti,counting,tiṇṇam,體,tid,tempus,ti,Counting stroke - temporal
+H003,NUM,NUM_TALLY,tu,counting,tuṇṭu,度,tíð,tutus,tu,Counting unit - safe measure
+H004,NUM,NUM_TALLY,na,person/count,nāṉ,那,nátt,natus,ne,Person marker - counting
+H005,NUM,NUM_TALLY,ni,self/count,niṟai,你,níð,nihil,ni,Self reference in count
+H006,NUM,NUM_TALLY,nu,new/count,nutal,奴,nú,novus,nu,New count marker
+H007,NUM,NUM_TALLY,sa,process,caṅku,三,sá,sacrum,sa,Sacred count process
+H008,NUM,NUM_TALLY,si,continuation,ciṉṉam,四,sinn,sic,si,Sign continuation
+H009,NUM,NUM_TALLY,su,flow,cuṭar,水,sumar,sudor,su,Flow of counting
+H010,NUM,NUM_TALLY,wa,union,vaḷam,萬,váði,vas,wa,Unity marker
+H011,NUM,NUM_TALLY,ya,movement,yāṉ,也,já,iam,ya,Already counted
+H012,NUM,NUM_TALLY,ri,line,irai,理,ríki,rite,ri,Line of count
+H013,NUM,NUM_TALLY,ta,counting,taṭṭu,打,tala,tactus,ta,Multiple stroke variation
+H014,NUM,NUM_TALLY,ti,counting,tiṇṇam,體,tid,tempus,ti,Time measure variant
+H015,NUM,NUM_TALLY,tu,counting,tuṇṭu,度,tíð,tutus,tu,Safe count variant
+H016,NUM,NUM_TALLY,na,person/count,nāṉ,那,nátt,natus,ne,Person count variant
+H017,NUM,NUM_TALLY,ni,self/count,niṟai,你,níð,nihil,ni,Self count variant
+H018,NUM,NUM_TALLY,nu,new/count,nutal,奴,nú,novus,nu,New marker variant
+H019,NUM,NUM_TALLY,sa,process,caṅku,三,sá,sacrum,sa,Process variant
+H020,NUM,NUM_TALLY,si,continuation,ciṉṉam,四,sinn,sic,si,Sign variant
+H021,NUM,NUM_TALLY,su,flow,cuṭar,水,sumar,sudor,su,Flow variant
+H022,NUM,NUM_TALLY,wa,union,vaḷam,萬,váði,vas,wa,Unity variant
+H023,NUM,NUM_TALLY,ya,movement,yāṉ,也,já,iam,ya,Movement variant
+H024,NUM,NUM_TALLY,ri,line,irai,理,ríki,rite,ri,Line variant
+H025,NUM,NUM_TALLY,ta,counting,taṭṭu,打,tala,tactus,ta,Complex count marker
+H026,NUM,NUM_TALLY,ti,counting,tiṇṇam,體,tid,tempus,ti,Complex time marker
+H027,NUM,NUM_TALLY,tu,counting,tuṇṭu,度,tíð,tutus,tu,Complex measure
+H028,NUM,NUM_TALLY,na,person/count,nāṉ,那,nátt,natus,ne,Complex person
+H029,NUM,NUM_TALLY,ni,self/count,niṟai,你,níð,nihil,ni,Complex self
+H030,NUM,NUM_TALLY,nu,new/count,nutal,奴,nú,novus,nu,Complex new
+H031,NUM,NUM_TALLY,sa,process,caṅku,三,sá,sacrum,sa,Complex process
+H032,NUM,NUM_TALLY,si,continuation,ciṉṉam,四,sinn,sic,si,Complex sign
+H033,NUM,NUM_TALLY,su,flow,cuṭar,水,sumar,sudor,su,Complex flow
+H034,NUM,NUM_TALLY,wa,union,vaḷam,萬,váði,vas,wa,Complex unity
+H035,NUM,NUM_TALLY,ya,movement,yāṉ,也,já,iam,ya,Complex movement
+H036,NUM,NUM_TALLY,ri,line,irai,理,ríki,rite,ri,Complex line
+H037,NUM,NUM_TALLY,ta,counting,taṭṭu,打,tala,tactus,ta,Final count marker
+H038,NUM,NUM_TALLY,ti,counting,tiṇṇam,體,tid,tempus,ti,Final time marker
+H039,NUM,NUM_TALLY,tu,counting,tuṇṭu,度,tíð,tutus,tu,Final measure
+H040,NUM,NUM_TALLY,na,person/count,nāṉ,那,nátt,natus,ne,Final person marker
+H041,CON,CONTAINER,ka,object/place,kaḷ,器,karl,casa,ka,Basic container
+H042,CON,CONTAINER,ko,hollow,koṭi,口,koma,corpus,ko,Hollow container
+H043,CON,CONTAINER,ku,interior,kuri,庫,kum,cumulus,ku,Interior space
+H044,CON,CONTAINER,ga,solid,kaṭṭi,罐,gaddr,gradus,ga,Solid container
+H045,CON,CONTAINER,go,capacity,koḷ,鍋,góðr,gaudium,go,Good capacity
+H046,CON,CONTAINER,gu,deep,kuḻi,鼓,gull,gustus,gu,Deep vessel
+H047,CON,CONTAINER,ma,material,maṇ,罐,mál,materia,ma,Material container
+H048,CON,CONTAINER,mo,surface,moḻi,模,morð,modus,mo,Mold shape
+H049,CON,CONTAINER,mu,front,muṉ,木,múnn,mundus,mu,Front opening
+H050,CON,CONTAINER,pa,part,paṅku,盆,partr,pars,pa,Part container
+H051,CON,CONTAINER,po,opening,poṅku,鉢,portr,portus,po,Port opening
+H052,CON,CONTAINER,pu,flower,pū,缶,púki,pulvis,pu,Flower vessel
+H053,CON,CONTAINER,ka,object/place,kaḷ,器,karl,casa,ka,Container variant A
+H054,CON,CONTAINER,ko,hollow,koṭi,口,koma,corpus,ko,Hollow variant A
+H055,CON,CONTAINER,ku,interior,kuri,庫,kum,cumulus,ku,Interior variant A
+H056,CON,CONTAINER,ga,solid,kaṭṭi,罐,gaddr,gradus,ga,Solid variant A
+H057,CON,CONTAINER,go,capacity,koḷ,鍋,góðr,gaudium,go,Capacity variant A
+H058,CON,CONTAINER,gu,deep,kuḻi,鼓,gull,gustus,gu,Deep variant A
+H059,CON,CONTAINER,ma,material,maṇ,罐,mál,materia,ma,Material variant A
+H060,CON,CONTAINER,mo,surface,moḻi,模,morð,modus,mo,Surface variant A
+H061,CON,CONTAINER,mu,front,muṉ,木,múnn,mundus,mu,Front variant A
+H062,CON,CONTAINER,pa,part,paṅku,盆,partr,pars,pa,Part variant A
+H063,CON,CONTAINER,po,opening,poṅku,鉢,portr,portus,po,Opening variant A
+H064,CON,CONTAINER,pu,flower,pū,缶,púki,pulvis,pu,Flower variant A
+H065,CON,CONTAINER,ka,object/place,kaḷ,器,karl,casa,ka,Container variant B
+H066,CON,CONTAINER,ko,hollow,koṭi,口,koma,corpus,ko,Hollow variant B
+H067,CON,CONTAINER,ku,interior,kuri,庫,kum,cumulus,ku,Interior variant B
+H068,CON,CONTAINER,ga,solid,kaṭṭi,罐,gaddr,gradus,ga,Solid variant B
+H069,CON,CONTAINER,go,capacity,koḷ,鍋,góðr,gaudium,go,Capacity variant B
+H070,CON,CONTAINER,gu,deep,kuḻi,鼓,gull,gustus,gu,Deep variant B
+H071,CON,CONTAINER,ma,material,maṇ,罐,mál,materia,ma,Material variant B
+H072,CON,CONTAINER,mo,surface,moḻi,模,morð,modus,mo,Surface variant B
+H073,CON,CONTAINER,mu,front,muṉ,木,múnn,mundus,mu,Front variant B
+H074,CON,CONTAINER,pa,part,paṅku,盆,partr,pars,pa,Part variant B
+H075,CON,CONTAINER,po,opening,poṅku,鉢,portr,portus,po,Opening variant B
+H076,CON,CONTAINER,pu,flower,pū,缶,púki,pulvis,pu,Flower variant B
+H077,CON,CONTAINER,ka,object/place,kaḷ,器,karl,casa,ka,Container variant C
+H078,CON,CONTAINER,ko,hollow,koṭi,口,koma,corpus,ko,Hollow variant C
+H079,CON,CONTAINER,ku,interior,kuri,庫,kum,cumulus,ku,Interior variant C
+H080,CON,CONTAINER,ga,solid,kaṭṭi,罐,gaddr,gradus,ga,Solid variant C
+H081,GRID,GRID_FIELD,ra,flow/line,irai,理,ráð,ratio,ra,Grid base line
+H082,GRID,GRID_FIELD,ri,order,iṟai,里,ríki,rite,ri,Ordered grid
+H083,GRID,GRID_FIELD,ru,path,urai,路,rúm,rus,ru,Rural path
+H084,GRID,GRID_FIELD,la,level,ilai,列,lag,latus,la,Level field
+H085,GRID,GRID_FIELD,li,line,iḻai,理,lið,linea,li,Linear grid
+H086,GRID,GRID_FIELD,lu,plane,ula,錄,ljóss,lumen,lu,Luminous plane
+H087,GRID,GRID_FIELD,re,relation,eri,連,reið,res,re,Related grid
+H088,GRID,GRID_FIELD,le,boundary,eli,列,leið,limes,le,Bounded field
+H089,GRID,GRID_FIELD,ro,rotation,urai,輪,róa,rota,ro,Rotating grid
+H090,GRID,GRID_FIELD,we,weave,vaḻi,網,vefr,via,we,Woven pattern
+H091,GRID,GRID_FIELD,ra,flow/line,irai,理,ráð,ratio,ra,Grid variant A
+H092,GRID,GRID_FIELD,ri,order,iṟai,里,ríki,rite,ri,Order variant A
+H093,GRID,GRID_FIELD,ru,path,urai,路,rúm,rus,ru,Path variant A
+H094,GRID,GRID_FIELD,la,level,ilai,列,lag,latus,la,Level variant A
+H095,GRID,GRID_FIELD,li,line,iḻai,理,lið,linea,li,Line variant A
+H096,GRID,GRID_FIELD,lu,plane,ula,錄,ljóss,lumen,lu,Plane variant A
+H097,GRID,GRID_FIELD,re,relation,eri,連,reið,res,re,Relation variant A
+H098,GRID,GRID_FIELD,le,boundary,eli,列,leið,limes,le,Boundary variant A
+H099,GRID,GRID_FIELD,ro,rotation,urai,輪,róa,rota,ro,Rotation variant A
+H100,GRID,GRID_FIELD,we,weave,vaḻi,網,vefr,via,we,Weave variant A
+H101,GRID,GRID_FIELD,ra,flow/line,irai,理,ráð,ratio,ra,Grid variant B
+H102,GRID,GRID_FIELD,ri,order,iṟai,里,ríki,rite,ri,Order variant B
+H103,GRID,GRID_FIELD,ru,path,urai,路,rúm,rus,ru,Path variant B
+H104,GRID,GRID_FIELD,la,level,ilai,列,lag,latus,la,Level variant B
+H105,GRID,GRID_FIELD,li,line,iḻai,理,lið,linea,li,Line variant B
+H106,GRID,GRID_FIELD,lu,plane,ula,錄,ljóss,lumen,lu,Plane variant B
+H107,GRID,GRID_FIELD,re,relation,eri,連,reið,res,re,Relation variant B
+H108,GRID,GRID_FIELD,le,boundary,eli,列,leið,limes,le,Boundary variant B
+H109,GRID,GRID_FIELD,ro,rotation,urai,輪,róa,rota,ro,Rotation variant B
+H110,GRID,GRID_FIELD,we,weave,vaḻi,網,vefr,via,we,Weave variant B
+H111,CHEV,CHEVRON_MOUNTAIN,ka,peak,kaṭṭu,高,karl,cacumen,ka,Mountain peak
+H112,CHEV,CHEVRON_MOUNTAIN,ki,sharp,kīṟu,起,kinn,acies,ki,Sharp point
+H113,CHEV,CHEVRON_MOUNTAIN,ku,hill,kuṉṟu,丘,kum,collis,ku,Hill form
+H114,CHEV,CHEVRON_MOUNTAIN,ha,breath,ācai,火,há,halitus,ha,Mountain breath
+H115,CHEV,CHEVRON_MOUNTAIN,hi,spirit,avi,氣,hið,hiems,hi,Winter spirit
+H116,CHEV,CHEVRON_MOUNTAIN,hu,soul,ūṟu,呼,húð,humus,hu,Earth soul
+H117,CHEV,CHEVRON_MOUNTAIN,ta,strike,taṭṭu,打,taka,tango,ta,Strike peak
+H118,CHEV,CHEVRON_MOUNTAIN,ti,point,tīṇṭu,提,tign,tignum,ti,Pointed beam
+H119,CHEV,CHEVRON_MOUNTAIN,tu,rise,tūṇ,突,tún,tumulus,tu,Rising mound
+H120,CHEV,CHEVRON_MOUNTAIN,ka,peak,kaṭṭu,高,karl,cacumen,ka,Peak variant A
+H121,CHEV,CHEVRON_MOUNTAIN,ki,sharp,kīṟu,起,kinn,acies,ki,Sharp variant A
+H122,CHEV,CHEVRON_MOUNTAIN,ku,hill,kuṉṟu,丘,kum,collis,ku,Hill variant A
+H123,CHEV,CHEVRON_MOUNTAIN,ha,breath,ācai,火,há,halitus,ha,Breath variant A
+H124,CHEV,CHEVRON_MOUNTAIN,hi,spirit,avi,氣,hið,hiems,hi,Spirit variant A
+H125,CHEV,CHEVRON_MOUNTAIN,hu,soul,ūṟu,呼,húð,humus,hu,Soul variant A
+H126,CHEV,CHEVRON_MOUNTAIN,ta,strike,taṭṭu,打,taka,tango,ta,Strike variant A
+H127,CHEV,CHEVRON_MOUNTAIN,ti,point,tīṇṭu,提,tign,tignum,ti,Point variant A
+H128,CHEV,CHEVRON_MOUNTAIN,tu,rise,tūṇ,突,tún,tumulus,tu,Rise variant A
+H129,CHEV,CHEVRON_MOUNTAIN,ka,peak,kaṭṭu,高,karl,cacumen,ka,Peak variant B
+H130,CHEV,CHEVRON_MOUNTAIN,ki,sharp,kīṟu,起,kinn,acies,ki,Sharp variant B
+H131,CIRC,CIRCLE_CYCLE,so,sun,cūriyaṉ,日,sól,sol,so,Sun circle
+H132,CIRC,CIRCLE_CYCLE,su,flow,cuḻal,水,sumar,sudor,su,Water flow cycle
+H133,CIRC,CIRCLE_CYCLE,sa,sacred,cattiyam,聖,sá,sacrum,sa,Sacred circle
+H134,CIRC,CIRCLE_CYCLE,yo,union,yōkam,由,jó,iugum,yo,Union yoke
+H135,CIRC,CIRCLE_CYCLE,ya,motion,yāṉ,也,já,iam,ya,Motion already
+H136,CIRC,CIRCLE_CYCLE,yu,together,yuka,與,ungr,iungere,yu,Joined together
+H137,CIRC,CIRCLE_CYCLE,o,whole,oṭṭu,圓,öl,orbis,o,Whole circle
+H138,CIRC,CIRCLE_CYCLE,u,mouth,vāy,口,úlfr,os,u,Mouth opening
+H139,CIRC,CIRCLE_CYCLE,so,sun,cūriyaṉ,日,sól,sol,so,Sun variant A
+H140,CIRC,CIRCLE_CYCLE,su,flow,cuḻal,水,sumar,sudor,su,Flow variant A
+H141,CIRC,CIRCLE_CYCLE,sa,sacred,cattiyam,聖,sá,sacrum,sa,Sacred variant A
+H142,CIRC,CIRCLE_CYCLE,yo,union,yōkam,由,jó,iugum,yo,Union variant A
+H143,CIRC,CIRCLE_CYCLE,ya,motion,yāṉ,也,já,iam,ya,Motion variant A
+H144,CIRC,CIRCLE_CYCLE,yu,together,yuka,與,ungr,iungere,yu,Together variant A
+H145,CIRC,CIRCLE_CYCLE,o,whole,oṭṭu,圓,öl,orbis,o,Whole variant A
+H146,CIRC,CIRCLE_CYCLE,u,mouth,vāy,口,úlfr,os,u,Mouth variant A
+H147,CIRC,CIRCLE_CYCLE,so,sun,cūriyaṉ,日,sól,sol,so,Sun variant B
+H148,CIRC,CIRCLE_CYCLE,su,flow,cuḻal,水,sumar,sudor,su,Flow variant B
+H149,CIRC,CIRCLE_CYCLE,sa,sacred,cattiyam,聖,sá,sacrum,sa,Sacred variant B
+H150,CIRC,CIRCLE_CYCLE,yo,union,yōkam,由,jó,iugum,yo,Union variant B
+H151,OPER,OPERATOR_TRIDENT,ta,action,taṭṭu,打,taka,tactus,ta,Action trident
+H152,OPER,OPERATOR_TRIDENT,ti,time,tiṇṇam,體,tið,tempus,ti,Time operator
+H153,OPER,OPERATOR_TRIDENT,tu,do,toḻil,度,tún,tutus,tu,Do safely
+H154,OPER,OPERATOR_TRIDENT,da,give,tarum,大,dá,dare,da,Give action
+H155,OPER,OPERATOR_TRIDENT,di,day,tiṉam,日,dagr,dies,di,Day marker
+H156,OPER,OPERATOR_TRIDENT,du,double,iṭṭu,度,tvá,duo,du,Double action
+H157,OPER,OPERATOR_TRIDENT,sa,process,cey,作,sá,sacrum,sa,Sacred process
+H158,OPER,OPERATOR_TRIDENT,si,sign,ciṉṉam,四,sinn,signum,si,Sign operator
+H159,OPER,OPERATOR_TRIDENT,su,water,cuṭar,水,sumar,sudor,su,Water flow
+H160,OPER,OPERATOR_TRIDENT,ra,rule,irai,理,ráð,ratio,ra,Rule operator
+H161,OPER,OPERATOR_TRIDENT,ri,order,iṟai,里,ríki,rite,ri,Order ritual
+H162,OPER,OPERATOR_TRIDENT,ru,path,urai,路,rúm,rus,ru,Path rule
+H163,OPER,OPERATOR_TRIDENT,ta,action,taṭṭu,打,taka,tactus,ta,Action variant A
+H164,OPER,OPERATOR_TRIDENT,ti,time,tiṇṇam,體,tið,tempus,ti,Time variant A
+H165,OPER,OPERATOR_TRIDENT,tu,do,toḻil,度,tún,tutus,tu,Do variant A
+H166,OPER,OPERATOR_TRIDENT,da,give,tarum,大,dá,dare,da,Give variant A
+H167,OPER,OPERATOR_TRIDENT,di,day,tiṉam,日,dagr,dies,di,Day variant A
+H168,OPER,OPERATOR_TRIDENT,du,double,iṭṭu,度,tvá,duo,du,Double variant A
+H169,OPER,OPERATOR_TRIDENT,sa,process,cey,作,sá,sacrum,sa,Process variant A
+H170,OPER,OPERATOR_TRIDENT,si,sign,ciṉṉam,四,sinn,signum,si,Sign variant A
+H171,OPER,OPERATOR_TRIDENT,su,water,cuṭar,水,sumar,sudor,su,Water variant A
+H172,OPER,OPERATOR_TRIDENT,ra,rule,irai,理,ráð,ratio,ra,Rule variant A
+H173,OPER,OPERATOR_TRIDENT,ri,order,iṟai,里,ríki,rite,ri,Order variant A
+H174,OPER,OPERATOR_TRIDENT,ru,path,urai,路,rúm,rus,ru,Path variant A
+H175,OPER,OPERATOR_TRIDENT,ta,action,taṭṭu,打,taka,tactus,ta,Action variant B
+H176,OPER,OPERATOR_TRIDENT,ti,time,tiṇṇam,體,tið,tempus,ti,Time variant B
+H177,OPER,OPERATOR_TRIDENT,tu,do,toḻil,度,tún,tutus,tu,Do variant B
+H178,OPER,OPERATOR_TRIDENT,da,give,tarum,大,dá,dare,da,Give variant B
+H179,OPER,OPERATOR_TRIDENT,di,day,tiṉam,日,dagr,dies,di,Day variant B
+H180,OPER,OPERATOR_TRIDENT,du,double,iṭṭu,度,tvá,duo,du,Double variant B
+H181,OPER,OPERATOR_TRIDENT,sa,process,cey,作,sá,sacrum,sa,Process variant B
+H182,OPER,OPERATOR_TRIDENT,si,sign,ciṉṉam,四,sinn,signum,si,Sign variant B
+H183,OPER,OPERATOR_TRIDENT,su,water,cuṭar,水,sumar,sudor,su,Water variant B
+H184,OPER,OPERATOR_TRIDENT,ra,rule,irai,理,ráð,ratio,ra,Rule variant B
+H185,OPER,OPERATOR_TRIDENT,ri,order,iṟai,里,ríki,rite,ri,Order variant B
+H186,OPER,OPERATOR_TRIDENT,ru,path,urai,路,rúm,rus,ru,Path variant B
+H187,OPER,OPERATOR_TRIDENT,ta,action,taṭṭu,打,taka,tactus,ta,Action variant C
+H188,OPER,OPERATOR_TRIDENT,ti,time,tiṇṇam,體,tið,tempus,ti,Time variant C
+H189,OPER,OPERATOR_TRIDENT,tu,do,toḻil,度,tún,tutus,tu,Do variant C
+H190,OPER,OPERATOR_TRIDENT,da,give,tarum,大,dá,dare,da,Give variant C
+H191,HUM,HUMAN_AGENT,ma,mother,ammā,媽,móðir,mater,ma,Mother figure
+H192,HUM,HUMAN_AGENT,mi,person,maṉitaṉ,民,miðr,minister,mi,Person middle
+H193,HUM,HUMAN_AGENT,mu,front,mukam,木,múnn,mundus,mu,Front face
+H194,HUM,HUMAN_AGENT,na,self,nāṉ,那,nátt,natus,ne,Self born
+H195,HUM,HUMAN_AGENT,ni,you,nī,你,níð,nihil,ni,You nothing
+H196,HUM,HUMAN_AGENT,nu,new,putu,奴,nú,novus,nu,New one
+H197,HUM,HUMAN_AGENT,ama,great mother,ammā,阿媽,amma,amma,ama,Great mother
+H198,HUM,HUMAN_AGENT,ani,elder,aṇṇaṉ,阿尼,alnir,annus,ani,Elder year
+H199,HUM,HUMAN_AGENT,anu,heaven,āṇi,阿奴,áss,annus,anu,Heavenly god
+H200,HUM,HUMAN_AGENT,ima,this,ima,以媽,öm,imago,ima,This image
+H201,HUM,HUMAN_AGENT,ina,that,iṉa,以那,inn,inde,ina,That from
+H202,HUM,HUMAN_AGENT,inu,dog/loyal,naṉṟi,以奴,inn,in,inu,Loyal one
+H203,HUM,HUMAN_AGENT,ma,mother,ammā,媽,móðir,mater,ma,Mother variant A
+H204,HUM,HUMAN_AGENT,mi,person,maṉitaṉ,民,miðr,minister,mi,Person variant A
+H205,HUM,HUMAN_AGENT,mu,front,mukam,木,múnn,mundus,mu,Front variant A
+H206,HUM,HUMAN_AGENT,na,self,nāṉ,那,nátt,natus,ne,Self variant A
+H207,HUM,HUMAN_AGENT,ni,you,nī,你,níð,nihil,ni,You variant A
+H208,HUM,HUMAN_AGENT,nu,new,putu,奴,nú,novus,nu,New variant A
+H209,HUM,HUMAN_AGENT,ama,great mother,ammā,阿媽,amma,amma,ama,Great mother variant A
+H210,HUM,HUMAN_AGENT,ani,elder,aṇṇaṉ,阿尼,alnir,annus,ani,Elder variant A
+H211,HUM,HUMAN_AGENT,anu,heaven,āṇi,阿奴,áss,annus,anu,Heaven variant A
+H212,HUM,HUMAN_AGENT,ima,this,ima,以媽,öm,imago,ima,This variant A
+H213,HUM,HUMAN_AGENT,ina,that,iṉa,以那,inn,inde,ina,That variant A
+H214,HUM,HUMAN_AGENT,inu,dog/loyal,naṉṟi,以奴,inn,in,inu,Loyal variant A
+H215,HUM,HUMAN_AGENT,ma,mother,ammā,媽,móðir,mater,ma,Mother variant B
+H216,HUM,HUMAN_AGENT,mi,person,maṉitaṉ,民,miðr,minister,mi,Person variant B
+H217,HUM,HUMAN_AGENT,mu,front,mukam,木,múnn,mundus,mu,Front variant B
+H218,HUM,HUMAN_AGENT,na,self,nāṉ,那,nátt,natus,ne,Self variant B
+H219,HUM,HUMAN_AGENT,ni,you,nī,你,níð,nihil,ni,You variant B
+H220,HUM,HUMAN_AGENT,nu,new,putu,奴,nú,novus,nu,New variant B
+H221,HUM,HUMAN_AGENT,ama,great mother,ammā,阿媽,amma,amma,ama,Great mother variant B
+H222,HUM,HUMAN_AGENT,ani,elder,aṇṇaṉ,阿尼,alnir,annus,ani,Elder variant B
+H223,HUM,HUMAN_AGENT,anu,heaven,āṇi,阿奴,áss,annus,anu,Heaven variant B
+H224,HUM,HUMAN_AGENT,ima,this,ima,以媽,öm,imago,ima,This variant B
+H225,HUM,HUMAN_AGENT,ina,that,iṉa,以那,inn,inde,ina,That variant B
+H226,HUM,HUMAN_AGENT,inu,dog/loyal,naṉṟi,以奴,inn,in,inu,Loyal variant B
+H227,HUM,HUMAN_AGENT,ma,mother,ammā,媽,móðir,mater,ma,Mother variant C
+H228,HUM,HUMAN_AGENT,mi,person,maṉitaṉ,民,miðr,minister,mi,Person variant C
+H229,HUM,HUMAN_AGENT,mu,front,mukam,木,múnn,mundus,mu,Front variant C
+H230,HUM,HUMAN_AGENT,na,self,nāṉ,那,nátt,natus,ne,Self variant C
+H231,ANIM,ANIMAL_NONFISH,ga,claw,kāl,爪,gaddr,gradus,ga,Claw grasp
+H232,ANIM,ANIMAL_NONFISH,gi,beak,kīṟu,雞,geirr,gerere,gi,Beak carry
+H233,ANIM,ANIMAL_NONFISH,gu,throat,kuṟal,鼓,gull,gula,gu,Throat sound
+H234,ANIM,ANIMAL_NONFISH,pa,father,appā,爸,faðir,pater,pa,Father beast
+H235,ANIM,ANIMAL_NONFISH,pi,small,piḷḷai,皮,pína,pilus,pi,Small fur
+H236,ANIM,ANIMAL_NONFISH,pu,flower,pū,鋪,púki,pullus,pu,Young bird
+H237,ANIM,ANIMAL_NONFISH,ra,king,aracu,龍,regin,rex,ra,King beast
+H238,ANIM,ANIMAL_NONFISH,ri,order,iṟai,理,ríki,rite,ri,Ritual animal
+H239,ANIM,ANIMAL_NONFISH,ru,path,urai,路,rúm,rus,ru,Path animal
+H240,ANIM,ANIMAL_NONFISH,ka,object,kaṭṭu,獸,karl,caput,ka,Head beast
+H241,ANIM,ANIMAL_NONFISH,ki,cut,kīṟu,起,kinn,caedere,ki,Cut prey
+H242,ANIM,ANIMAL_NONFISH,ku,herd,kuḻu,庫,kvísl,currus,ku,Herd group
+H243,ANIM,ANIMAL_NONFISH,ga,claw,kāl,爪,gaddr,gradus,ga,Claw variant A
+H244,ANIM,ANIMAL_NONFISH,gi,beak,kīṟu,雞,geirr,gerere,gi,Beak variant A
+H245,ANIM,ANIMAL_NONFISH,gu,throat,kuṟal,鼓,gull,gula,gu,Throat variant A
+H246,ANIM,ANIMAL_NONFISH,pa,father,appā,爸,faðir,pater,pa,Father variant A
+H247,ANIM,ANIMAL_NONFISH,pi,small,piḷḷai,皮,pína,pilus,pi,Small variant A
+H248,ANIM,ANIMAL_NONFISH,pu,flower,pū,鋪,púki,pullus,pu,Young variant A
+H249,ANIM,ANIMAL_NONFISH,ra,king,aracu,龍,regin,rex,ra,King variant A
+H250,ANIM,ANIMAL_NONFISH,ri,order,iṟai,理,ríki,rite,ri,Ritual variant A
+H251,ANIM,ANIMAL_NONFISH,ru,path,urai,路,rúm,rus,ru,Path variant A
+H252,ANIM,ANIMAL_NONFISH,ka,object,kaṭṭu,獸,karl,caput,ka,Head variant A
+H253,ANIM,ANIMAL_NONFISH,ki,cut,kīṟu,起,kinn,caedere,ki,Cut variant A
+H254,ANIM,ANIMAL_NONFISH,ku,herd,kuḻu,庫,kvísl,currus,ku,Herd variant A
+H255,ANIM,ANIMAL_NONFISH,ga,claw,kāl,爪,gaddr,gradus,ga,Claw variant B
+H256,ANIM,ANIMAL_NONFISH,gi,beak,kīṟu,雞,geirr,gerere,gi,Beak variant B
+H257,ANIM,ANIMAL_NONFISH,gu,throat,kuṟal,鼓,gull,gula,gu,Throat variant B
+H258,ANIM,ANIMAL_NONFISH,pa,father,appā,爸,faðir,pater,pa,Father variant B
+H259,ANIM,ANIMAL_NONFISH,pi,small,piḷḷai,皮,pína,pilus,pi,Small variant B
+H260,ANIM,ANIMAL_NONFISH,pu,flower,pū,鋪,púki,pullus,pu,Young variant B
+H261,PLANT,PLANT_CROP,sa,seed,viṭai,種,sá,semen,sa,Seed plant
+H262,PLANT,PLANT_CROP,si,growth,ciṉṉam,絲,sinn,silva,si,Silk growth
+H263,PLANT,PLANT_CROP,su,sap,cuṭar,樹,sumar,sucus,su,Tree sap
+H264,PLANT,PLANT_CROP,ya,year,āṇṭu,也,ár,annus,ya,Year cycle
+H265,PLANT,PLANT_CROP,yi,sprout,ēṟu,以,ígull,ilex,yi,Sprout rise
+H266,PLANT,PLANT_CROP,yu,young,iḷam,育,ungr,iuvenis,yu,Young plant
+H267,PLANT,PLANT_CROP,ka,field,kaḷam,稼,karl,campus,ka,Field crop
+H268,PLANT,PLANT_CROP,ki,cultivate,kīṟu,起,kirkja,colere,ki,Cultivate rise
+H269,PLANT,PLANT_CROP,ku,harvest,koḷ,穀,korn,cumulus,ku,Grain harvest
+H270,PLANT,PLANT_CROP,sa,seed,viṭai,種,sá,semen,sa,Seed variant A
+H271,PLANT,PLANT_CROP,si,growth,ciṉṉam,絲,sinn,silva,si,Growth variant A
+H272,PLANT,PLANT_CROP,su,sap,cuṭar,樹,sumar,sucus,su,Sap variant A
+H273,PLANT,PLANT_CROP,ya,year,āṇṭu,也,ár,annus,ya,Year variant A
+H274,PLANT,PLANT_CROP,yi,sprout,ēṟu,以,ígull,ilex,yi,Sprout variant A
+H275,PLANT,PLANT_CROP,yu,young,iḷam,育,ungr,iuvenis,yu,Young variant A
+H276,PLANT,PLANT_CROP,ka,field,kaḷam,稼,karl,campus,ka,Field variant A
+H277,PLANT,PLANT_CROP,ki,cultivate,kīṟu,起,kirkja,colere,ki,Cultivate variant A
+H278,PLANT,PLANT_CROP,ku,harvest,koḷ,穀,korn,cumulus,ku,Harvest variant A
+H279,PLANT,PLANT_CROP,sa,seed,viṭai,種,sá,semen,sa,Seed variant B
+H280,PLANT,PLANT_CROP,si,growth,ciṉṉam,絲,sinn,silva,si,Growth variant B
+H281,PLANT,PLANT_CROP,su,sap,cuṭar,樹,sumar,sucus,su,Sap variant B
+H282,PLANT,PLANT_CROP,ya,year,āṇṭu,也,ár,annus,ya,Year variant B
+H283,PLANT,PLANT_CROP,yi,sprout,ēṟu,以,ígull,ilex,yi,Sprout variant B
+H284,PLANT,PLANT_CROP,yu,young,iḷam,育,ungr,iuvenis,yu,Young variant B
+H285,PLANT,PLANT_CROP,ka,field,kaḷam,稼,karl,campus,ka,Field variant B
+H286,PLANT,PLANT_CROP,ki,cultivate,kīṟu,起,kirkja,colere,ki,Cultivate variant B
+H287,PLANT,PLANT_CROP,ku,harvest,koḷ,穀,korn,cumulus,ku,Harvest variant B
+H288,PLANT,PLANT_CROP,sa,seed,viṭai,種,sá,semen,sa,Seed variant C
+H289,PLANT,PLANT_CROP,si,growth,ciṉṉam,絲,sinn,silva,si,Growth variant C
+H290,PLANT,PLANT_CROP,su,sap,cuṭar,樹,sumar,sucus,su,Sap variant C
+H291,ABSTR,ABSTRACT_LIGATURE,a,open,āṅkāram,阿,á,ab,a,Open particle
+H292,ABSTR,ABSTRACT_LIGATURE,i,this,itu,以,í,is,i,This particle
+H293,ABSTR,ABSTRACT_LIGATURE,u,that,atu,於,ú,ut,u,That particle
+H294,ABSTR,ABSTRACT_LIGATURE,e,toward,ēl,而,é,ex,e,Toward particle
+H295,ABSTR,ABSTRACT_LIGATURE,o,unity,oṭṭu,圓,ó,omnis,o,Unity particle
+H296,ABSTR,ABSTRACT_LIGATURE,ha,breath,ācai,哈,há,halitus,ha,Breath particle
+H297,ABSTR,ABSTRACT_LIGATURE,hi,spirit,avi,希,hið,hiems,hi,Spirit particle
+H298,ABSTR,ABSTRACT_LIGATURE,hu,soul,ūṟu,呼,húð,humus,hu,Soul particle
+H299,ABSTR,ABSTRACT_LIGATURE,ya,already,yāṉ,也,já,iam,ya,Already particle
+H300,ABSTR,ABSTRACT_LIGATURE,yi,go,ēṟu,以,ígull,ire,yi,Go particle
+H301,ABSTR,ABSTRACT_LIGATURE,yu,together,yuka,與,ungr,iungere,yu,Together particle
+H302,ABSTR,ABSTRACT_LIGATURE,a,open,āṅkāram,阿,á,ab,a,Open variant A
+H303,ABSTR,ABSTRACT_LIGATURE,i,this,itu,以,í,is,i,This variant A
+H304,ABSTR,ABSTRACT_LIGATURE,u,that,atu,於,ú,ut,u,That variant A
+H305,ABSTR,ABSTRACT_LIGATURE,e,toward,ēl,而,é,ex,e,Toward variant A
+H306,ABSTR,ABSTRACT_LIGATURE,o,unity,oṭṭu,圓,ó,omnis,o,Unity variant A
+H307,ABSTR,ABSTRACT_LIGATURE,ha,breath,ācai,哈,há,halitus,ha,Breath variant A
+H308,ABSTR,ABSTRACT_LIGATURE,hi,spirit,avi,希,hið,hiems,hi,Spirit variant A
+H309,ABSTR,ABSTRACT_LIGATURE,hu,soul,ūṟu,呼,húð,humus,hu,Soul variant A
+H310,ABSTR,ABSTRACT_LIGATURE,ya,already,yāṉ,也,já,iam,ya,Already variant A
+H311,ABSTR,ABSTRACT_LIGATURE,yi,go,ēṟu,以,ígull,ire,yi,Go variant A
+H312,ABSTR,ABSTRACT_LIGATURE,yu,together,yuka,與,ungr,iungere,yu,Together variant A
+H313,ABSTR,ABSTRACT_LIGATURE,a,open,āṅkāram,阿,á,ab,a,Open variant B
+H314,ABSTR,ABSTRACT_LIGATURE,i,this,itu,以,í,is,i,This variant B
+H315,ABSTR,ABSTRACT_LIGATURE,u,that,atu,於,ú,ut,u,That variant B
+H316,ABSTR,ABSTRACT_LIGATURE,e,toward,ēl,而,é,ex,e,Toward variant B
+H317,ABSTR,ABSTRACT_LIGATURE,o,unity,oṭṭu,圓,ó,omnis,o,Unity variant B
+H318,ABSTR,ABSTRACT_LIGATURE,ha,breath,ācai,哈,há,halitus,ha,Breath variant B
+H319,ABSTR,ABSTRACT_LIGATURE,hi,spirit,avi,希,hið,hiems,hi,Spirit variant B
+H320,ABSTR,ABSTRACT_LIGATURE,hu,soul,ūṟu,呼,húð,humus,hu,Soul variant B
+H321,RIT,RITUAL_STANDARD,tak,strike,taṭṭu,打,taka,tangere,tak,Ritual strike
+H322,RIT,RITUAL_STANDARD,sak,sacred,cattiyam,祭,sá,sacer,sak,Sacred ritual
+H323,RIT,RITUAL_STANDARD,ram,cosmic,irama,藍,rammr,ramus,ram,Cosmic order
+H324,RIT,RITUAL_STANDARD,lam,blade,ilai,蘭,lami,lamina,lam,Ritual blade
+H325,RIT,RITUAL_STANDARD,kam,desire,kāmam,甘,kam,camare,kam,Desire ritual
+H326,RIT,RITUAL_STANDARD,han,breath,aṉṉai,漢,hann,anhelus,han,Breath ritual
+H327,RIT,RITUAL_STANDARD,yum,union,yōkam,雲,jómr,iungere,yum,Union ritual
+H328,RIT,RITUAL_STANDARD,kum,pot,kumbam,宮,kumbl,cumulus,kum,Pot ritual
+H329,RIT,RITUAL_STANDARD,tak,strike,taṭṭu,打,taka,tangere,tak,Strike variant A
+H330,RIT,RITUAL_STANDARD,sak,sacred,cattiyam,祭,sá,sacer,sak,Sacred variant A
+H331,RIT,RITUAL_STANDARD,ram,cosmic,irama,藍,rammr,ramus,ram,Cosmic variant A
+H332,RIT,RITUAL_STANDARD,lam,blade,ilai,蘭,lami,lamina,lam,Blade variant A
+H333,RIT,RITUAL_STANDARD,kam,desire,kāmam,甘,kam,camare,kam,Desire variant A
+H334,RIT,RITUAL_STANDARD,han,breath,aṉṉai,漢,hann,anhelus,han,Breath variant A
+H335,RIT,RITUAL_STANDARD,yum,union,yōkam,雲,jómr,iungere,yum,Union variant A
+H336,RIT,RITUAL_STANDARD,kum,pot,kumbam,宮,kumbl,cumulus,kum,Pot variant A
+H337,RIT,RITUAL_STANDARD,tak,strike,taṭṭu,打,taka,tangere,tak,Strike variant B
+H338,RIT,RITUAL_STANDARD,sak,sacred,cattiyam,祭,sá,sacer,sak,Sacred variant B
+H339,RIT,RITUAL_STANDARD,ram,cosmic,irama,藍,rammr,ramus,ram,Cosmic variant B
+H340,RIT,RITUAL_STANDARD,lam,blade,ilai,蘭,lami,lamina,lam,Blade variant B
+H341,RIT,RITUAL_STANDARD,kam,desire,kāmam,甘,kam,camare,kam,Desire variant B
+H342,RIT,RITUAL_STANDARD,han,breath,aṉṉai,漢,hann,anhelus,han,Breath variant B
+H343,RIT,RITUAL_STANDARD,yum,union,yōkam,雲,jómr,iungere,yum,Union variant B
+H344,RIT,RITUAL_STANDARD,kum,pot,kumbam,宮,kumbl,cumulus,kum,Pot variant B
+H345,RIT,RITUAL_STANDARD,tak,strike,taṭṭu,打,taka,tangere,tak,Strike variant C
+H346,RIT,RITUAL_STANDARD,sak,sacred,cattiyam,祭,sá,sacer,sak,Sacred variant C
+H347,RIT,RITUAL_STANDARD,ram,cosmic,irama,藍,rammr,ramus,ram,Cosmic variant C
+H348,RIT,RITUAL_STANDARD,lam,blade,ilai,蘭,lami,lamina,lam,Blade variant C
+H349,RIT,RITUAL_STANDARD,kam,desire,kāmam,甘,kam,camare,kam,Desire variant C
+H350,RIT,RITUAL_STANDARD,han,breath,aṉṉai,漢,hann,anhelus,han,Breath variant C
+H351,RIT,RITUAL_STANDARD,yum,union,yōkam,雲,jómr,iungere,yum,Union variant C
+H352,RIT,RITUAL_STANDARD,kum,pot,kumbam,宮,kumbl,cumulus,kum,Pot variant C
+H353,RIT,RITUAL_STANDARD,tak,strike,taṭṭu,打,taka,tangere,tak,Strike variant D
+H354,RIT,RITUAL_STANDARD,sak,sacred,cattiyam,祭,sá,sacer,sak,Sacred variant D
+H355,RIT,RITUAL_STANDARD,ram,cosmic,irama,藍,rammr,ramus,ram,Cosmic variant D
+H356,RIT,RITUAL_STANDARD,lam,blade,ilai,蘭,lami,lamina,lam,Blade variant D
+H357,RIT,RITUAL_STANDARD,kam,desire,kāmam,甘,kam,camare,kam,Desire variant D
+H358,RIT,RITUAL_STANDARD,han,breath,aṉṉai,漢,hann,anhelus,han,Breath variant D
+H359,RIT,RITUAL_STANDARD,yum,union,yōkam,雲,jómr,iungere,yum,Union variant D
+H360,RIT,RITUAL_STANDARD,kum,pot,kumbam,宮,kumbl,cumulus,kum,Pot variant D
+H361,ARCH,ARCH_BUILDING,ko,structure,koṭṭai,口,karl,corpus,ko,Building structure
+H362,ARCH,ARCH_BUILDING,ku,interior,kuṭil,庫,kumbl,cubiculum,ku,Interior room
+H363,ARCH,ARCH_BUILDING,kal,stone,kal,閣,karl,calculus,kal,Stone building
+H364,ARCH,ARCH_BUILDING,kul,clan,kulam,宮,kvísl,cultus,kul,Clan house
+H365,ARCH,ARCH_BUILDING,kar,make,karai,閣,kerling,cura,kar,Built shore
+H366,ARCH,ARCH_BUILDING,tor,tower,tōraṇam,塔,turn,turris,tor,Tower gate
+H367,ARCH,ARCH_BUILDING,dom,house,tōm,堂,dómr,domus,dom,House domain
+H368,ARCH,ARCH_BUILDING,mur,wall,matil,門,múrr,murus,mur,Wall boundary
+H369,ARCH,ARCH_BUILDING,ko,structure,koṭṭai,口,karl,corpus,ko,Structure variant A
+H370,ARCH,ARCH_BUILDING,ku,interior,kuṭil,庫,kumbl,cubiculum,ku,Interior variant A
+H371,ARCH,ARCH_BUILDING,kal,stone,kal,閣,karl,calculus,kal,Stone variant A
+H372,ARCH,ARCH_BUILDING,kul,clan,kulam,宮,kvísl,cultus,kul,Clan variant A
+H373,ARCH,ARCH_BUILDING,kar,make,karai,閣,kerling,cura,kar,Make variant A
+H374,ARCH,ARCH_BUILDING,tor,tower,tōraṇam,塔,turn,turris,tor,Tower variant A
+H375,ARCH,ARCH_BUILDING,dom,house,tōm,堂,dómr,domus,dom,House variant A
+H376,ARCH,ARCH_BUILDING,mur,wall,matil,門,múrr,murus,mur,Wall variant A
+H377,ARCH,ARCH_BUILDING,ko,structure,koṭṭai,口,karl,corpus,ko,Structure variant B
+H378,ARCH,ARCH_BUILDING,ku,interior,kuṭil,庫,kumbl,cubiculum,ku,Interior variant B
+H379,ARCH,ARCH_BUILDING,kal,stone,kal,閣,karl,calculus,kal,Stone variant B
+H380,ARCH,ARCH_BUILDING,kul,clan,kulam,宮,kvísl,cultus,kul,Clan variant B
+H381,ARCH,ARCH_BUILDING,kar,make,karai,閣,kerling,cura,kar,Make variant B
+H382,ARCH,ARCH_BUILDING,tor,tower,tōraṇam,塔,turn,turris,tor,Tower variant B
+H383,ARCH,ARCH_BUILDING,dom,house,tōm,堂,dómr,domus,dom,House variant B
+H384,ARCH,ARCH_BUILDING,mur,wall,matil,門,múrr,murus,mur,Wall variant B
+H385,ARCH,ARCH_BUILDING,ko,structure,koṭṭai,口,karl,corpus,ko,Structure variant C
+H386,ARCH,ARCH_BUILDING,ku,interior,kuṭil,庫,kumbl,cubiculum,ku,Interior variant C
+H387,ARCH,ARCH_BUILDING,kal,stone,kal,閣,karl,calculus,kal,Stone variant C
+H388,ARCH,ARCH_BUILDING,kul,clan,kulam,宮,kvísl,cultus,kul,Clan variant C
+H389,ARCH,ARCH_BUILDING,kar,make,karai,閣,kerling,cura,kar,Make variant C
+H390,ARCH,ARCH_BUILDING,tor,tower,tōraṇam,塔,turn,turris,tor,Tower variant C
+H391,MISC,MISC_RARE,a,open,āṅkāram,阿,á,ab,a,Generic open
+H392,MISC,MISC_RARE,ma,mother,ammā,媽,móðir,mater,ma,Generic mother
+H393,MISC,MISC_RARE,na,self,nāṉ,那,nátt,natus,na,Generic self
+H394,MISC,MISC_RARE,ra,flow,irai,理,ráð,ratio,ra,Generic flow
+H395,MISC,MISC_RARE,ya,motion,yāṉ,也,já,iam,ya,Generic motion
+H396,MISC,MISC_RARE,ta,action,taṭṭu,打,taka,tactus,ta,Generic action
+H397,MISC,MISC_RARE,sa,sacred,cattiyam,聖,sá,sacrum,sa,Generic sacred
+H398,MISC,MISC_RARE,ka,object,kaḷ,器,karl,casa,ka,Generic object
+H399,MISC,MISC_RARE,la,level,ilai,列,lag,latus,la,Generic level
+H400,MISC,MISC_RARE,pa,part,paṅku,盆,partr,pars,pa,Generic part
+H401,MISC,MISC_RARE,ga,solid,kaṭṭi,罐,gaddr,gradus,ga,Generic solid
+H402,MISC,MISC_RARE,ha,breath,ācai,哈,há,halitus,ha,Generic breath
+H403,MISC,MISC_RARE,o,whole,oṭṭu,圓,öl,orbis,o,Generic whole
+H404,MISC,MISC_RARE,i,this,itu,以,í,is,i,Generic this
+H405,MISC,MISC_RARE,u,that,atu,於,ú,ut,u,Generic that
+H406,MISC,MISC_RARE,a,open,āṅkāram,阿,á,ab,a,Open variant A
+H407,MISC,MISC_RARE,ma,mother,ammā,媽,móðir,mater,ma,Mother variant
+H408,MISC,MISC_RARE,na,self,nāṉ,那,nátt,natus,na,Self variant
+H409,MISC,MISC_RARE,ra,flow,irai,理,ráð,ratio,ra,Flow variant
+H410,MISC,MISC_RARE,ya,motion,yāṉ,也,já,iam,ya,Motion variant
+H411,MISC,MISC_RARE,ta,action,taṭṭu,打,taka,tactus,ta,Action variant
+H412,MISC,MISC_RARE,sa,sacred,cattiyam,聖,sá,sacrum,sa,Sacred variant
+H413,MISC,MISC_RARE,ka,object,kaḷ,器,karl,casa,ka,Object variant
+H414,MISC,MISC_RARE,la,level,ilai,列,lag,latus,la,Level variant
+H415,MISC,MISC_RARE,pa,part,paṅku,盆,partr,pars,pa,Part variant
+H416,MISC,MISC_RARE,ga,solid,kaṭṭi,罐,gaddr,gradus,ga,Solid variant
+H417,MISC,MISC_RARE,ha,breath,ācai,哈,há,halitus,ha,Breath variant

@@ -20,6 +20,12 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 *.egg-info/
 .installed.cfg
 *.egg
@@ -50,6 +56,25 @@ coverage.xml
 *.mo
 *.pot
 
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -60,6 +85,19 @@ ipython_config.py
 # pyenv
 .python-version
 
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
 # Environments
 .env
 .venv
@@ -69,6 +107,25 @@ ENV/
 env.bak/
 venv.bak/
 
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE
 # IDEs
 .idea/
 .vscode/
@@ -76,6 +133,40 @@ venv.bak/
 *.swo
 *~
 
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Lean
+.lake/
+
+# Coq
+*.vo
+*.vok
+*.vos
+*.glob
+.coqdeps.d
+
+# Isabelle
+.isabelle/
+
+# Agda
+*.agdai
+
+# Project specific
+/tmp/
+*.tmp
 # LaTeX auxiliary files
 *.aux
 *.log
