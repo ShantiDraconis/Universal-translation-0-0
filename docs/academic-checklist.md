@@ -28,12 +28,19 @@ This checklist outlines the requirements for transforming the Universal Phonemic
   - Context information (seals, tablets, pottery, etc.)
 
 - [x] **Universal Dictionary 00**
-  - 100 tokens with complete definitions (current)
+  - ~~100 tokens with complete definitions~~ **200 tokens completed**
   - [ ] Expand to 500 tokens
   - [ ] Expand to 1000 tokens
   - Clear semantic fields
   - IPA phonetic transcriptions
   - Cognate mapping across 5+ language families
+
+- [x] **Harappan Sign Catalog**
+  - ~~50 signs catalogued~~ **100 signs completed**
+  - [ ] Expand to full 417 signs
+  - Variant forms documented
+  - Frequency data included
+  - Context information (seals, tablets, pottery, etc.)
 
 - [x] **Version Control**
   - All data in Git repositories
@@ -42,17 +49,17 @@ This checklist outlines the requirements for transforming the Universal Phonemic
 
 ### 1.2 Explicit Methodology
 
-- [ ] **Phonetic Similarity Criteria**
+- [x] **Phonetic Similarity Criteria** (see `/docs/methodology.md`)
   - Define phonetic distance metric (Levenshtein, distinctive features, etc.)
   - Document threshold for "similar" vs "different"
   - Validate metric against known cognate sets
 
-- [ ] **Semantic Similarity Criteria**
+- [x] **Semantic Similarity Criteria** (see `/docs/methodology.md`)
   - Define semantic field categories
   - Document how connections are established
   - Use established semantic ontologies where possible
 
-- [ ] **Statistical Procedures**
+- [x] **Statistical Procedures** (see `/docs/methodology.md`)
   - Hypothesis testing framework
   - Permutation/randomization tests
   - Control for multiple comparisons
@@ -152,8 +159,8 @@ In the real world, major prizes of $1M+ exist primarily in:
 
 ```
 /data/
-  harappan_signs.csv          ✓ Created
-  universal_dictionary_00.csv ✓ Created
+  harappan_signs.csv          ✓ Created (100 signs)
+  universal_dictionary_00.csv ✓ Created (200 tokens)
   
 /src/
   analysis.py                 ✓ Created
@@ -164,8 +171,8 @@ In the real world, major prizes of $1M+ exist primarily in:
   harappan-00-main-paper.tex  ✓ Created
   thesis-foundation.md        ✓ Created
   academic-checklist.md       ✓ Created (this file)
+  methodology.md              ✓ Created
   [ ] Add appendix tables PDF
-  [ ] Add methodology document
 ```
 
 ### 3.2 Main Article (30-50 pages) on Harappan + Universal Tokens

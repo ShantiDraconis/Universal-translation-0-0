@@ -49,3 +49,53 @@ H047,𐠮,H047a;H047b,NADA,sound,NADA,Cosmic sound; vibration,low,ritual_objects
 H048,𐠯,H048a,PRANA,life,PRANA,Life force; breath energy,high,seal_inscriptions
 H049,𐠰,H049a;H049b,KUNDALINI,coiled,KUNDALINI,Coiled serpent energy,medium,seal_inscriptions;amulets
 H050,𐠱,H050a,MOKSHA,liberation,MOKSHA,Freedom; release,low,ritual_objects
+H051,𐠲,H051a;H051b,ATMA,soul,ATMA,Soul symbol; inner self,medium,seal_inscriptions
+H052,𐠳,H052a,BRAHMA,creator,BRAHMA,Creator symbol; four-faced figure,low,ritual_objects
+H053,𐠴,H053a;H053b,DHARMA,order,DHARMA,Law/order symbol; wheel-like,high,seal_inscriptions;ritual_objects
+H054,𐠵,H054a,KARMA,action,KARMA,Action/deed symbol; hand gesture,medium,tablet_texts
+H055,𐠶,H055a;H055b,YOGA,union,YOGA,Union symbol; linked figures,medium,seal_inscriptions
+H056,𐠷,H056a,VEDA,knowledge,VEDA,Sacred knowledge; book-like form,low,ritual_objects
+H057,𐠸,H057a;H057b,AVATAR,descent,AVATAR,Descending figure; incarnation,low,seal_inscriptions
+H058,𐠹,H058a,DEVI,goddess,DEVI,Divine feminine; goddess figure,high,seal_inscriptions;ritual_objects
+H059,𐠺,H059a;H059b,ASURA,power,ASURA,Powerful being; opposing force,medium,seal_inscriptions
+H060,𐠻,H060a,GANDHARVA,celestial,GANDHARVA,Celestial musician; winged figure,low,ritual_objects
+H061,𐠼,H061a;H061b,YAKSHA,guardian,YAKSHA,Nature guardian; tree spirit,medium,seal_inscriptions
+H062,𐠽,H062a,NANDI,vehicle,NANDI,Bull vehicle; sacred animal,high,seal_inscriptions;ritual_objects
+H063,𐠾,H063a;H063b,GARUDA,eagle,GARUDA,Eagle deity; bird symbol,medium,seal_inscriptions
+H064,𐠿,H064a,HAMSA,swan,HAMSA,Swan symbol; bird of soul,low,seal_inscriptions
+H065,𐡀,H065a;H065b,MAKARA,sea,MAKARA,Sea creature; aquatic symbol,medium,seal_inscriptions;pottery
+H066,𐡁,H066a,SHESHA,foundation,SHESHA,Serpent foundation; cosmic base,medium,seal_inscriptions
+H067,𐡂,H067a;H067b,MERU,mountain,MERU,Cosmic mountain; axis symbol,high,seal_inscriptions;ritual_objects
+H068,𐡃,H068a,KAILASA,abode,KAILASA,Divine abode; peak symbol,low,ritual_objects
+H069,𐡄,H069a;H069b,SVARGA,heaven,SVARGA,Heavenly realm; upper region,medium,seal_inscriptions
+H070,𐡅,H070a,PATALA,below,PATALA,Underworld; lower region,low,seal_inscriptions
+H071,𐡆,H071a;H071b,BHUMI,ground,BHUMI,Earth/ground; horizontal line,high,tablet_texts;pottery
+H072,𐡇,H072a,JIVA,life,JIVA,Living soul; animate being,medium,seal_inscriptions
+H073,𐡈,H073a;H073b,PITRI,ancestor,PITRI,Ancestor figure; elder symbol,medium,seal_inscriptions;ritual_objects
+H074,𐡉,H074a,RISHI,seer,RISHI,Seer/sage; wise figure,low,ritual_objects
+H075,𐡊,H075a;H075b,MUNI,sage,MUNI,Silent sage; meditation pose,low,seal_inscriptions
+H076,𐡋,H076a,SADHU,holy,SADHU,Holy person; ascetic figure,low,seal_inscriptions
+H077,𐡌,H077a;H077b,SWAMI,master,SWAMI,Spiritual master; teaching pose,medium,seal_inscriptions
+H078,𐡍,H078a,PANDIT,scholar,PANDIT,Scholar; learned figure,low,tablet_texts
+H079,𐡎,H079a;H079b,FIRE,element,AGNI,Fire element; flame symbol,high,seal_inscriptions;ritual_objects
+H080,𐡏,H080a,WATER,element,JALA,Water element; wave pattern,high,seal_inscriptions;pottery
+H081,𐡐,H081a;H081b,EARTH,element,BHUMI,Earth element; square form,high,seal_inscriptions;tablet_texts
+H082,𐡑,H082a,AIR,element,VAYU,Air element; wind symbol,medium,seal_inscriptions
+H083,𐡒,H083a;H083b,ETHER,element,AKASHA,Space element; void symbol,low,ritual_objects
+H084,𐡓,H084a,FISH,animal,MATSYA,Fish sign; aquatic animal,high,seal_inscriptions;pottery
+H085,𐡔,H085a;H085b,BIRD,animal,PAKSHI,Bird sign; flying creature,high,seal_inscriptions
+H086,𐡕,H086a,BULL,animal,VRSHABHA,Bull/ox sign; horned animal,high,seal_inscriptions;ritual_objects
+H087,𐡖,H087a;H087b,ELEPHANT,animal,GAJA,Elephant sign; large animal,high,seal_inscriptions
+H088,𐡗,H088a,TIGER,animal,VYAGHRA,Tiger sign; striped feline,medium,seal_inscriptions
+H089,𐡘,H089a;H089b,RHINOCEROS,animal,KHADGA,Rhino sign; horned beast,medium,seal_inscriptions
+H090,𐡙,H090a,UNICORN,mythical,EKASHRINGA,Unicorn; single-horned creature,high,seal_inscriptions
+H091,𐡚,H091a;H091b,TREE,plant,VRKSHA,Tree sign; branching form,high,seal_inscriptions;pottery
+H092,𐡛,H092a,PLANT,vegetation,VANASPATI,Plant; growing form,medium,seal_inscriptions
+H093,𐡜,H093a;H093b,GRAIN,agriculture,DHANYA,Grain; agriculture symbol,high,tablet_texts;pottery
+H094,𐡝,H094a,JAR,container,KUMBHA,Jar/pot; storage vessel,high,seal_inscriptions;tablet_texts
+H095,𐡞,H095a;H095b,BOAT,transport,NAVA,Boat; water transport,medium,seal_inscriptions
+H096,𐡟,H096a,CART,transport,RATHA,Cart/chariot; wheel vehicle,medium,seal_inscriptions
+H097,𐡠,H097a;H097b,HOUSE,dwelling,GRIHA,House; dwelling structure,high,seal_inscriptions;tablet_texts
+H098,𐡡,H098a,TEMPLE,sacred,MANDIRA,Temple; sacred structure,medium,seal_inscriptions;ritual_objects
+H099,𐡢,H099a;H099b,CITY,urban,PURA,City; fortified settlement,medium,seal_inscriptions
+H100,𐡣,H100a,GATE,threshold,DVARA,Gate/door; entrance symbol,high,seal_inscriptions;tablet_texts

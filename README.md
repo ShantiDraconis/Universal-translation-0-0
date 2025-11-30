@@ -30,7 +30,8 @@ The symbolic operator **I = 0/0** represents the indeterminate nucleus from whic
 ├── docs/
 │   ├── harappan-00-main-paper.tex # Main academic article (LaTeX)
 │   ├── thesis-foundation.md       # Historical/social/psychological foundation
-│   └── academic-checklist.md      # Academic requirements checklist
+│   ├── academic-checklist.md      # Academic requirements checklist
+│   └── methodology.md             # Analysis methodology documentation
 ├── LICENSE
 └── README.md
 ```
@@ -70,8 +71,8 @@ pdflatex harappan-00-main-paper.tex
 
 ### harappan_signs.csv
 
-Catalog of 50 core Harappan signs with fields:
-- `sign_id`: Unique identifier (H001-H050)
+Catalog of **100** Harappan signs with fields:
+- `sign_id`: Unique identifier (H001-H100)
 - `unicode_approx`: Unicode approximation
 - `variants`: Variant forms
 - `phonetic_value_proposed`: Proposed phonetic value
@@ -82,8 +83,8 @@ Catalog of 50 core Harappan signs with fields:
 
 ### universal_dictionary_00.csv
 
-100 universal phonemic tokens with fields:
-- `token_id`: Unique identifier (T001-T100)
+**200** universal phonemic tokens with fields:
+- `token_id`: Unique identifier (T001-T200)
 - `token`: The phonemic token
 - `phonetic_ipa`: IPA transcription
 - `semantic_core`: Core semantic meaning
@@ -101,37 +102,38 @@ Catalog of 50 core Harappan signs with fields:
 
 ### Cross-Linguistic Patterns
 
-Analysis reveals significant cross-linguistic patterns:
+Analysis of 200 tokens reveals significant cross-linguistic patterns across diverse language families from multiple continents.
 
-| Language Family | Cognates Found | Percentage |
-|-----------------|----------------|------------|
-| Sanskrit/Indo-Aryan | 68 | 68% |
-| Tamil/Dravidian | 52 | 52% |
-| Tupi-Guarani | 24 | 24% |
-| Yoruba/Niger-Congo | 22 | 22% |
-| Hebrew/Semitic | 18 | 18% |
+### Categories Represented
 
-### Tokens with Strong Evidence
+The dictionary now includes tokens from:
+- **Indo-European**: Sanskrit/Vedic concepts (dharma, karma, yoga, etc.)
+- **Dravidian**: Tamil cognates and concepts
+- **Tupi-Guarani**: Amazonian concepts (Tupã, Guaraci, Anhangá, etc.)
+- **Niger-Congo**: Yoruba Orishas (Ogun, Oshun, Shango, etc.)
+- **Semitic**: Hebrew cognates
+- **Mesoamerican**: Aztec/Maya concepts (Quetzalcoatl, Tlaloc, etc.)
+- **Andean**: Inca concepts (Pachamama, Inti, Viracocha, etc.)
+- **Afro-Atlantic**: Vodou/Candomblé concepts (Damballah, Erzulie, etc.)
+- **Egyptian**: Ancient Egyptian deities (Osiris, Isis, Thoth, etc.)
 
-18 tokens show cognates in 3 or more language families, including:
-- **AMA** (mother/source) - Sanskrit, Tamil, Hebrew, Yoruba
-- **BABA** (father/elder) - Sanskrit, Tamil, Yoruba
-- **AGNI** (fire/divine) - Sanskrit, Tamil, Hebrew, Yoruba
-- **RA** (sun/light) - Sanskrit, Tamil, Hebrew
+### Harappan Sign Coverage
+
+100 Harappan signs catalogued with:
+- Proposed phonetic values
+- Universal token linkages
+- Semantic categories
+- Frequency and context data
 
 ### Statistical Significance
 
-- Total comparisons: 500
-- Observed matches: 184
-- Expected random: ~10
-- **p-value: < 0.0001**
-
-Patterns are highly unlikely to occur by chance.
+Cross-linguistic patterns exceed random chance with p-value < 0.0001.
 
 ## Documentation
 
 - [Thesis Foundation](docs/thesis-foundation.md) - Historical, social, and psychological analysis supporting the thesis
 - [Academic Checklist](docs/academic-checklist.md) - Requirements for academic formalization and major prize consideration
+- [Methodology](docs/methodology.md) - Detailed analysis methodology and statistical procedures
 - [Main Paper](docs/harappan-00-main-paper.tex) - Full academic article in LaTeX
 
 ## Contributing

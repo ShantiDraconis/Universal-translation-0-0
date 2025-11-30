@@ -99,3 +99,103 @@ T097,INFINITY,/infinity/,endless;boundless,mathematical,infinite,- ,ananta (endl
 T098,0/0,/zero_over_zero/,indeterminate;potential,liminal,indeterminate,- ,- ,- ,- ,- ,H020,Core indeterminate operator
 T099,PI,/paɪ/,ratio;circle,mathematical,circle,- ,- ,פי (pi),பை,- ,- ,Circle ratio concept
 T100,PHI,/faɪ/,golden_ratio;beauty,mathematical,golden,- ,- ,- ,- ,- ,- ,Golden ratio concept
+T101,ATMA,/atma/,soul;self;spirit,spiritual,soul,- ,ātman (self),- ,ஆத்மா (atma),- ,- ,Soul/self concept
+T102,BRAHMA,/brahma/,creator;expansion,divine_realm,creator,- ,brahman (expansion),- ,பிரம்மா,- ,- ,Creator/expansion principle
+T103,VISHNU,/viʃnu/,preserver;pervader,divine_realm,preserver,- ,viṣṇu (pervader),- ,விஷ்ணு,- ,- ,Preservation principle
+T104,SHIVA,/ʃiva/,destroyer;auspicious,divine_realm,transformer,- ,śiva (auspicious),- ,சிவன்,- ,- ,Transformation/destruction
+T105,KALI,/kali/,time;dark_goddess,temporal,time,- ,kālī (time/black),- ,காளி,- ,- ,Time/dark feminine
+T106,DURGA,/durga/,fortress;invincible,protective,protector,- ,durgā (difficult),- ,துர்கா,- ,- ,Protective divine feminine
+T107,SARASVATI,/sarasvati/,flowing;wisdom,aquatic,wisdom,- ,sarasvatī (flowing),- ,சரஸ்வதி,- ,- ,Wisdom/flowing water
+T108,LAKSHMI,/lakʃmi/,mark;prosperity,material,abundance,- ,lakṣmī (mark),- ,லட்சுமி,- ,- ,Prosperity/fortune
+T109,GANESHA,/ganeʃa/,lord_of_hosts,divine_realm,remover,- ,gaṇeśa (lord of hosts),- ,கணேஷ்,- ,- ,Obstacle remover
+T110,HANUMAN,/hanuman/,jaw;devotion,spiritual,devotee,- ,hanumān (with jaw),- ,அனுமன்,- ,- ,Devotion/service
+T111,RAMA,/rama/,pleasing;dark,solar,hero,- ,rāma (pleasing),- ,ராமன்,- ,- ,Ideal hero/king
+T112,KRISHNA,/kriʃna/,dark;attractive,lunar,divine_child,- ,kṛṣṇa (dark),- ,கிருஷ்ணன்,- ,- ,Divine child/beloved
+T113,ARJUNA,/ardʒuna/,white;bright,martial,warrior,- ,arjuna (white),- ,அர்ஜுனன்,- ,- ,Warrior/seeker
+T114,DHARMA,/dharma/,law;duty;truth,ethical,order,- ,dharma (law),- ,தர்மம்,- ,- ,Cosmic order/duty
+T115,KARMA,/karma/,action;deed,causal,action,- ,karma (action),- ,கர்மா,- ,- ,Action/consequence
+T116,YOGA,/joga/,union;discipline,spiritual,union,- ,yoga (union),- ,யோகம்,- ,- ,Union/discipline
+T117,SAMADHI,/samadhi/,absorption;unity,spiritual,unity,- ,samādhi (putting together),- ,சமாதி,- ,- ,Meditative absorption
+T118,NIRVANA,/nirvana/,extinguishing;liberation,spiritual,liberation,- ,nirvāṇa (blowing out),- ,நிர்வாணம்,- ,- ,Liberation/extinction
+T119,BODHI,/bodhi/,awakening;enlightenment,spiritual,enlightenment,- ,bodhi (awakening),- ,போதி,- ,- ,Awakening/enlightenment
+T120,SANGHA,/sangha/,community;assembly,social,community,- ,saṅgha (assembly),- ,சங்கம்,- ,- ,Spiritual community
+T121,VEDA,/veda/,knowledge;scripture,wisdom,knowledge,- ,veda (knowledge),- ,வேதம்,- ,- ,Sacred knowledge
+T122,SUTRA,/sutra/,thread;aphorism,textual,thread,- ,sūtra (thread),- ,சூத்திரம்,- ,- ,Thread of teaching
+T123,SLOKA,/ʃloka/,verse;hymn,poetic,verse,- ,śloka (verse),- ,ஸ்லோகம்,- ,- ,Sacred verse
+T124,AVATAR,/avatar/,descent;incarnation,divine_realm,incarnation,- ,avatāra (descent),- ,அவதாரம்,- ,- ,Divine incarnation
+T125,DEVI,/devi/,goddess;shining,divine_realm,goddess,- ,devī (goddess),- ,தேவி,- ,- ,Divine feminine
+T126,ASURA,/asura/,powerful;anti-god,chthonic,adversary,- ,asura (powerful),- ,அசுரன்,- ,- ,Opposing force
+T127,RAKSHASA,/rakʃasa/,protector;demon,chthonic,guardian,- ,rākṣasa (protector),- ,ராட்சஸன்,- ,- ,Protective/demonic force
+T128,GANDHARVA,/gandharva/,celestial_musician,celestial,musician,- ,gandharva (smell-eater),- ,கந்தர்வர்,- ,- ,Celestial musician
+T129,APSARA,/apsara/,water_nymph,aquatic,nymph,- ,apsaras (moving in water),- ,அப்சரஸ்,- ,- ,Water spirit
+T130,YAKSHA,/jakʃa/,nature_spirit,nature,guardian,- ,yakṣa (mysterious),- ,யக்ஷன்,- ,- ,Nature guardian
+T131,NANDI,/nandi/,joy;bull,animal,vehicle,- ,nandī (joy),- ,நந்தி,- ,- ,Divine vehicle
+T132,GARUDA,/garuda/,eagle;devourer,animal,vehicle,- ,garuḍa (devourer),- ,கருடன்,- ,- ,Eagle deity
+T133,HAMSA,/hamsa/,swan;soul,animal,soul,- ,haṃsa (swan),- ,அன்னம்,- ,- ,Swan/soul symbol
+T134,MAKARA,/makara/,sea_creature,aquatic,threshold,- ,makara (sea creature),- ,மகரம்,- ,- ,Sea creature/zodiac
+T135,SHESHA,/ʃeʃa/,remainder;serpent,chthonic,foundation,- ,śeṣa (remainder),- ,சேஷன்,- ,- ,Cosmic serpent
+T136,VASUKI,/vasuki/,divine_serpent,chthonic,serpent_king,- ,vāsuki (dwelling),- ,வாசுகி,- ,- ,Serpent king
+T137,ANANTA,/ananta/,endless;infinite,mathematical,infinite,- ,ananta (endless),- ,அனந்தன்,- ,- ,Endless/infinite serpent
+T138,MERU,/meru/,cosmic_mountain,geographical,axis,- ,meru (mountain),- ,மேரு,- ,- ,Cosmic axis mountain
+T139,KAILASA,/kailasa/,crystal_mountain,geographical,abode,- ,kailāsa (crystal),- ,கயிலை,- ,- ,Divine abode
+T140,SVARGA,/svarga/,heaven;light,celestial,heaven,- ,svarga (going to light),- ,சொர்க்கம்,- ,- ,Heavenly realm
+T141,PATALA,/patala/,underworld,chthonic,underworld,- ,pātāla (falling below),- ,பாதாளம்,- ,- ,Underworld realm
+T142,BHUMI,/bhumi/,earth;ground,elemental,earth,- ,bhūmi (earth),- ,பூமி,- ,- ,Earth/ground
+T143,JIVA,/dʒiva/,living;soul,vital,life,- ,jīva (living),- ,ஜீவன்,- ,- ,Living soul
+T144,PRETA,/preta/,departed;ghost,liminal,ghost,- ,preta (departed),- ,பிரேதம்,- ,- ,Ghost/departed
+T145,PITRI,/pitri/,ancestor;father,ancestral,ancestor,- ,pitṛ (father),- ,பித்ரு,- ,- ,Ancestor/forefather
+T146,RISHI,/riʃi/,seer;sage,wisdom,sage,- ,ṛṣi (seer),- ,ரிஷி,- ,- ,Seer/sage
+T147,MUNI,/muni/,silent;sage,wisdom,silent_one,- ,muni (silent),- ,முனி,- ,- ,Silent sage
+T148,SADHU,/sadhu/,accomplished;holy,spiritual,holy_one,- ,sādhu (accomplished),- ,சாது,- ,- ,Holy person
+T149,SWAMI,/svami/,master;owner,authority,master,- ,svāmin (owner),- ,சுவாமி,- ,- ,Spiritual master
+T150,PANDIT,/pandit/,learned;scholar,wisdom,scholar,- ,paṇḍita (learned),- ,பண்டிதர்,- ,- ,Scholar/learned one
+T151,QUETZALCOATL,/ketsalkoatl/,feathered_serpent,celestial,serpent,- ,- ,- ,- ,- ,- ,Mesoamerican feathered serpent
+T152,TEZCATLIPOCA,/teskatlipoʊka/,smoking_mirror,liminal,shadow,- ,- ,- ,- ,- ,- ,Mesoamerican shadow deity
+T153,HUITZILOPOCHTLI,/witsilopoʊtʃtli/,hummingbird_left,solar,sun,- ,- ,- ,- ,- ,- ,Aztec sun/war deity
+T154,TLALOC,/tlalok/,earth_wine,aquatic,rain,- ,- ,- ,- ,- ,- ,Aztec rain deity
+T155,PACHAMAMA,/patʃamama/,earth_mother,elemental,earth_mother,- ,- ,- ,- ,- ,- ,Andean earth mother
+T156,INTI,/inti/,sun,solar,sun,- ,- ,- ,- ,- ,- ,Inca sun deity
+T157,VIRACOCHA,/virakoʧa/,sea_foam,creative,creator,- ,- ,- ,- ,- ,- ,Inca creator deity
+T158,SUPAY,/supaj/,underworld_lord,chthonic,death,- ,- ,- ,- ,- ,- ,Andean underworld deity
+T159,MAMA_KILLA,/mama kiʎa/,mother_moon,lunar,moon,- ,- ,- ,- ,- ,- ,Inca moon deity
+T160,ILLAPA,/iʎapa/,thunder,celestial,thunder,- ,- ,- ,- ,- ,- ,Inca thunder deity
+T161,OLORUN,/olorun/,owner_of_sky,celestial,supreme,- ,- ,- ,- ,ọlọrun (sky owner),- ,Yoruba supreme deity
+T162,OBATALA,/obatala/,king_of_white_cloth,creative,creator,- ,- ,- ,- ,ọbàtálá,- ,Yoruba creator
+T163,OGUN,/ogun/,iron;war,transformative,smith,- ,- ,- ,- ,ògún,- ,Yoruba iron/war deity
+T164,OSHUN,/oʃun/,river;love,aquatic,love,- ,- ,- ,- ,ọṣun,- ,Yoruba river goddess
+T165,YEMOJA,/jemoja/,mother_of_fish,oceanic,ocean_mother,- ,- ,- ,- ,yemọja,- ,Yoruba ocean mother
+T166,ESHU,/eʃu/,messenger;crossroads,liminal,trickster,- ,- ,- ,- ,èṣù,- ,Yoruba messenger
+T167,SHANGO,/ʃango/,thunder;fire,celestial,thunder,- ,- ,- ,- ,ṣàngó,- ,Yoruba thunder deity
+T168,OYA,/oja/,wind;change,elemental,wind,- ,- ,- ,- ,ọya,- ,Yoruba wind deity
+T169,ORUNMILA,/orunmila/,heaven_knows,divinatory,wisdom,- ,- ,- ,- ,ọrúnmìlà,- ,Yoruba divination deity
+T170,IFA,/ifa/,divination,divinatory,oracle,- ,- ,- ,- ,ifá,- ,Yoruba divination system
+T171,NANA,/nana/,grandmother;earth,ancestral,grandmother,nana (grandma),- ,- ,- ,nanã,- ,Elder feminine
+T172,OMOLU,/omolu/,son_of_lord,healing,healer,- ,- ,- ,- ,omolú,- ,Yoruba healing deity
+T173,OSSAIN,/osain/,plant_spirit,nature,healer,- ,- ,- ,- ,osanyìn,- ,Yoruba plant deity
+T174,IROKO,/iroko/,sacred_tree,nature,tree,- ,- ,- ,- ,irókò,- ,Sacred tree spirit
+T175,IYAMI,/ijami/,my_mothers,ancestral,mothers,- ,- ,- ,- ,ìyàmi,- ,Ancestral mothers
+T176,NYAME,/njame/,supreme_being,celestial,supreme,- ,- ,- ,- ,- ,- ,Akan supreme deity
+T177,ANANSI,/anansi/,spider,trickster,trickster,- ,- ,- ,- ,- ,- ,Akan spider trickster
+T178,ASASE_YAA,/asase ja/,earth_mother,elemental,earth,- ,- ,- ,- ,- ,- ,Akan earth goddess
+T179,MAWU,/mawu/,moon_goddess,lunar,moon,- ,- ,- ,- ,- ,- ,Fon moon goddess
+T180,LISA,/lisa/,sun_god,solar,sun,- ,- ,- ,- ,- ,- ,Fon sun god
+T181,LEGBA,/legba/,crossroads,liminal,messenger,- ,- ,- ,- ,- ,- ,Fon crossroads deity
+T182,DAMBALLAH,/dambalah/,serpent_sky,chthonic,serpent,- ,- ,- ,- ,- ,- ,Vodou serpent deity
+T183,AYIDA_WEDO,/ajida wedo/,rainbow_serpent,celestial,rainbow,- ,- ,- ,- ,- ,- ,Vodou rainbow serpent
+T184,ERZULIE,/erzuli/,love_goddess,emotional,love,- ,- ,- ,- ,- ,- ,Vodou love goddess
+T185,BARON_SAMEDI,/baron samedi/,lord_of_dead,chthonic,death,- ,- ,- ,- ,- ,- ,Vodou death deity
+T186,LOCO,/loko/,tree_spirit,nature,healing,- ,- ,- ,- ,- ,- ,Vodou healing spirit
+T187,OSIRIS,/oʊsaɪris/,throne_eye,chthonic,death,- ,- ,- ,- ,- ,- ,Egyptian underworld god
+T188,ISIS,/aɪsis/,throne,feminine_origin,magic,- ,- ,- ,- ,- ,- ,Egyptian magic goddess
+T189,HORUS,/hɔːrəs/,falcon;high,solar,sky,- ,- ,- ,- ,- ,- ,Egyptian sky god
+T190,SETH,/seθ/,desert;chaos,chthonic,chaos,- ,- ,- ,- ,- ,- ,Egyptian chaos deity
+T191,THOTH,/θoʊθ/,ibis;wisdom,wisdom,scribe,- ,- ,- ,- ,- ,- ,Egyptian wisdom deity
+T192,ANUBIS,/ənjuːbis/,jackal,chthonic,guide,- ,- ,- ,- ,- ,- ,Egyptian death guide
+T193,HATHOR,/haθɔːr/,house_of_horus,feminine_origin,mother,- ,- ,- ,- ,- ,- ,Egyptian mother goddess
+T194,SEKHMET,/sekmet/,powerful_one,martial,warrior,- ,- ,- ,- ,- ,- ,Egyptian war goddess
+T195,BASTET,/bastet/,cat,protective,protector,- ,- ,- ,- ,- ,- ,Egyptian cat goddess
+T196,PTAH,/ptah/,opener,creative,craftsman,- ,- ,- ,- ,- ,- ,Egyptian creator/craftsman
+T197,AMUN,/amun/,hidden,celestial,supreme,- ,- ,- ,- ,- ,- ,Egyptian hidden god
+T198,ATEN,/aten/,sun_disk,solar,sun,- ,- ,- ,- ,- ,- ,Egyptian sun disk
+T199,MAAT,/mat/,truth;order,ethical,order,- ,- ,- ,- ,- ,- ,Egyptian truth/order
+T200,ANKH,/aŋk/,life;key,vital,life,- ,- ,- ,- ,- ,- ,Egyptian life symbol
