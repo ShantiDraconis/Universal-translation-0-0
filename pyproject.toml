@@ -3,6 +3,24 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
+name = "ute00"
+version = "0.1.0"
+description = "Universal Translation Engine 0/0 - A mathematical-linguistic system for universal translation"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Shanti Draconis"}
+]
+keywords = [
+    "linguistics",
+    "phonetics",
+    "translation",
+    "semiotics",
+    "harappan",
+    "proto-language",
+    "computational-linguistics",
+    "universal-grammar"
 name = "universal-translation-00"
 version = "0.1.0"
 description = "Motor de Tradução Universal 0/0 - Reconstrução fonética do Harappan através de análise linguística cruzada"
@@ -26,6 +44,7 @@ classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
@@ -33,6 +52,11 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Text Processing :: Linguistic",
 ]
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scipy>=1.10.0",
+    "networkx>=3.0",
 requires-python = ">=3.10"
 dependencies = [
     "click>=8.0.0",
@@ -59,6 +83,14 @@ notebooks = [
     "matplotlib>=3.7.0",
     "seaborn>=0.12.0",
 ]
+all = [
+    "ute00[dev,notebooks]",
+]
+
+[project.urls]
+Homepage = "https://github.com/ShantiDraconis/Universal-translation-0-0"
+Repository = "https://github.com/ShantiDraconis/Universal-translation-0-0"
+Documentation = "https://github.com/ShantiDraconis/Universal-translation-0-0#readme"
 
 [project.scripts]
 universal-translate-00 = "universal_translation_00.cli.main:main"
@@ -72,6 +104,25 @@ Issues = "https://github.com/ShantiDraconis/Universal-translation-0-0/issues"
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.black]
+line-length = 88
+target-version = ["py310", "py311", "py312"]
+include = '\.pyi?$'
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+select = ["E", "F", "I", "N", "W", "UP"]
+ignore = []
 [tool.black]
 line-length = 100
 target-version = ["py310", "py311", "py312"]

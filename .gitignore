@@ -51,17 +51,24 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+cover/
 
 # Translations
 *.mo
 *.pot
 
+# Django stuff:
 # Django stuff
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
 # Flask stuff
 instance/
 .webassets-cache
@@ -73,6 +80,7 @@ instance/
 docs/_build/
 
 # PyBuilder
+.pybuilder/
 target/
 
 # Jupyter Notebook
@@ -125,6 +133,13 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDE
 # IDE
 # IDEs
 .idea/
