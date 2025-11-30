@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "code": "M-001",
+    "label_short": "SIGN_001",
+    "label_long": "TODO: descrição curta",
+    "category": "basic",
+    "shape_tags": ["horned", "curved"],
+    "phonetic_guess": null,
+    "semantic_guess": null,
+    "source": "Mahadevan",
+    "source_ref": "M-001",
+    "notes": "Preencher a partir da tabela."
+  },
+  {
+    "id": 2,
+    "code": "M-002",
+    "label_short": "SIGN_002",
+    "label_long": "TODO: descrição curta",
+    "category": "basic",
+    "shape_tags": ["fish", "vertical"],
+    "phonetic_guess": null,
+    "semantic_guess": null,
+    "source": "Mahadevan",
+    "source_ref": "M-002",
+    "notes": "..."
+  },
+  {
+    "id": 3,
+    "code": "M-003",
+    "label_short": "SIGN_003",
+    "label_long": "TODO: descrição curta",
+    "category": "compound",
+    "shape_tags": ["jar", "handle"],
+    "phonetic_guess": null,
+    "semantic_guess": null,
+    "source": "Mahadevan",
+    "source_ref": "M-003",
+    "notes": "..."
+  }
+]

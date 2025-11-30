@@ -1,0 +1,27 @@
+[project]
+name = "harappan-00-universal"
+version = "0.1.0"
+description = "Universal mapping between Harappan signs and the 00 Dictionary (1000 primordial tokens)."
+authors = [
+  { name = "Tiago Paschoalatto Fagliari", email = "TODO@EXAMPLE.COM" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+  "black",
+  "isort",
+  "pytest",
+]
+
+[project.scripts]
+harappan-00 = "harappan_00.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
