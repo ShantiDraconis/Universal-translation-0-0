@@ -1,0 +1,101 @@
+token_id,token,phonetic_ipa,semantic_core,cosmological_category,archetype,tupi_cognate,sanskrit_cognate,hebrew_cognate,tamil_cognate,yoruba_cognate,harappan_link,notes
+T001,A,/a/,existence;being,primordial_vowel,self,a (prefix),a- (negation/emphasis),א (aleph),அ (a),a (prefix),H020,Universal vowel of existence
+T002,AM,/am/,I am;being,self_declaration,ego,am (soft),aham (I),אני (ani),நான் (naan),emi (I am),H001,First person existence marker
+T003,AMA,/ama/,mother;source;matrix,feminine_origin,great_mother,ama (soft),amba/mata,אם (em),அம்மா (amma),iya (mother),H003,Universal mother sound
+T004,AN,/an/,sky;heaven;divine,celestial,sky_father,anhã (soul),an- (breath),ען (cloud),அண் (an),ọrun (sky),H002,Celestial/divine marker
+T005,ANU,/anu/,atom;minute;after,microscopic,seed,anu (small),aṇu (atom),- ,அணு (anu),- ,H002,Smallest unit concept
+T006,ARYA,/arɪa/,noble;honorable,social_hierarchy,noble_one,-,ārya (noble),- ,ஆர்ய (arya),- ,H008,Nobility/honor marker
+T007,BA,/ba/,soul;essence;father,spiritual_essence,soul,bae (when),bā (shine),בא (ba - come),வா (va),ba (come),H004,Movement of essence
+T008,BABA,/baba/,father;elder,paternal,father,baba (carry),bābā (father),אבא (aba),பாப்பா (pappa),baba (father),H004,Universal father sound
+T009,CHAKRA,/tʃakra/,wheel;center;cycle,energy_system,wheel,- ,cakra (wheel),גלגל (galgal),சக்கரம் (cakkaram),- ,H045,Energy center/cycle
+T010,DA,/da/,give;that,transference,giver,da (in),dā (give),דע (da - know),தா (tha),da (here is),H005,Giving/transfer marker
+T011,DARA,/dara/,hold;destined,destiny,fate_holder,tara (destiny),dhāra (stream),-,தார (thara),-,H005,Destiny/holding pattern
+T012,DEVA,/deva/,divine;shining,divine_realm,deity,- ,deva (god),- ,தேவ (theva),- ,H032,Divine being marker
+T013,E,/e/,here;this,location,presence,e (prefix),eṣa (this),זה (zeh),இ (i),ẹ (this),-,Proximal deictic
+T014,EKA,/eka/,one;unity,numerical,unity,- ,eka (one),אחד (echad),ஒன்று (onru),ọkan (one),H023,Unity/oneness concept
+T015,GA,/ga/,go;movement,motion,traveler,guata (walk),gam (go),- ,கா (ka),lọ (go),H006,Movement marker
+T016,GATI,/gati/,path;motion,directional,path,- ,gati (motion),- ,கதி (kathi),- ,H006,Motion/path concept
+T017,GURU,/guru/,heavy;teacher,wisdom,sage,- ,guru (heavy/teacher),- ,குரு (guru),- ,H040,Weight/teacher marker
+T018,HA,/ha/,breath;life,vital_force,breath,- ,ha (strike),ה (heh - breath),ஹ (ha),- ,H007,Breath/aspiration
+T019,HAYA,/haɪa/,life_force;speed,vitality,swift_one,- ,haya (horse/speed),חי (chai - life),- ,- ,H007,Life force movement
+T020,I,/i/,self;this,identity,true_self,i (prefix),i (go),י (yod),இ (i),i (this),H020,Core identity marker / 0÷0
+T021,JALA,/dʒala/,water;net,aquatic,water_spirit,y (water),jala (water),- ,ஜலம் (jalam),- ,H037,Water element
+T022,KA,/ka/,who;what;head,interrogative,questioner,ka (bone),ka (who),- ,கா (ka),- ,H008,Question/head marker
+T023,KARAI,/karaɪ/,lord;master;noble,authority,master,karai (lord),- ,- ,கரை (karai - shore),- ,H008,Authority/mastery marker
+T024,KARA,/kara/,hand;action;making,creative,maker,- ,kara (hand/doing),- ,கரம் (karam),- ,H028,Hand/action concept
+T025,KUNDALINI,/kundalini/,coiled;spiral,energy,serpent_power,- ,kuṇḍalinī (coiled),- ,குண்டலினி,- ,H049,Spiral energy concept
+T026,LA,/la/,take;obtain,acquisition,receiver,- ,lā (take),לך (lech - go),- ,- ,H009,Taking/obtaining marker
+T027,LAYA,/laɪa/,dissolution;absorption,transformation,dissolving,- ,laya (dissolution),- ,லயம் (layam),- ,H009,Dissolution process
+T028,MA,/ma/,measure;mother;water,foundational,measurer,ma (thing),mā (measure/mother),מ (mem - water),மா (ma),- ,H010,Foundational measure
+T029,MANTRA,/mantra/,mind_tool;spell,ritual,sacred_word,- ,mantra (thought-tool),- ,மந்திரம் (mantiram),- ,H043,Sacred utterance
+T030,MARA,/mara/,death;obstacle,transformation,death,- ,māra (death/killer),מות (mavet - death),மரணம் (maranam),- ,H029,Death/obstacle marker
+T031,MAYA,/maɪa/,illusion;measure;mother,perception,weaver,- ,māyā (illusion/measure),- ,மாயை (mayai),- ,H010,Illusion/creation veil
+T032,MBOI,/mboi/,serpent;snake,chthonic,serpent,mboi (snake),- ,- ,- ,- ,H025,Serpent archetype
+T033,MOKSHA,/mokʃa/,liberation;freedom,spiritual,liberated,- ,mokṣa (liberation),- ,மோட்சம் (motsam),- ,H050,Liberation concept
+T034,NA,/na/,name;not;us,identity_negation,namer,nã (us),na (not/name),נא (na - please),ந (na),- ,H011,Name/negation particle
+T035,NADA,/nada/,sound;vibration,acoustic,cosmic_sound,- ,nāda (sound),- ,நாதம் (natham),- ,H047,Primordial sound
+T036,NAGA,/naga/,snake;mountain,serpentine,serpent_deity,- ,nāga (serpent),נחש (nachash - snake),நாகம் (nagam),- ,H031,Snake/mountain spirit
+T037,NAMA,/nama/,name;bow,reverence,named_one,- ,nāma (name),שם (shem - name),நாமம் (namam),- ,H011,Name/reverence marker
+T038,NU,/nu/,new;now;water,primordial,primordial_waters,- ,nu- (now),נו (nu - please),நு (nu),- ,H012,Primordial waters
+T039,NUA,/nua/,new;fresh,renewal,fresh_one,- ,nava (new),- ,புதிய (puthiya),- ,H012,Newness concept
+T040,O,/o/,origin;sacred,foundational,source,- ,oṁ (sacred),- ,ஓ (o),- ,H024,Origin/sacred vowel
+T041,OJA,/odʒa/,vital_force;vigor,energy,vitality,- ,ojas (vigor),- ,- ,- ,H024,Vital force marker
+T042,OM,/om/,sacred_sound;all,cosmic,absolute,- ,oṁ (sacred syllable),- ,ஓம் (om),- ,H021,Primordial sacred sound
+T043,PA,/pa/,protect;drink,nurturing,protector,- ,pā (protect/drink),- ,பா (pa),- ,H013,Protection/nourishment
+T044,PALA,/pala/,fruit;moment,result,guardian,- ,phala (fruit),- ,பலன் (palan),- ,H013,Result/protection marker
+T045,PARA,/para/,beyond;supreme,transcendence,transcendent,- ,para (beyond),- ,பர (para),- ,H027,Transcendence marker
+T046,PRANA,/prana/,life_breath;energy,vital,life_force,- ,prāṇa (breath),- ,பிராணன் (piranan),- ,H048,Life breath concept
+T047,PRTHVI,/prθvi/,earth;wide,elemental,earth_mother,- ,pṛthvī (earth),- ,பிருத்வி,- ,H035,Earth element
+T048,RA,/ra/,sun;light;king,solar,illuminator,ra (day),rā (give/king),ר (resh),ர (ra),- ,H014,Solar/royal marker
+T049,RAVI,/ravi/,sun;swift,celestial,sun_deity,- ,ravi (sun),- ,ரவி (ravi),- ,H014,Sun deity concept
+T050,SA,/sa/,with;all;that,completeness,complete,- ,sa (with/that),- ,ச (sa),- ,H015,Completeness/association
+T051,SARVA,/sarva/,all;complete,totality,totality,- ,sarva (all),- ,சர்வ (sarva),- ,H015,All-encompassing concept
+T052,SHA,/ʃa/,peace;hundred,harmony,pacifier,- ,śa- (hundred),ש (shin),ச (sha),- ,H016,Peace/multiplicity marker
+T053,SHANTI,/ʃanti/,peace;tranquility,spiritual,peace,- ,śānti (peace),- ,சாந்தி (shanti),- ,H016,Peace concept
+T054,SIDDHA,/siddha/,accomplished;perfected,mastery,perfected_one,- ,siddha (accomplished),- ,சித்த (siddha),- ,H041,Accomplishment marker
+T055,SURYA,/surɪa/,sun;solar,celestial,sun_god,- ,sūrya (sun),- ,சூரிய (surya),- ,H038,Sun deity
+T056,TA,/ta/,that;cross,deictic,that_one,ta (burn),ta (that),ת (tav),த (ta),- ,H017,Deictic/crossing marker
+T057,TANTRA,/tantra/,warp;system,systematic,weaver,- ,tantra (loom/system),- ,தந்திரம் (tantiram),- ,H044,System/weaving concept
+T058,TARA,/tara/,star;crossing;savior,celestial,star_goddess,tara (destiny),tārā (star/savior),- ,தாரா (thara),- ,H017,Star/destiny concept
+T059,TUPA,/tupa/,thunder;supreme,celestial,thunder_deity,tupã (thunder/god),- ,- ,- ,- ,H026,Thunder/supreme marker
+T060,U,/u/,up;chest;heart,elevation,elevated,u (eat),u- (up),- ,உ (u),- ,H022,Upward/heart marker
+T061,URA,/ura/,chest;heart;broad,physical,heart_center,- ,uras (chest),- ,- ,- ,H022,Chest/heart concept
+T062,VA,/va/,word;wind;move,communicative,speaker,- ,vā (blow/speak),- ,வ (va),- ,H018,Speech/wind marker
+T063,VAKA,/vaka/,speech;word,linguistic,speaker,- ,vāk (speech),- ,வாக்கு (vakku),- ,H018,Speech concept
+T064,VARA,/vara/,choice;boon;cover,selection,chooser,- ,vara (boon/choice),- ,வரம் (varam),- ,H030,Choice/blessing marker
+T065,VAYU,/vaɪu/,wind;air,elemental,wind_deity,- ,vāyu (wind),- ,வாயு (vayu),- ,H034,Wind element
+T066,YA,/ja/,go;which;control,motion,mover,- ,yā (go/which),- ,ய (ya),- ,H019,Motion/control marker
+T067,YAMA,/jama/,restraint;death,boundary,boundary_keeper,- ,yama (restraint/death),- ,யமன் (yaman),- ,H019,Restraint/boundary concept
+T068,YANTRA,/jantra/,instrument;device,technological,device,- ,yantra (device),- ,யந்திரம் (yantiram),- ,H042,Device/instrument concept
+T069,AGNI,/agni/,fire;divine,elemental,fire_deity,tata (fire),agni (fire),אש (esh - fire),அக்னி (agni),iná (fire),H033,Fire element
+T070,AKASHA,/akaʃa/,space;ether,elemental,void,- ,ākāśa (space),- ,ஆகாசம் (akasam),- ,H036,Space/ether element
+T071,BINDU,/bindu/,point;drop,concentrated,seed_point,- ,bindu (point/drop),- ,விந்து (vindu),- ,H046,Concentrated point
+T072,CHANDRA,/tʃandra/,moon;shining,celestial,moon_deity,- ,candra (moon),- ,சந்திர (chandra),- ,H039,Moon concept
+T073,EXU,/eʃu/,messenger;crossroads,liminal,trickster,- ,- ,- ,- ,èṣù (messenger),- ,Crossroads deity marker
+T074,IFA,/ifa/,divination;wisdom,divinatory,oracle,- ,- ,- ,- ,ifá (divination),- ,Divination concept
+T075,OGUN,/ogun/,iron;war;technology,transformative,smith,- ,- ,- ,- ,ògún (iron),- ,Technology/transformation
+T076,OSHUN,/oʃun/,river;love;beauty,feminine,river_goddess,- ,- ,- ,- ,ọṣun (river),- ,Feminine water deity
+T077,OXALA,/oʃala/,creator;white;pure,creative,creator,- ,- ,- ,- ,ọbàtálá (creator),- ,Creator deity marker
+T078,YEMANJA,/jemandʒa/,sea_mother;fish,oceanic,ocean_mother,- ,- ,- ,- ,yemọja (sea),- ,Ocean mother concept
+T079,SHANGO,/ʃango/,thunder;fire;justice,celestial,thunder_god,- ,- ,- ,- ,ṣàngó (thunder),- ,Thunder/justice deity
+T080,AXE,/aʃe/,power;energy;command,vital,life_force,- ,- ,- ,- ,àṣẹ (power),- ,Vital force command
+T081,GUARANI,/guarani/,warrior;people,social,warrior,guarani (warrior),- ,- ,- ,- ,- ,Tupi warrior concept
+T082,ITAIPU,/itaɪpu/,singing_stone,natural,sacred_place,itaipu (singing stone),- ,- ,- ,- ,- ,Sacred stone concept
+T083,IGUACU,/iguasu/,great_water,aquatic,great_waters,iguaçu (great water),- ,- ,- ,- ,- ,Great water concept
+T084,PARANA,/parana/,like_sea;great_river,aquatic,river,paraná (like sea),- ,- ,- ,- ,- ,Great river concept
+T085,TUPINAMBA,/tupinamba/,tupan_descendants,social,thunder_people,tupinambá,- ,- ,- ,- ,- ,Thunder deity descendants
+T086,ANHANGA,/aɲanga/,shadow_spirit;soul,spiritual,shadow,anhanga (soul/shadow),- ,- ,- ,- ,- ,Soul/shadow concept
+T087,CURUPIRA,/kurupira/,forest_spirit,nature,forest_guardian,curupira,- ,- ,- ,- ,- ,Forest guardian spirit
+T088,IARA,/jara/,water_lady;siren,aquatic,water_spirit,iara (water lady),- ,- ,- ,- ,- ,Water spirit concept
+T089,SACI,/sasi/,one_legged_spirit,trickster,trickster,saci,- ,- ,- ,- ,- ,Trickster spirit
+T090,BOITATA,/boitata/,fire_serpent,chthonic,fire_serpent,boitatá (fire snake),- ,- ,- ,- ,- ,Fire serpent concept
+T091,JACI,/ʒasi/,moon,celestial,moon,jaci (moon),- ,- ,- ,- ,- ,Tupi moon concept
+T092,GUARACI,/guarasi/,sun,celestial,sun,guaraci (sun),- ,- ,- ,- ,- ,Tupi sun concept
+T093,RUDA,/ruda/,love,emotional,love_deity,rudá (love),- ,- ,- ,- ,- ,Tupi love concept
+T094,CAIPORA,/kaipora/,forest_dweller,nature,forest_spirit,caipora,- ,- ,- ,- ,- ,Forest dwelling spirit
+T095,MAPINGUARI,/mapinguari/,ancient_beast,mythical,primordial_beast,mapinguari,- ,- ,- ,- ,- ,Primordial beast concept
+T096,ZERO,/zero/,nothing;void;potential,mathematical,void,- ,śūnya (void),אפס (efes - zero),சூன்யம் (sunyam),òdo (zero),- ,Mathematical void
+T097,INFINITY,/infinity/,endless;boundless,mathematical,infinite,- ,ananta (endless),אין סוף (ein sof),அனந்தம் (anantam),àìlópin,- ,Mathematical infinite
+T098,0/0,/zero_over_zero/,indeterminate;potential,liminal,indeterminate,- ,- ,- ,- ,- ,H020,Core indeterminate operator
+T099,PI,/paɪ/,ratio;circle,mathematical,circle,- ,- ,פי (pi),பை,- ,- ,Circle ratio concept
+T100,PHI,/faɪ/,golden_ratio;beauty,mathematical,golden,- ,- ,- ,- ,- ,- ,Golden ratio concept

@@ -1,0 +1,51 @@
+sign_id,unicode_approx,variants,phonetic_value_proposed,semantic_category,universal_token_link,description,frequency,contexts
+H001,𐠀,H001a;H001b,A,vowel,AM,Man with arms raised; possibly "person" or "I/self",high,seal_inscriptions;tablet_texts
+H002,𐠁,H002a,AN,divine,ANU,Sky/heaven symbol; star-like form,medium,seal_inscriptions;ritual_objects
+H003,𐠂,H003a;H003b;H003c,AMA,mother,AMA,Maternal figure; possibly "mother" or "source",medium,seal_inscriptions
+H004,𐠃,H004a,BA,father,BABA,Paternal figure or authority symbol,low,seal_inscriptions
+H005,𐠄,H005a;H005b,DA,give,DARA,Hand gesture; possibly "to give" or "gift",medium,tablet_texts
+H006,𐠅,H006a,GA,go,GATI,Leg/foot symbol; movement,medium,seal_inscriptions
+H007,𐠆,H007a;H007b,HA,breath,HAYA,Respiratory symbol; life breath,low,seal_inscriptions
+H008,𐠇,H008a,KA,head,KARAI,Head or crown symbol; authority,high,seal_inscriptions;amulets
+H009,𐠈,H009a;H009b,LA,tongue,LAYA,Tongue or speech symbol,low,tablet_texts
+H010,𐠉,H010a,MA,water,MAYA,Wave pattern; water or illusion,high,seal_inscriptions;pottery
+H011,𐠊,H011a;H011b,NA,name,NAMA,Name or identity marker,medium,seal_inscriptions
+H012,𐠋,H012a,NU,new,NUA,New/fresh symbol; primordial waters,medium,tablet_texts
+H013,𐠌,H013a;H013b,PA,protect,PALA,Shield or protection symbol,low,seal_inscriptions
+H014,𐠍,H014a,RA,sun,RAVI,Solar disc; light/illumination,high,seal_inscriptions;ritual_objects
+H015,𐠎,H015a;H015b,SA,all,SARVA,Completeness symbol,medium,tablet_texts
+H016,𐠏,H016a,SHA,peace,SHANTI,Peace or stillness symbol,medium,seal_inscriptions
+H017,𐠐,H017a;H017b,TA,that,TARA,Deictic marker; destiny/star,high,seal_inscriptions;tablet_texts
+H018,𐠑,H018a,VA,word,VAKA,Speech or word symbol,medium,tablet_texts
+H019,𐠒,H019a;H019b,YA,go,YAMA,Movement or restraint,high,seal_inscriptions
+H020,𐠓,H020a,I,self,I/0÷0,Central identity marker; indeterminate,high,all_contexts
+H021,𐠔,H021a;H021b,OM,sacred,OM,Sacred syllable; primordial sound,high,ritual_objects
+H022,𐠕,H022a,U,up,URA,Upward movement; chest/heart,medium,seal_inscriptions
+H023,𐠖,H023a;H023b,E,here,EKA,Location marker; one/unity,medium,tablet_texts
+H024,𐠗,H024a,O,origin,OJA,Origin or source; vital force,medium,seal_inscriptions
+H025,𐠘,H025a;H025b,MBOI,serpent,MBOI,Snake/serpent; spiral energy,high,seal_inscriptions;amulets
+H026,𐠙,H026a,TUPA,thunder,TUPA,Thunder/sky deity connection,low,ritual_objects
+H027,𐠚,H027a;H027b,PARA,beyond,PARA,Transcendence; beyond/supreme,medium,seal_inscriptions
+H028,𐠛,H028a,KARA,hand,KARA,Hand symbol; action/making,high,tablet_texts;seal_inscriptions
+H029,𐠜,H029a;H029b,MARA,death,MARA,Death/transformation symbol,low,seal_inscriptions
+H030,𐠝,H030a,VARA,choice,VARA,Selection/blessing symbol,medium,seal_inscriptions
+H031,𐠞,H031a;H031b,NAGA,snake,NAGA,Snake deity; underground,medium,seal_inscriptions;ritual_objects
+H032,𐠟,H032a,DEVA,divine,DEVA,Divine being; shining one,high,ritual_objects
+H033,𐠠,H033a;H033b,AGNI,fire,AGNI,Fire symbol; transformation,high,seal_inscriptions;ritual_objects
+H034,𐠡,H034a,VAYU,wind,VAYU,Wind/air symbol; breath of life,medium,seal_inscriptions
+H035,𐠢,H035a;H035b,PRTHVI,earth,PRTHVI,Earth symbol; stability,medium,seal_inscriptions;pottery
+H036,𐠣,H036a,AKASHA,space,AKASHA,Space/ether symbol; void,low,ritual_objects
+H037,𐠤,H037a;H037b,JALA,water,JALA,Water element; flowing,high,seal_inscriptions;pottery
+H038,𐠥,H038a,SURYA,sun,SURYA,Sun deity; supreme light,high,seal_inscriptions;ritual_objects
+H039,𐠦,H039a;H039b,CHANDRA,moon,CHANDRA,Moon symbol; mind/reflection,medium,seal_inscriptions
+H040,𐠧,H040a,GURU,teacher,GURU,Heavy/weighty; teacher,medium,seal_inscriptions
+H041,𐠨,H041a;H041b,SIDDHA,perfected,SIDDHA,Accomplished; perfected one,low,ritual_objects
+H042,𐠩,H042a,YANTRA,machine,YANTRA,Device; mystical diagram,medium,seal_inscriptions;amulets
+H043,𐠪,H043a;H043b,MANTRA,spell,MANTRA,Sacred utterance; mind-tool,high,ritual_objects
+H044,𐠫,H044a,TANTRA,weave,TANTRA,Woven; system/continuum,medium,seal_inscriptions
+H045,𐠬,H045a;H045b,CHAKRA,wheel,CHAKRA,Wheel; energy center,high,seal_inscriptions;ritual_objects
+H046,𐠭,H046a,BINDU,point,BINDU,Drop; concentrated point,medium,seal_inscriptions
+H047,𐠮,H047a;H047b,NADA,sound,NADA,Cosmic sound; vibration,low,ritual_objects
+H048,𐠯,H048a,PRANA,life,PRANA,Life force; breath energy,high,seal_inscriptions
+H049,𐠰,H049a;H049b,KUNDALINI,coiled,KUNDALINI,Coiled serpent energy,medium,seal_inscriptions;amulets
+H050,𐠱,H050a,MOKSHA,liberation,MOKSHA,Freedom; release,low,ritual_objects
