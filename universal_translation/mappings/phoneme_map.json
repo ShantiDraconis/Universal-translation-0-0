@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "name": "Universal Phoneme Map",
+    "version": "1.0",
+    "description": "Mapping of IPA phonemes to universal categories and language families",
+    "notation": "IPA (International Phonetic Alphabet)"
+  },
+  "consonants": {
+    "plosives": {
+      "voiceless": {
+        "bilabial": {"ipa": "p", "examples": {"english": "pat", "sanskrit": "पा", "tupi": "pirá"}},
+        "alveolar": {"ipa": "t", "examples": {"english": "top", "sanskrit": "त", "tamil": "tī"}},
+        "velar": {"ipa": "k", "examples": {"english": "cat", "sanskrit": "क", "quechua": "killa"}},
+        "glottal": {"ipa": "ʔ", "examples": {"arabic": "hamza", "hebrew": "aleph"}}
+      },
+      "voiced": {
+        "bilabial": {"ipa": "b", "examples": {"english": "bat", "sanskrit": "ब"}},
+        "alveolar": {"ipa": "d", "examples": {"english": "dog", "sanskrit": "द"}},
+        "velar": {"ipa": "g", "examples": {"english": "go", "sanskrit": "ग"}}
+      },
+      "aspirated": {
+        "bilabial": {"ipa": "pʰ", "examples": {"sanskrit": "फ", "hindi": "phul"}},
+        "alveolar": {"ipa": "tʰ", "examples": {"sanskrit": "थ"}},
+        "velar": {"ipa": "kʰ", "examples": {"sanskrit": "ख"}}
+      }
+    },
+    "nasals": {
+      "bilabial": {"ipa": "m", "examples": {"universal": "mama", "sanskrit": "म"}},
+      "alveolar": {"ipa": "n", "examples": {"english": "no", "sanskrit": "न"}},
+      "velar": {"ipa": "ŋ", "examples": {"english": "sing", "vietnamese": "ng"}}
+    },
+    "fricatives": {
+      "voiceless": {
+        "labiodental": {"ipa": "f", "examples": {"english": "fish", "german": "fisch"}},
+        "dental": {"ipa": "θ", "examples": {"english": "think", "greek": "theta"}},
+        "alveolar": {"ipa": "s", "examples": {"universal": "sun", "sanskrit": "स"}},
+        "postalveolar": {"ipa": "ʃ", "examples": {"english": "ship", "sanskrit": "श"}}
+      },
+      "voiced": {
+        "labiodental": {"ipa": "v", "examples": {"english": "vine", "sanskrit": "व"}},
+        "dental": {"ipa": "ð", "examples": {"english": "this"}},
+        "alveolar": {"ipa": "z", "examples": {"english": "zoo", "arabic": "zay"}},
+        "postalveolar": {"ipa": "ʒ", "examples": {"french": "je", "portuguese": "já"}}
+      }
+    },
+    "approximants": {
+      "alveolar": {"ipa": "ɹ", "examples": {"english": "red"}},
+      "palatal": {"ipa": "j", "examples": {"english": "yes", "sanskrit": "य"}},
+      "labial-velar": {"ipa": "w", "examples": {"english": "wet", "tupi": "waá"}}
+    },
+    "laterals": {
+      "alveolar": {"ipa": "l", "examples": {"english": "let", "sanskrit": "ल"}}
+    },
+    "trills": {
+      "alveolar": {"ipa": "r", "examples": {"spanish": "perro", "sanskrit": "र"}}
+    }
+  },
+  "vowels": {
+    "close": {
+      "front": {"ipa": "i", "examples": {"universal": "see", "sanskrit": "इ"}},
+      "back": {"ipa": "u", "examples": {"universal": "moon", "sanskrit": "उ"}}
+    },
+    "mid": {
+      "front": {"ipa": "e", "examples": {"spanish": "mesa", "sanskrit": "ए"}},
+      "central": {"ipa": "ə", "examples": {"english": "about"}},
+      "back": {"ipa": "o", "examples": {"spanish": "sol", "sanskrit": "ओ"}}
+    },
+    "open": {
+      "front": {"ipa": "æ", "examples": {"english": "cat"}},
+      "central": {"ipa": "a", "examples": {"universal": "father", "sanskrit": "अ"}},
+      "back": {"ipa": "ɑ", "examples": {"english": "father"}}
+    }
+  },
+  "language_family_patterns": {
+    "indo_european": {
+      "characteristic_sounds": ["aspirated_plosives", "retroflex_consonants"],
+      "common_roots": ["*meh₂tēr (mother)", "*ph₂tḗr (father)", "*h₂ékʷeh₂ (water)"]
+    },
+    "dravidian": {
+      "characteristic_sounds": ["retroflex_consonants", "gemination"],
+      "common_roots": ["amma (mother)", "appa (father)"]
+    },
+    "tupi_guarani": {
+      "characteristic_sounds": ["nasal_vowels", "glottal_stop"],
+      "common_roots": ["y (water)", "pirá (fish)"]
+    },
+    "afro_asiatic": {
+      "characteristic_sounds": ["pharyngeal_consonants", "triconsonantal_roots"],
+      "common_roots": ["sh-l-m (peace)", "k-t-b (write)"]
+    },
+    "sino_tibetan": {
+      "characteristic_sounds": ["tones", "initial_clusters"],
+      "common_roots": ["ma (mother)", "shui (water)"]
+    }
+  }
+}

@@ -1,4 +1,43 @@
 cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Universal Translation Engine 0/0"
+version: 0.1.0
+date-released: 2025-01-01
+abstract: >-
+  A modular framework for universal translation integrating phonemes,
+  Harappan signs, multiple linguistic families, symbolic analysis and numerology.
+  The system implements a 10-stage pipeline for cross-linguistic and
+  symbolic analysis.
+authors:
+  - family-names: Draconis
+    given-names: Shanti
+license: MIT
+repository-code: "https://github.com/ShantiDraconis/Universal-translation-0-0"
+keywords:
+  - linguistics
+  - translation
+  - harappan
+  - phonetics
+  - numerology
+  - symbolism
+  - universal-language
+references:
+  - type: book
+    title: "The Indus Script: Texts, Concordance and Tables"
+    authors:
+      - family-names: Mahadevan
+        given-names: Iravatham
+    year: 1977
+    publisher:
+      name: "Archaeological Survey of India"
+  - type: book
+    title: "Deciphering the Indus Script"
+    authors:
+      - family-names: Parpola
+        given-names: Asko
+    year: 1994
+    publisher:
+      name: "Cambridge University Press"
 message: "If you use this work, please cite:"
 title: "harappan-00-universal: Symbolic and phonetic mapping between Harappan script and the 00 Universal Dictionary"
 authors:

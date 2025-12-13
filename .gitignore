@@ -189,6 +189,8 @@ cython_debug/
 .DS_Store
 Thumbs.db
 
+# Project specific
+*.egg-info/
 # LaTeX
 *.aux
 *.log

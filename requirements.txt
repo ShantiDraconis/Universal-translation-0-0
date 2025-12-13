@@ -1,3 +1,30 @@
+# Universal Translation Engine 0/0 - Requirements
+
+# Core dependencies (none - zero dependencies for core functionality)
+
+# API dependencies (optional)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.0.0
+ruff>=0.1.0
+
+# Documentation dependencies (optional)
+# mkdocs>=1.5.0
+# mkdocs-material>=9.0.0
+
+# YAML support (optional)
+pyyaml>=6.0
+
+# Data analysis (optional)
+# pandas>=2.0.0
+# numpy>=1.24.0
 pandas
 numpy
 # Core dependencies

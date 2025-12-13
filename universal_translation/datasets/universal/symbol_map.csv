@@ -1,0 +1,26 @@
+symbol_id,name,category,element,polarity,archetype,numerological_value,traditions,unicode,description
+S001,circle,geometric,ether,neutral,wholeness,0,"universal,buddhist,celtic",○,Unity and completeness
+S002,dot,geometric,fire,positive,seed,1,"hindu,aboriginal",·,Origin point / bindu
+S003,line_horizontal,geometric,earth,neutral,horizon,4,universal,─,Earthly plane / matter
+S004,line_vertical,geometric,fire,positive,axis_mundi,1,universal,│,Connection heaven-earth
+S005,cross,geometric,earth,neutral,intersection,4,"christian,universal",✚,Four directions / matter
+S006,triangle_up,geometric,fire,positive,ascent,3,"alchemical,masonic",△,Fire element / masculine
+S007,triangle_down,geometric,water,negative,descent,2,"alchemical,tantric",▽,Water element / feminine
+S008,square,geometric,earth,neutral,foundation,4,"masonic,chinese",□,Stability / earth element
+S009,spiral,geometric,air,positive,evolution,9,"celtic,mesoamerican",◌,Growth / cosmic motion
+S010,sun,celestial,fire,positive,consciousness,1,"universal,egyptian",☉,Life force / divine masculine
+S011,moon,celestial,water,negative,unconscious,2,"universal,wiccan",☽,Cycles / divine feminine
+S012,star_five,celestial,ether,positive,humanity,5,"western_magic,wiccan",☆,Human / microcosm
+S013,star_six,celestial,ether,neutral,union,6,"jewish,hindu",✡,Union of opposites
+S014,tree,botanical,earth,positive,growth,3,"norse,celtic,jewish",🌳,Life / knowledge
+S015,lotus,botanical,water,positive,enlightenment,7,"hindu,buddhist,egyptian",✿,Spiritual unfoldment
+S016,serpent,animals,earth,neutral,transformation,8,"universal,mesoamerican",🐍,Kundalini / wisdom
+S017,fish,animals,water,negative,abundance,7,"christian,hindu,tupi",🐟,Fertility / depth
+S018,bird,animals,air,positive,spirit,3,"egyptian,native_american",🐦,Soul / messenger
+S019,bull,animals,earth,positive,power,8,"minoan,hindu,sumerian",🐂,Strength / fertility
+S020,eye,body,fire,positive,perception,1,"egyptian,masonic,hindu",👁,Divine sight / consciousness
+S021,hand,body,earth,positive,action,5,"aboriginal,hamsa,cave_art",✋,Creation / protection
+S022,heart,body,fire,positive,center,6,"egyptian,christian,universal",♡,Love / courage
+S023,ankh,sacred,ether,positive,eternal_life,9,egyptian,☥,Key of life
+S024,om,sacred,ether,neutral,primordial_sound,0,hindu_buddhist,ॐ,Universal vibration
+S025,yin_yang,sacred,ether,neutral,balance,2,chinese_taoist,☯,Unity of opposites
