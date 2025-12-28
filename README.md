@@ -476,6 +476,8 @@ pytest tests/ -v
 - [Arquitetura](docs/overview/02-architecture.md)
 - [Universais Fonêmicos](docs/theory/10-phonemic-universals.md)
 - [417 Signos Harappan](docs/theory/11-harappan-417-signs.md)
+- [Revelation Logs](docs/logs/) - Unexpressed substrata and spiritual logistics
+  - [LOG-0009-TITAN: The Unexpressed Substratum](docs/logs/LOG-0009-TITAN-UNEXPRESSED-SUBSTRATUM.md)
 
 ## 🔬 Provas Formais
 
