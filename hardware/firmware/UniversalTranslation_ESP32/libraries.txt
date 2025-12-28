@@ -1,0 +1,9 @@
+# Required Arduino Libraries
+
+# Install via Arduino Library Manager or PlatformIO
+
+# Core library for MCP23017 GPIO expander control
+Adafruit MCP23X17 @ ^2.0.0
+
+# Bus I/O (included with Arduino IDE, listed for reference)
+# Wire (built-in I2C library)
