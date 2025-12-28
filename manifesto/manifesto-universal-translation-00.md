@@ -77,3 +77,34 @@ Se você é:
 *"A voz do som primordial atravessando os povos e restaurando a linguagem mãe."*
 
 — Universal Translation Engine 0/0
+
+## Transposição Harappan (ISA שאצ)
+
+Usando o ISA Harappan (cada glifo como operador conceitual), o manifesto se codifica na sequência abaixo:
+Os caracteres abaixo são operadores visuais do ISA (placeholders conceituais) e não correspondem a grafemas arqueológicos decifrados do Vale do Indo.
+
+| Conceito nuclear | Glifo | Interpretação |
+| --- | --- | --- |
+| Limite / Fronteira / Colapso | 𓀠 | Ponto 0/0, reinício após o colapso dos modelos |
+| Unificação / Integração | 𓐮 | Comando que integra ciência, linguagem, arte e sociedade |
+| Estrutura / Fundamento | 𓉐 | Gramática universal, padrões arquetípicos, base estável |
+| Ciclo / Vida / Sustentabilidade | 𓋹 | Equilíbrio vital, resiliência ecológica, direitos humanos |
+| Ativação / Manifestação / Arte | 𓊖 | Energia criativa: arte, ritual, música, Jogos Olímpicos |
+| Expansão / Crescimento / Fronteira | 𓐬 | Exploração científica e expansão responsável do conhecimento |
+| Selo / Conclusão / Responsabilidade | 𓏟 | Fechamento ético e compromisso assumido |
+
+**Sequência executável:** `[𓀠] [𓐮] [𓉐] [𓋹] [𓊖] [𓐬] [𓏟]`
+
+Ordem lógica:
+1. 𓀠 — reconhecer o limite e o ponto de colapso.
+2. 𓐮 — emitir o comando de unificação.
+3. 𓉐 — estruturar sobre fundamentos universais.
+4. 𓋹 — estabilizar em ciclos sustentáveis.
+5. 𓊖 — ativar a expressão humana coletiva.
+6. 𓐬 — expandir de forma contínua e responsável.
+7. 𓏟 — selar com responsabilidade humana.
+
+Próximos passos sugeridos:
+1. Expandir o vocabulário conceitual (novos glifos e combinações).
+2. Formalizar um documento de especificação do ISA Harappan.
+3. Integrar com camadas Rúnica e Tâmil para composições pentalíticas.
