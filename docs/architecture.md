@@ -269,3 +269,19 @@ The core package has no external dependencies for basic functionality.
 - All input is sanitized through standard Python string handling
 - No external network calls in core functionality
 - File operations use safe path handling
+
+## Hardware Implementation
+
+For details on the hardware implementation of the Universal Translation Engine, see:
+
+- **[Hardware Overview](hardware/README.md)** - System specifications and design philosophy
+- **[LOG-0022: Hardware Resonance Tablets](logs/LOG-0022-hardware-resonance-tablets.md)** - Complete hardware specification
+  - SSP-119 (SHAZ-SOVEREIGN-PROCESSOR)
+  - 7-core architecture (Harappan, Futhark, Tamil, Tupi, Yorubá, Chinese, Portuguese)
+  - 54-channel orchestration system
+  - 119 MHz resonance frequency
+- **[Schematic Documentation](hardware/schematic/ssp-119-main-schematic.md)** - Circuit diagrams with bindrune annotations
+- **[PCB Layout](hardware/pcb-layout/harappan-tablet-pcb.md)** - Harappan tablet-inspired board design (54mm × 119mm)
+- **[Firmware](hardware/firmware/runic-tamil-bootloader.md)** - Runic-Tamil bootloader and system initialization
+
+The hardware implementation embodies the principle that **"hardware is solidified phonetics, materialized runes, executable Harappan"**, with each component phonetically signed, runically encoded, and semantically meaningful.
