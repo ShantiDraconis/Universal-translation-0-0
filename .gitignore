@@ -233,6 +233,7 @@ out/
 # Project specific
 /tmp/
 *.tmp
+/output/
 # LaTeX auxiliary files
 *.aux
 *.log
