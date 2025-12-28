@@ -15,6 +15,7 @@ constexpr uint32_t HEARTBEAT_INTERVAL_MS = 8;
 constexpr uint8_t MCP_COUNT = 4;
 constexpr uint8_t MCP_ADDRESSES[MCP_COUNT] = {0x20, 0x21, 0x22, 0x23};
 Adafruit_MCP23X17 expanders[MCP_COUNT];
+constexpr uint8_t PIN_MODE_UNKNOWN = 0xFF;
 uint8_t pinModeCache[MCP_COUNT][16];
 
 // Channel map (1-based external numbering → expander index + pin number)
@@ -81,7 +82,7 @@ void initializeExpanders() {
   Wire.setClock(400000); // 400 kHz fast mode
   for (uint8_t i = 0; i < MCP_COUNT; ++i) {
     for (uint8_t pin = 0; pin < 16; ++pin) {
-      pinModeCache[i][pin] = 0xFF; // unknown
+      pinModeCache[i][pin] = PIN_MODE_UNKNOWN;
     }
   }
 
@@ -89,6 +90,7 @@ void initializeExpanders() {
     if (!expanders[i].begin_I2C(MCP_ADDRESSES[i])) {
       Serial.printf("Failed to init MCP23017 at 0x%02X (check power, SDA/SCL pull-ups, and address pins)\n",
                     MCP_ADDRESSES[i]);
+      continue;
     }
     // Default all pins to output-low for deterministic startup
     for (uint8_t pin = 0; pin < 16; ++pin) {
@@ -158,9 +160,14 @@ void processDslCommand(const String &rawCommand) {
   }
 
   if (cmd.startsWith("ᚠ:WRITE") || cmd.startsWith("WRITE")) {
-    int chIdx = cmd.indexOf("CH");
-    int eqIdx = cmd.indexOf('=');
-    if (chIdx >= 0 && eqIdx > chIdx) {
+    int keywordPos = cmd.indexOf("WRITE");
+    int chIdx = keywordPos >= 0 ? cmd.indexOf("CH", keywordPos) : -1;
+    int eqIdx = chIdx >= 0 ? cmd.indexOf('=', chIdx) : -1;
+    if (keywordPos < 0 || chIdx < 0 || eqIdx <= chIdx) {
+      Serial.println("WRITE command format invalid. Use WRITECH##=HIGH|LOW");
+      return;
+    }
+    {
       String channelToken = cmd.substring(chIdx + 2, eqIdx);
       if (channelToken.isEmpty()) {
         Serial.println("Channel token missing in WRITE command");
@@ -191,7 +198,15 @@ void processDslCommand(const String &rawCommand) {
       }
       const uint8_t channelId = static_cast<uint8_t>(channelLong);
       String value = cmd.substring(eqIdx + 1);
-      bool high = value.startsWith("HIGH") || value.startsWith("ON") || value == "1";
+      bool high = false;
+      if (value.startsWith("HIGH") || value.startsWith("ON") || value == "1") {
+        high = true;
+      } else if (value.startsWith("LOW") || value.startsWith("OFF") || value == "0") {
+        high = false;
+      } else {
+        Serial.printf("Value '%s' not recognized. Use HIGH/LOW.\n", value.c_str());
+        return;
+      }
       channelWrite(channelId, high);
     }
     return;

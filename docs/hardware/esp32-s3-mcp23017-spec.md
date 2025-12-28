@@ -11,7 +11,7 @@ This document is a direct handoff for schematic capture in KiCad. It defines the
 ## Power tree (symbolic grid → electrical nets)
 - **5 V input (VBUS):** from USB-C or external header.
 - **3.3 V rail (`NET_3V3` / ᚨ ANSUZ):** LDO regulator from VBUS (e.g., AP2112K-3.3 or TLV75533). Place 10 µF + 0.1 µF at regulator IN/OUT, plus 0.1 µF close to every IC VDD.
-- **1.8 V rail (`NET_1V8` / ᛄ JERA):** optional LDO for peripherals needing 1.8 V. Keep separate net label even if unpopulated.
+- **1.8 V rail (`NET_1V8` / ᛃ JERA):** optional LDO for peripherals needing 1.8 V. Keep separate net label even if unpopulated.
 - **Ground (`NET_GND` / ᚦ THURISAZ):** single ground plane. Tie shield of USB connector to GND via RC/ESD network per connector vendor guidance.
 - **ESP32-S3 EN:** 10 kΩ pull-up to ANSUZ; momentary pushbutton to THURISAZ for reset.
 - **Boot strap:** GPIO0 10 kΩ pull-up to ANSUZ, optional momentary button to THURISAZ for download mode.
@@ -20,7 +20,7 @@ This document is a direct handoff for schematic capture in KiCad. It defines the
 - **I²C:** `NET_I2C_SDA` / ᛟ OTHALA → GPIO8; `NET_I2C_SCL` / ᚱ RAIDHO → GPIO9. 4.7 kΩ pull-ups from both lines to ANSUZ on the MCU sheet.
 - **Expander interrupts:**  
   - `NET_INT_U1` / ᚾ NAUTHIZ → GPIO4  
-  - `NET_INT_U2` / ᛇ EIHwAZ → GPIO5  
+- `NET_INT_U2` / ᛇ EIHWAZ → GPIO5  
   - `NET_INT_U3` / ᛃ JERA → GPIO6  
   - `NET_INT_U4` / ᛗ MANNAZ → GPIO7  
   Configure INT pins as open-drain with 10 kΩ pull-ups to ANSUZ.
