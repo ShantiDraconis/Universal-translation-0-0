@@ -9,5 +9,6 @@ __version__ = "0.1.0"
 __author__ = "Shanti Draconis"
 
 from ute00.translator.engine import UniversalTranslator
+from ute00.scripts.triple_encoder import TripleScriptEncoder
 
-__all__ = ["UniversalTranslator"]
+__all__ = ["UniversalTranslator", "TripleScriptEncoder"]
