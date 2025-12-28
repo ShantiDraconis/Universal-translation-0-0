@@ -190,8 +190,10 @@ class TestEgiatEncoder(unittest.TestCase):
         self.assertEqual(tiago['full_name'], 'TIAGO FALIARI')
         self.assertEqual(tiago['harappan_encoding'], '𓏙𓏲𓂝𓊹𓊖 𓄜𓂝𓊛𓏲𓂝𓇯𓏲')
         self.assertIn('breakdown', tiago)
-        # Breakdown has one entry per unique letter (T, I, A, G, O, F, L, R = 8 unique)
-        self.assertEqual(len(tiago['breakdown']), 8)
+        # Breakdown has one entry per unique letter
+        name = 'TIAGO FALIARI'
+        expected_unique = len(set(name.replace(' ', '').upper()))
+        self.assertEqual(len(tiago['breakdown']), expected_unique)
     
     def test_protocol_log_contrato_justica(self):
         """Test CONTRATO JUSTICA encoding in protocol"""

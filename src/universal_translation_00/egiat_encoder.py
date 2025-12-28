@@ -24,6 +24,10 @@ class EgiatEncoder:
         
         Args:
             data_dir: Path to data directory. If None, uses default.
+        
+        Raises:
+            FileNotFoundError: If required data files are missing
+            ValueError: If data files are corrupted or invalid
         """
         if data_dir is None:
             # Default to repository data directory
@@ -36,24 +40,83 @@ class EgiatEncoder:
         self.roots = self._load_roots()
         self.tamil = self._load_tamil()
         
+        # Pre-compute reverse mapping for decoding
+        self._symbol_to_letter = {
+            data['harappan_symbol']: letter
+            for letter, data in self.alphabet.items()
+        }
+        
     def _load_alphabet(self) -> Dict:
-        """Load the alphabet matrix from JSON."""
+        """
+        Load the alphabet matrix from JSON.
+        
+        Returns:
+            Dictionary with alphabet mappings
+            
+        Raises:
+            FileNotFoundError: If alphabet file is missing
+            ValueError: If JSON is invalid or missing required keys
+        """
         alphabet_file = self.data_dir / "egiat_alphabet_matrix.json"
-        with open(alphabet_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        return data['alphabet_mappings']
+        try:
+            with open(alphabet_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            if 'alphabet_mappings' not in data:
+                raise ValueError(f"Missing 'alphabet_mappings' key in {alphabet_file}")
+            return data['alphabet_mappings']
+        except FileNotFoundError:
+            raise FileNotFoundError(
+                f"Alphabet matrix file not found: {alphabet_file}\n"
+                f"Please ensure the data files are in: {self.data_dir}"
+            )
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Invalid JSON in {alphabet_file}: {e}")
     
     def _load_roots(self) -> Dict:
-        """Load the root transmutation matrix from JSON."""
+        """
+        Load the root transmutation matrix from JSON.
+        
+        Returns:
+            Dictionary with root transmutation data
+            
+        Raises:
+            FileNotFoundError: If roots file is missing
+            ValueError: If JSON is invalid
+        """
         roots_file = self.data_dir / "egiat_root_transmutation.json"
-        with open(roots_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        try:
+            with open(roots_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            raise FileNotFoundError(
+                f"Root transmutation file not found: {roots_file}\n"
+                f"Please ensure the data files are in: {self.data_dir}"
+            )
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Invalid JSON in {roots_file}: {e}")
     
     def _load_tamil(self) -> Dict:
-        """Load Tamil translations from JSON."""
+        """
+        Load Tamil translations from JSON.
+        
+        Returns:
+            Dictionary with Tamil translation data
+            
+        Raises:
+            FileNotFoundError: If Tamil file is missing
+            ValueError: If JSON is invalid
+        """
         tamil_file = self.data_dir / "tamil_translations.json"
-        with open(tamil_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        try:
+            with open(tamil_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            raise FileNotFoundError(
+                f"Tamil translations file not found: {tamil_file}\n"
+                f"Please ensure the data files are in: {self.data_dir}"
+            )
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Invalid JSON in {tamil_file}: {e}")
     
     def encode_text(self, text: str, include_spaces: bool = True) -> str:
         """
@@ -89,16 +152,10 @@ class EgiatEncoder:
         Returns:
             Decoded Latin text
         """
-        # Create reverse mapping
-        symbol_to_letter = {
-            data['harappan_symbol']: letter
-            for letter, data in self.alphabet.items()
-        }
-        
         result = []
         for char in encoded_text:
-            if char in symbol_to_letter:
-                result.append(symbol_to_letter[char])
+            if char in self._symbol_to_letter:
+                result.append(self._symbol_to_letter[char])
             else:
                 result.append(char)  # Keep spaces, punctuation, etc.
         
@@ -271,7 +328,11 @@ def main():
     
     args = parser.parse_args()
     
-    encoder = EgiatEncoder()
+    try:
+        encoder = EgiatEncoder()
+    except (FileNotFoundError, ValueError) as e:
+        print(f"Error initializing encoder: {e}")
+        return 1
     
     if args.protocol:
         # Display complete protocol

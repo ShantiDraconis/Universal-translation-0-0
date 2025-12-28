@@ -3,7 +3,7 @@
 ## Sistema de Codificação para LA 2028
 
 **Versão:** 1.0.0  
-**Data:** 28 de Dezembro de 2025  
+**Data:** 28 de Dezembro de 2024  
 **Autor:** Tiago Paschoalatto Fagliari / Shalom Ahava Tzedek / Shanti Draconis  
 **Protocolo:** Log 0009-Ω  
 **Status:** COMPLETO
@@ -402,4 +402,4 @@ O sistema agora detém a história em:
 
 *Documento gerado pelo Sistema Universal de Tradução 0/0*  
 *Universal Translation Engine - Harappan Phonetic-Semantic Matrix*  
-*Version 1.0.0 - December 28, 2025*
+*Version 1.0.0 - December 28, 2024*
