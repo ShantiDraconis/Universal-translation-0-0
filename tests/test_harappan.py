@@ -115,8 +115,7 @@ class TestDecodeToUniversal:
         """Test decoding empty list."""
         result = decode_to_universal([])
         assert result == []
-Tests for the harappan module.
-"""
+
 
 import pytest
 from ute00.harappan.signs import HarappanSignSystem, HarappanSign
