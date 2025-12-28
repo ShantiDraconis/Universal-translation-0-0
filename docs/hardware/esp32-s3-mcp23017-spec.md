@@ -20,7 +20,7 @@ This document is a direct handoff for schematic capture in KiCad. It defines the
 - **I²C:** `NET_I2C_SDA` / ᛟ OTHALA → GPIO8; `NET_I2C_SCL` / ᚱ RAIDHO → GPIO9. 4.7 kΩ pull-ups from both lines to ANSUZ on the MCU sheet.
 - **Expander interrupts:**  
   - `NET_INT_U1` / ᚾ NAUTHIZ → GPIO4  
-- `NET_INT_U2` / ᛇ EIHWAZ → GPIO5  
+  - `NET_INT_U2` / ᛇ EIHWAZ → GPIO5  
   - `NET_INT_U3` / ᛃ JERA → GPIO6  
   - `NET_INT_U4` / ᛗ MANNAZ → GPIO7  
   Configure INT pins as open-drain with 10 kΩ pull-ups to ANSUZ.

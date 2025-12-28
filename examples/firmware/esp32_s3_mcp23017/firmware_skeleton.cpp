@@ -107,7 +107,12 @@ void initializeExpanders() {
 
 void setInitialChannelStates() {
   for (uint8_t ch = MIN_CHANNEL; ch <= USED_CHANNELS; ++ch) {
-    channelWrite(ch, false);
+    ChannelMapEntry entry{};
+    if (!resolveChannel(ch, entry)) {
+      continue;
+    }
+    expanders[entry.expander].digitalWrite(entry.pin, LOW);
+    pinModeCache[entry.expander][entry.pin] = OUTPUT;
   }
 }
 
@@ -125,7 +130,7 @@ void serviceSealProtocol() {
   if (!sealController.active) {
     return;
   }
-  if (millis() - sealController.startMs >= HEARTBEAT_INTERVAL_MS) {
+  if (static_cast<unsigned long>(millis() - sealController.startMs) >= HEARTBEAT_INTERVAL_MS) {
     channelWrite(SEAL_CHANNEL, false);
     sealController.active = false;
   }
@@ -233,7 +238,7 @@ void loop() {
   processSerialInput();
 
   const unsigned long now = millis();
-  if (now - lastTickMs >= HEARTBEAT_INTERVAL_MS) {
+  if (static_cast<unsigned long>(now - lastTickMs) >= HEARTBEAT_INTERVAL_MS) {
     lastTickMs = now;
     heartbeatTick();
   }
