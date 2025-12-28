@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "title": "Harappan @egiat_ Alphabet Matrix",
+    "description": "Phonetic-Semantic conversion matrix mapping Latin alphabet to Harappan symbols with LA 2028 engineering commands",
+    "version": "1.0.0",
+    "author": "Tiago Paschoalatto Fagliari / Shalom Ahava Tzedek",
+    "purpose": "Command alphabet for encoding LA 2028 Olympic projects with Harappan symbolism",
+    "date": "2024-12-28"
+  },
+  "alphabet_mappings": {
+    "A": {
+      "letter": "A",
+      "harappan_symbol": "𓂝",
+      "symbol_name": "Braço Estendido",
+      "harappan_id": "H-AXN-001",
+      "meaning_harappan": "Braço Estendido",
+      "application_egiat": "Ação e Execução de Projetos",
+      "semantic_field": "action, execution, implementation",
+      "phonetic_value": "a, ah, aa",
+      "unicode_egyptian": "U+1309D"
+    },
+    "B": {
+      "letter": "B",
+      "harappan_symbol": "𓃠",
+      "symbol_name": "Felino Vigilante",
+      "harappan_id": "H-FEL-002",
+      "meaning_harappan": "Felino Vigilante",
+      "application_egiat": "Segurança e Proteção de Dados",
+      "semantic_field": "security, protection, vigilance",
+      "phonetic_value": "b, ba, bu",
+      "unicode_egyptian": "U+130E0"
+    },
+    "C": {
+      "letter": "C",
+      "harappan_symbol": "𓍢",
+      "symbol_name": "Corda Enrolada",
+      "harappan_id": "H-CRD-003",
+      "meaning_harappan": "Corda Enrolada",
+      "application_egiat": "Conexão de Canais e Redes",
+      "semantic_field": "connection, network, channel",
+      "phonetic_value": "k, c, ka",
+      "unicode_egyptian": "U+13362"
+    },
+    "D": {
+      "letter": "D",
+      "harappan_symbol": "𓉐",
+      "symbol_name": "Planta de Casa",
+      "harappan_id": "H-HSE-004",
+      "meaning_harappan": "Planta de Casa",
+      "application_egiat": "Urbanismo e Habitação (CDHU)",
+      "semantic_field": "housing, urbanism, architecture",
+      "phonetic_value": "d, da, du",
+      "unicode_egyptian": "U+13250"
+    },
+    "E": {
+      "letter": "E",
+      "harappan_symbol": "𓇬",
+      "symbol_name": "Flor de Lótus",
+      "harappan_id": "H-LOT-005",
+      "meaning_harappan": "Flor de Lótus",
+      "application_egiat": "Renascimento após o Luto",
+      "semantic_field": "rebirth, renewal, lotus",
+      "phonetic_value": "e, eh, ee",
+      "unicode_egyptian": "U+131EC"
+    },
+    "F": {
+      "letter": "F",
+      "harappan_symbol": "𓄜",
+      "symbol_name": "Lingote de Metal",
+      "harappan_id": "H-MTL-006",
+      "meaning_harappan": "Lingote de Metal",
+      "application_egiat": "Firmeza de Caráter e Estrutura",
+      "semantic_field": "firmness, structure, foundation",
+      "phonetic_value": "f, fa, fu",
+      "unicode_egyptian": "U+1311C"
+    },
+    "G": {
+      "letter": "G",
+      "harappan_symbol": "𓊹",
+      "symbol_name": "Estandarte Divino",
+      "harappan_id": "H-STD-007",
+      "meaning_harappan": "Estandarte Divino",
+      "application_egiat": "Autoridade e Gestão Superior",
+      "semantic_field": "authority, management, divine",
+      "phonetic_value": "g, ga, gu",
+      "unicode_egyptian": "U+132B9"
+    },
+    "H": {
+      "letter": "H",
+      "harappan_symbol": "𓉠",
+      "symbol_name": "Pátio Cercado",
+      "harappan_id": "H-CRT-008",
+      "meaning_harappan": "Pátio Cercado",
+      "application_egiat": "Domínio de Propriedade Intelectual",
+      "semantic_field": "property, domain, intellectual",
+      "phonetic_value": "h, ha, hu",
+      "unicode_egyptian": "U+13260"
+    },
+    "I": {
+      "letter": "I",
+      "harappan_symbol": "𓏲",
+      "symbol_name": "Espiral de Fluxo",
+      "harappan_id": "H-SPI-009",
+      "meaning_harappan": "Espiral de Fluxo",
+      "application_egiat": "Inteligência e Transmissão",
+      "semantic_field": "intelligence, transmission, flow",
+      "phonetic_value": "i, ih, ii",
+      "unicode_egyptian": "U+133F2"
+    },
+    "J": {
+      "letter": "J",
+      "harappan_symbol": "𓍝",
+      "symbol_name": "Balança",
+      "harappan_id": "H-BAL-010",
+      "meaning_harappan": "Balança",
+      "application_egiat": "Justiça e Equidade (Tzedek)",
+      "semantic_field": "justice, equity, balance",
+      "phonetic_value": "j, ya, yu",
+      "unicode_egyptian": "U+1335D"
+    },
+    "K": {
+      "letter": "K",
+      "harappan_symbol": "𓎡",
+      "symbol_name": "Cesto",
+      "harappan_id": "H-BSK-011",
+      "meaning_harappan": "Cesto",
+      "application_egiat": "Conhecimento Acumulado",
+      "semantic_field": "knowledge, accumulation, storage",
+      "phonetic_value": "k, ka, ku",
+      "unicode_egyptian": "U+133A1"
+    },
+    "L": {
+      "letter": "L",
+      "harappan_symbol": "𓊛",
+      "symbol_name": "Barco em Movimento",
+      "harappan_id": "H-BOT-012",
+      "meaning_harappan": "Barco em Movimento",
+      "application_egiat": "Logística Marítima e Terrestre",
+      "semantic_field": "logistics, movement, transport",
+      "phonetic_value": "l, la, lu",
+      "unicode_egyptian": "U+1329B"
+    },
+    "M": {
+      "letter": "M",
+      "harappan_symbol": "𓈓",
+      "symbol_name": "Ondas de Água",
+      "harappan_id": "H-WAV-013",
+      "meaning_harappan": "Ondas de Água",
+      "application_egiat": "Matriz de Dados e Emoções",
+      "semantic_field": "matrix, data, emotions, water",
+      "phonetic_value": "m, ma, mu",
+      "unicode_egyptian": "U+13213"
+    },
+    "N": {
+      "letter": "N",
+      "harappan_symbol": "𓏞",
+      "symbol_name": "Paleta de Escriba",
+      "harappan_id": "H-SCR-014",
+      "meaning_harappan": "Paleta de Escriba",
+      "application_egiat": "Normatização e Copyright",
+      "semantic_field": "normalization, copyright, writing",
+      "phonetic_value": "n, na, nu",
+      "unicode_egyptian": "U+133DE"
+    },
+    "O": {
+      "letter": "O",
+      "harappan_symbol": "𓊖",
+      "symbol_name": "Cidade Murada",
+      "harappan_id": "H-CTY-015",
+      "meaning_harappan": "Cidade Murada",
+      "application_egiat": "Organização Sistêmica Total",
+      "semantic_field": "organization, system, city",
+      "phonetic_value": "o, oh, oo",
+      "unicode_egyptian": "U+13296"
+    },
+    "P": {
+      "letter": "P",
+      "harappan_symbol": "𓂧",
+      "symbol_name": "Mão Aberta",
+      "harappan_id": "H-HND-016",
+      "meaning_harappan": "Mão Aberta",
+      "application_egiat": "Provisão e Distribuição N-MAX",
+      "semantic_field": "provision, distribution, giving",
+      "phonetic_value": "p, pa, pu",
+      "unicode_egyptian": "U+130A7"
+    },
+    "Q": {
+      "letter": "Q",
+      "harappan_symbol": "𓈎",
+      "symbol_name": "Colina",
+      "harappan_id": "H-HIL-017",
+      "meaning_harappan": "Colina",
+      "application_egiat": "Qualidade e Elevação",
+      "semantic_field": "quality, elevation, hill",
+      "phonetic_value": "q, qa, qu",
+      "unicode_egyptian": "U+1320E"
+    },
+    "R": {
+      "letter": "R",
+      "harappan_symbol": "𓇯",
+      "symbol_name": "Horizonte",
+      "harappan_id": "H-HRZ-018",
+      "meaning_harappan": "Horizonte",
+      "application_egiat": "Resiliência e Visão LA 2028",
+      "semantic_field": "resilience, vision, horizon",
+      "phonetic_value": "r, ra, ru",
+      "unicode_egyptian": "U+131EF"
+    },
+    "S": {
+      "letter": "S",
+      "harappan_symbol": "𓋹",
+      "symbol_name": "Símbolo da Vida",
+      "harappan_id": "H-LIF-019",
+      "meaning_harappan": "Símbolo da Vida",
+      "application_egiat": "Soberania sobre o Abuso",
+      "semantic_field": "sovereignty, life, power",
+      "phonetic_value": "s, sa, su",
+      "unicode_egyptian": "U+132F9"
+    },
+    "T": {
+      "letter": "T",
+      "harappan_symbol": "𓏙",
+      "symbol_name": "Suporte de Oferenda",
+      "harappan_id": "H-ALT-020",
+      "meaning_harappan": "Suporte de Oferenda",
+      "application_egiat": "Técnica e Sustentação Científica",
+      "semantic_field": "technique, science, support",
+      "phonetic_value": "t, ta, tu",
+      "unicode_egyptian": "U+133D9"
+    },
+    "U": {
+      "letter": "U",
+      "harappan_symbol": "𓊆",
+      "symbol_name": "Recipiente",
+      "harappan_id": "H-VES-021",
+      "meaning_harappan": "Recipiente",
+      "application_egiat": "Unificação de Conhecimento",
+      "semantic_field": "unification, knowledge, vessel",
+      "phonetic_value": "u, uh, uu",
+      "unicode_egyptian": "U+13286"
+    },
+    "V": {
+      "letter": "V",
+      "harappan_symbol": "𓌖",
+      "symbol_name": "Cetro de Poder",
+      "harappan_id": "H-SCE-022",
+      "meaning_harappan": "Cetro de Poder",
+      "application_egiat": "Vitória e Validação (JAR)",
+      "semantic_field": "victory, validation, power",
+      "phonetic_value": "v, va, vu",
+      "unicode_egyptian": "U+13316"
+    },
+    "W": {
+      "letter": "W",
+      "harappan_symbol": "𓏤",
+      "symbol_name": "Traço Unitário",
+      "harappan_id": "H-UNI-023",
+      "meaning_harappan": "Traço Unitário",
+      "application_egiat": "Unidade e Wholeness",
+      "semantic_field": "unity, oneness, wholeness",
+      "phonetic_value": "w, wa, wu",
+      "unicode_egyptian": "U+133E4"
+    },
+    "X": {
+      "letter": "X",
+      "harappan_symbol": "𓍿",
+      "symbol_name": "Cruz de Caminhos",
+      "harappan_id": "H-CRS-024",
+      "meaning_harappan": "Cruz de Caminhos",
+      "application_egiat": "Encruzilhada e Decisão",
+      "semantic_field": "crossroads, decision, intersection",
+      "phonetic_value": "x, ks, kh",
+      "unicode_egyptian": "U+1337F"
+    },
+    "Y": {
+      "letter": "Y",
+      "harappan_symbol": "𓇌",
+      "symbol_name": "Ramo Duplo",
+      "harappan_id": "H-BRN-025",
+      "meaning_harappan": "Ramo Duplo",
+      "application_egiat": "Dualidade e Síntese",
+      "semantic_field": "duality, synthesis, branch",
+      "phonetic_value": "y, ya, yi",
+      "unicode_egyptian": "U+131CC"
+    },
+    "Z": {
+      "letter": "Z",
+      "harappan_symbol": "𓊃",
+      "symbol_name": "Porta Fechada",
+      "harappan_id": "H-DOR-026",
+      "meaning_harappan": "Porta Fechada",
+      "application_egiat": "Zona de Segurança e Limite",
+      "semantic_field": "boundary, security, threshold",
+      "phonetic_value": "z, za, zu",
+      "unicode_egyptian": "U+13283"
+    }
+  }
+}
