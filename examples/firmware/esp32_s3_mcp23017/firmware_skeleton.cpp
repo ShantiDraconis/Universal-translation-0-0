@@ -7,7 +7,7 @@ constexpr uint8_t PIN_I2C_SDA = 8;
 constexpr uint8_t PIN_I2C_SCL = 9;
 constexpr uint8_t PIN_INT[4] = {4, 5, 6, 7};
 
-// Heartbeat: ~119 Hz (8–9 ms). Adjust to 119 ms if a slower ritual cycle is desired.
+// Heartbeat: 8 ms (~125 Hz). Set to 119 ms for the slower 119 ms ritual cycle if desired.
 constexpr uint32_t HEARTBEAT_INTERVAL_MS = 8;
 
 // MCP23017 devices on the shared I2C bus
@@ -69,7 +69,8 @@ void initializeExpanders() {
 
   for (uint8_t i = 0; i < MCP_COUNT; ++i) {
     if (!expanders[i].begin_I2C(MCP_ADDRESSES[i])) {
-      Serial.printf("Failed to init MCP23017 at 0x%02X\n", MCP_ADDRESSES[i]);
+      Serial.printf("Failed to init MCP23017 at 0x%02X (check power, SDA/SCL pull-ups, and address pins)\n",
+                    MCP_ADDRESSES[i]);
     }
     // Default all pins to output-low for deterministic startup
     for (uint8_t pin = 0; pin < 16; ++pin) {
@@ -129,8 +130,13 @@ void processDslCommand(const String &rawCommand) {
     if (chIdx >= 0 && eqIdx > chIdx) {
       int channel = cmd.substring(chIdx + 2, eqIdx).toInt();
       String value = cmd.substring(eqIdx + 1);
+      if (channel < 1 || channel > USED_CHANNELS) {
+        Serial.printf("Channel %d out of range (1-%u)\n", channel, USED_CHANNELS);
+        return;
+      }
+      const uint8_t channelId = static_cast<uint8_t>(channel);
       bool high = value.startsWith("HIGH") || value.startsWith("ON") || value == "1";
-      channelWrite(static_cast<uint8_t>(channel), high);
+      channelWrite(channelId, high);
     }
     return;
   }
