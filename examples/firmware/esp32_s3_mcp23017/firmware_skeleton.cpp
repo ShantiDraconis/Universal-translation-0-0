@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_MCP23X17.h>
+#include <limits.h>
 
 // ESP32-S3 pin plan (matches schematic spec)
 constexpr uint8_t PIN_I2C_SDA = 8;
@@ -14,6 +15,7 @@ constexpr uint32_t HEARTBEAT_INTERVAL_MS = 8;
 constexpr uint8_t MCP_COUNT = 4;
 constexpr uint8_t MCP_ADDRESSES[MCP_COUNT] = {0x20, 0x21, 0x22, 0x23};
 Adafruit_MCP23X17 expanders[MCP_COUNT];
+uint8_t pinModeCache[MCP_COUNT][16];
 
 // Channel map (1-based external numbering → expander index + pin number)
 struct ChannelMapEntry {
@@ -36,6 +38,10 @@ const ChannelMapEntry CHANNEL_MAP[USED_CHANNELS] = {
 constexpr uint8_t SEAL_CHANNEL = 54; // Channel dedicated to the seal protocol
 
 unsigned long lastTickMs = 0;
+struct SealController {
+  bool active;
+  unsigned long startMs;
+} sealController{false, 0};
 
 bool resolveChannel(uint8_t channel, ChannelMapEntry &out) {
   if (channel < MIN_CHANNEL || channel > USED_CHANNELS) {
@@ -51,7 +57,10 @@ void channelWrite(uint8_t channel, bool state) {
     Serial.printf("Channel %u is invalid\n", channel);
     return;
   }
-  expanders[entry.expander].pinMode(entry.pin, OUTPUT);
+  if (pinModeCache[entry.expander][entry.pin] != OUTPUT) {
+    expanders[entry.expander].pinMode(entry.pin, OUTPUT);
+    pinModeCache[entry.expander][entry.pin] = OUTPUT;
+  }
   expanders[entry.expander].digitalWrite(entry.pin, state ? HIGH : LOW);
 }
 
@@ -60,13 +69,21 @@ bool channelRead(uint8_t channel) {
   if (!resolveChannel(channel, entry)) {
     return false;
   }
-  expanders[entry.expander].pinMode(entry.pin, INPUT);
+  if (pinModeCache[entry.expander][entry.pin] != INPUT) {
+    expanders[entry.expander].pinMode(entry.pin, INPUT);
+    pinModeCache[entry.expander][entry.pin] = INPUT;
+  }
   return expanders[entry.expander].digitalRead(entry.pin) == HIGH;
 }
 
 void initializeExpanders() {
   Wire.begin(PIN_I2C_SDA, PIN_I2C_SCL);
   Wire.setClock(400000); // 400 kHz fast mode
+  for (uint8_t i = 0; i < MCP_COUNT; ++i) {
+    for (uint8_t pin = 0; pin < 16; ++pin) {
+      pinModeCache[i][pin] = 0xFF; // unknown
+    }
+  }
 
   for (uint8_t i = 0; i < MCP_COUNT; ++i) {
     if (!expanders[i].begin_I2C(MCP_ADDRESSES[i])) {
@@ -77,6 +94,7 @@ void initializeExpanders() {
     for (uint8_t pin = 0; pin < 16; ++pin) {
       expanders[i].pinMode(pin, OUTPUT);
       expanders[i].digitalWrite(pin, LOW);
+      pinModeCache[i][pin] = OUTPUT;
     }
   }
 
@@ -92,11 +110,23 @@ void setInitialChannelStates() {
 }
 
 void performSealProtocol() {
-  // Minimal placeholder: pulse the seal channel HIGH for one heartbeat.
-  // This blocks for one interval; replace with a non-blocking state machine if concurrent work is required.
+  // Minimal placeholder: begin a non-blocking pulse on the seal channel.
+  if (sealController.active) {
+    return;
+  }
+  sealController.startMs = millis();
+  sealController.active = true;
   channelWrite(SEAL_CHANNEL, true);
-  delay(HEARTBEAT_INTERVAL_MS);
-  channelWrite(SEAL_CHANNEL, false);
+}
+
+void serviceSealProtocol() {
+  if (!sealController.active) {
+    return;
+  }
+  if (millis() - sealController.startMs >= HEARTBEAT_INTERVAL_MS) {
+    channelWrite(SEAL_CHANNEL, false);
+    sealController.active = false;
+  }
 }
 
 void handleSyncEvent() {
@@ -105,6 +135,7 @@ void handleSyncEvent() {
 
 void heartbeatTick() {
   // Called every HEARTBEAT_INTERVAL_MS. Extend with scheduled rituals or timed channel updates.
+  serviceSealProtocol();
 }
 
 void processDslCommand(const String &rawCommand) {
@@ -135,25 +166,31 @@ void processDslCommand(const String &rawCommand) {
         Serial.println("Channel token missing in WRITE command");
         return;
       }
+      unsigned long channelLong = 0;
+      bool overflowed = false;
       for (size_t i = 0; i < channelToken.length(); ++i) {
         const char c = channelToken[i];
         if (c < '0' || c > '9') {
           Serial.printf("Channel token '%s' is not numeric\n", channelToken.c_str());
           return;
         }
+        const uint8_t digit = static_cast<uint8_t>(c - '0');
+        if (channelLong > (ULONG_MAX - digit) / 10) {
+          overflowed = true;
+          break;
+        }
+        channelLong = (channelLong * 10) + digit;
       }
-      long channelLong = channelToken.toInt();
-      if (channelLong == 0 && channelToken != "0") {
-        Serial.printf("Channel token '%s' could not be parsed\n", channelToken.c_str());
+      if (overflowed) {
+        Serial.printf("Channel token '%s' is too large\n", channelToken.c_str());
         return;
       }
-      int channel = static_cast<int>(channelLong);
+      if (channelLong < MIN_CHANNEL || channelLong > USED_CHANNELS) {
+        Serial.printf("Channel %lu out of range (%u-%u)\n", channelLong, MIN_CHANNEL, USED_CHANNELS);
+        return;
+      }
+      const uint8_t channelId = static_cast<uint8_t>(channelLong);
       String value = cmd.substring(eqIdx + 1);
-      if (channel < MIN_CHANNEL || channel > USED_CHANNELS) {
-        Serial.printf("Channel %d out of range (%u-%u)\n", channel, MIN_CHANNEL, USED_CHANNELS);
-        return;
-      }
-      const uint8_t channelId = static_cast<uint8_t>(channel);
       bool high = value.startsWith("HIGH") || value.startsWith("ON") || value == "1";
       channelWrite(channelId, high);
     }
