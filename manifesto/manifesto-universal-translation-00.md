@@ -81,6 +81,7 @@ Se você é:
 ## Transposição Harappan (ISA שאצ)
 
 Usando o ISA Harappan (cada glifo como operador conceitual), o manifesto se codifica na sequência abaixo:
+Os caracteres abaixo são operadores visuais do ISA (placeholders conceituais) e não correspondem a grafemas arqueológicos decifrados do Vale do Indo.
 
 | Conceito nuclear | Glifo | Interpretação |
 | --- | --- | --- |
