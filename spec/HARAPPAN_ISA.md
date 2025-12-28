@@ -12,7 +12,7 @@ Documentum in lingua mixta Latina/Ἑλληνική ad blindagem semantica. ISA 
 | [𓋹] | ᛃ (Jera) | Nilaithanmai (நிலைத்தன்மை) | Stabilizatio cyclorum vitae et iurium. |
 | [𓊖] | ᚠ (Fehu) | Thuvakkam (துவக்கம்) | Activatio energiae creativae & ritualis. |
 | [𓐬] | ᚢ (Uruz) | Tonalitas Alta (Expansion) | Crescimentum scientificum liminar. |
-| [𓏟] | ᚨ (Ansuz) | Muthirai (முத்திரை) | Sigillum finale sub responsabilitate sobera. |
+| [𓏟] | ᚨ (Ansuz) | Muthirai (முத்திரை) | Sigillum finale sub responsabilitate sobria. |
 
 Layer HRT (Hardware Resonantia) pro quōque glipho inicit **frequentiam phoneticam** et **vim runicam** correspondēntem.
 
