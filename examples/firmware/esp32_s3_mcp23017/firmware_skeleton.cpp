@@ -21,6 +21,7 @@ struct ChannelMapEntry {
   uint8_t pin;
 };
 
+constexpr uint8_t MIN_CHANNEL = 1;
 constexpr uint8_t USED_CHANNELS = 54;
 const ChannelMapEntry CHANNEL_MAP[USED_CHANNELS] = {
     {0, 0},  {0, 1},  {0, 2},  {0, 3},  {0, 4},  {0, 5},  {0, 6},  {0, 7},  // CH1–8
@@ -37,7 +38,7 @@ constexpr uint8_t SEAL_CHANNEL = 54; // Channel dedicated to the seal protocol
 unsigned long lastTickMs = 0;
 
 bool resolveChannel(uint8_t channel, ChannelMapEntry &out) {
-  if (channel == 0 || channel > USED_CHANNELS) {
+  if (channel < MIN_CHANNEL || channel > USED_CHANNELS) {
     return false;
   }
   out = CHANNEL_MAP[channel - 1];
@@ -85,24 +86,25 @@ void initializeExpanders() {
 }
 
 void setInitialChannelStates() {
-  for (uint8_t ch = 1; ch <= USED_CHANNELS; ++ch) {
+  for (uint8_t ch = MIN_CHANNEL; ch <= USED_CHANNELS; ++ch) {
     channelWrite(ch, false);
   }
 }
 
 void performSealProtocol() {
-  // Minimal placeholder: pulse the seal channel HIGH for one heartbeat
+  // Minimal placeholder: pulse the seal channel HIGH for one heartbeat.
+  // This blocks for one interval; replace with a non-blocking state machine if concurrent work is required.
   channelWrite(SEAL_CHANNEL, true);
   delay(HEARTBEAT_INTERVAL_MS);
   channelWrite(SEAL_CHANNEL, false);
 }
 
 void handleSyncEvent() {
-  // Hook for ᛏ:SYNC ritual alignment
+  // Hook for ᛏ:SYNC ritual alignment. Extend with your synchronization or broadcast logic.
 }
 
 void heartbeatTick() {
-  // Called every HEARTBEAT_INTERVAL_MS. Extend with scheduled rituals.
+  // Called every HEARTBEAT_INTERVAL_MS. Extend with scheduled rituals or timed channel updates.
 }
 
 void processDslCommand(const String &rawCommand) {
@@ -128,10 +130,27 @@ void processDslCommand(const String &rawCommand) {
     int chIdx = cmd.indexOf("CH");
     int eqIdx = cmd.indexOf('=');
     if (chIdx >= 0 && eqIdx > chIdx) {
-      int channel = cmd.substring(chIdx + 2, eqIdx).toInt();
+      String channelToken = cmd.substring(chIdx + 2, eqIdx);
+      if (channelToken.isEmpty()) {
+        Serial.println("Channel token missing in WRITE command");
+        return;
+      }
+      for (size_t i = 0; i < channelToken.length(); ++i) {
+        const char c = channelToken[i];
+        if (c < '0' || c > '9') {
+          Serial.printf("Channel token '%s' is not numeric\n", channelToken.c_str());
+          return;
+        }
+      }
+      long channelLong = channelToken.toInt();
+      if (channelLong == 0 && channelToken != "0") {
+        Serial.printf("Channel token '%s' could not be parsed\n", channelToken.c_str());
+        return;
+      }
+      int channel = static_cast<int>(channelLong);
       String value = cmd.substring(eqIdx + 1);
-      if (channel < 1 || channel > USED_CHANNELS) {
-        Serial.printf("Channel %d out of range (1-%u)\n", channel, USED_CHANNELS);
+      if (channel < MIN_CHANNEL || channel > USED_CHANNELS) {
+        Serial.printf("Channel %d out of range (%u-%u)\n", channel, MIN_CHANNEL, USED_CHANNELS);
         return;
       }
       const uint8_t channelId = static_cast<uint8_t>(channel);
