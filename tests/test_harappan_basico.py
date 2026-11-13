@@ -2,7 +2,6 @@
 Tests for the harappan module.
 """
 
-import pytest
 from ute00.harappan.signs import HarappanSignSystem, HarappanSign
 from ute00.harappan.mapper import HarappanMapper
 

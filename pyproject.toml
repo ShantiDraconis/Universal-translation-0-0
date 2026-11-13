@@ -78,8 +78,10 @@ Repository = "https://github.com/ShantiDraconis/Universal-translation-0-0"
 Issues = "https://github.com/ShantiDraconis/Universal-translation-0-0/issues"
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["universal_translation*"]
+# universal_translation fica na raiz; universal_translation_00, ute00 e harappan_00
+# ficam em src/ (os testes importam os dois grupos).
+where = [".", "src"]
+include = ["universal_translation*", "ute00*", "harappan_00*"]
 
 [tool.setuptools.package-data]
 "universal_translation.mappings" = ["*.json"]
