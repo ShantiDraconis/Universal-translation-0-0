@@ -474,7 +474,7 @@ pytest tests/ -v
 
 - [Visão 0/0](docs/overview/01-vision-0-0.md)
 - [Arquitetura](docs/overview/02-architecture.md)
-- [Universais Fonêmicos](docs/theory/10-phonemic-universals.md)
+- [Tabela de fonemas do projeto](docs/phoneme-table.md)
 - [417 Signos Harappan](docs/theory/11-harappan-417-signs.md)
 
 ## 🔬 Provas Formais
